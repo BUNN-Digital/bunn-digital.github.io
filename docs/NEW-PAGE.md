@@ -1,6 +1,6 @@
 layout: page
 title: "New Page Title"
-permalink: /new/page
+permalink: /new/page/
 
 # New Page
 
