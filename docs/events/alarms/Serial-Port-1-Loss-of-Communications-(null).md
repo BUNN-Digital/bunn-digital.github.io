@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Serial Port 1 Loss of Communications"
+---
+
 # Serial Port 1 Loss of Communications
 
 ## Type:

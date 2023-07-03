@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Reservoir Control Board 2 Initialization"
+---
+
 # Reservoir Control Board 2 Initialization
 
 ## Type:

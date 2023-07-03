@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Settings EVent - Any Setting Change (Not Recipe)"
+---
+
 # Settings EVent - Any Setting Change (Not Recipe)
 
 ## Type:

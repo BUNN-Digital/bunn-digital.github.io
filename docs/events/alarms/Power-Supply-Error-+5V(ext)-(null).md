@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Power Supply Error +5V(ext)"
+---
+
 # Power Supply Error +5V(ext)
 
 ## Type:

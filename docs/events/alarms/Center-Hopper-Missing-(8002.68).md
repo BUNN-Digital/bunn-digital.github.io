@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Center Hopper Missing"
+---
+
 # Center Hopper Missing
 
 ## Type:

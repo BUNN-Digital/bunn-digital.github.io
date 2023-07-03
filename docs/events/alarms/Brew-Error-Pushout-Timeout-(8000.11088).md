@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Brew Error Pushout Timeout"
+---
+
 # Brew Error Pushout Timeout
 
 ## Type:

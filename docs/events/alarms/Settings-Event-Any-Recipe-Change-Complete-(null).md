@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Settings Event - Any Recipe Change Complete"
+---
+
 # Settings Event - Any Recipe Change Complete
 
 ## Type:

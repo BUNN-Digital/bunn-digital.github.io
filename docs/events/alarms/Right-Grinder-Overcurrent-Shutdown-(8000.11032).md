@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Right Grinder Overcurrent Shutdown"
+---
+
 # Right Grinder Overcurrent Shutdown
 
 ## Type:

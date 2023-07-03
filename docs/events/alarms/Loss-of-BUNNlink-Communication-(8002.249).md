@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Loss of BUNNlink Communication"
+---
+
 # Loss of BUNNlink Communication
 
 ## Type:

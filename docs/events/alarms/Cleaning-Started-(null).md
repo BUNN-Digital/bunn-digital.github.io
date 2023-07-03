@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Cleaning Started"
+---
+
 # Cleaning Started
 
 ## Type:

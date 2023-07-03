@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Tap Display Interface Missing - Subsystem 3"
+---
+
 # Tap Display Interface Missing - Subsystem 3
 
 ## Type:

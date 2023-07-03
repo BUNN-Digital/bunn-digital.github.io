@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Finish Tank Sensor Short"
+---
+
 # Finish Tank Sensor Short
 
 ## Type:

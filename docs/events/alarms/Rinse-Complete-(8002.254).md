@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Rinse Complete"
+---
+
 # Rinse Complete
 
 ## Type:

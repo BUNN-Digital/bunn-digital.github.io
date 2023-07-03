@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Left Hopper Not Empty"
+---
+
 # Left Hopper Not Empty
 
 ## Type:

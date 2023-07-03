@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Subsystem/Motor 4 Error"
+---
+
 # Subsystem/Motor 4 Error
 
 ## Type:

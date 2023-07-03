@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Preheat Tank Sensor Open"
+---
+
 # Preheat Tank Sensor Open
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Power Up"
+---
+
 # Power Up
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Machine in Auto Mode"
+---
+
 # Machine in Auto Mode
 
 ## Type:

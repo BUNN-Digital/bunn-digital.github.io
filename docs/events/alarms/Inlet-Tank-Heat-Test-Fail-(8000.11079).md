@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Inlet Tank Heat Test Fail"
+---
+
 # Inlet Tank Heat Test Fail
 
 ## Type:

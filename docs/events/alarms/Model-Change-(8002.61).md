@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Model Change"
+---
+
 # Model Change
 
 ## Type:

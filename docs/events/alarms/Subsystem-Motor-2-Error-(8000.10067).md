@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Subsystem/Motor 2 Error"
+---
+
 # Subsystem/Motor 2 Error
 
 ## Type:

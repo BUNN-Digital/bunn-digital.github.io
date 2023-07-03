@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Piston Error Init Fail"
+---
+
 # Piston Error Init Fail
 
 ## Type:

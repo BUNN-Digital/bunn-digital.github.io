@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Grounds Swiper Did Not Extend"
+---
+
 # Grounds Swiper Did Not Extend
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Waste Bin Almost Full"
+---
+
 # Waste Bin Almost Full
 
 ## Type:

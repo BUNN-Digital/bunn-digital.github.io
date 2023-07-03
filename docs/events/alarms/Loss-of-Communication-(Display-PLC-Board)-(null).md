@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Loss of Communication (Display - PLC Board)"
+---
+
 # Loss of Communication (Display - PLC Board)
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Brew Error Pump Timeout"
+---
+
 # Brew Error Pump Timeout
 
 ## Type:

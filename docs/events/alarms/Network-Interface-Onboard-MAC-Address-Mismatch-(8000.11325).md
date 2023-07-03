@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Network Interface Onboard MAC Address Mismatch"
+---
+
 # Network Interface Onboard MAC Address Mismatch
 
 ## Type:

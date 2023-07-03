@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Piston Error Init No Latch"
+---
+
 # Piston Error Init No Latch
 
 ## Type:

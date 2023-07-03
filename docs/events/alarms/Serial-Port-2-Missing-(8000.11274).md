@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Serial Port 2 Missing"
+---
+
 # Serial Port 2 Missing
 
 ## Type:

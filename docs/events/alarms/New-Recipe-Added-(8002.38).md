@@ -1,3 +1,8 @@
+---
+layout: page
+title: "New Recipe Added"
+---
+
 # New Recipe Added
 
 ## Type:

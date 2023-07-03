@@ -1,3 +1,8 @@
+---
+layout: page
+title: "IO Boot Software Needs Updated"
+---
+
 # IO Boot Software Needs Updated
 
 ## Type:

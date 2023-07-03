@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Model Configuration Invalid"
+---
+
 # Model Configuration Invalid
 
 ## Type:

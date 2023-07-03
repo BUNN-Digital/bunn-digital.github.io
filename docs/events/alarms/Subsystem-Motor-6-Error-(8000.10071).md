@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Subsystem/Motor 6 Error"
+---
+
 # Subsystem/Motor 6 Error
 
 ## Type:

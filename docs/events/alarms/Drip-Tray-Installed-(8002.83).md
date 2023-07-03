@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Drip Tray Installed"
+---
+
 # Drip Tray Installed
 
 ## Type:
