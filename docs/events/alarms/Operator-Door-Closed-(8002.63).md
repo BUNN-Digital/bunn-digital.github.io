@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Operator Door Closed"
+---
+
 # Operator Door Closed
 
 ## Type:

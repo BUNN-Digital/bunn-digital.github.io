@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Customer Care Events"
+---
+
 # Customer Care Events
 
 ## Type:

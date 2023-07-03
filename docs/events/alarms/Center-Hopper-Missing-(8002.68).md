@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Center Hopper Missing"
+---
+
 # Center Hopper Missing
 
 ## Type:

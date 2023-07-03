@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Tap Display Interface Missing - Subsystem 1"
+---
+
 # Tap Display Interface Missing - Subsystem 1
 
 ## Type:

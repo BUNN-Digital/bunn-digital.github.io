@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Cleaning Interrupted Subsystem - Hot Coffee"
+---
+
 # Cleaning Interrupted Subsystem - Hot Coffee
 
 ## Type:

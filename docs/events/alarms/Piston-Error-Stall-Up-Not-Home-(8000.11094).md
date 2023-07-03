@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Piston Error Stall Up Not Home"
+---
+
 # Piston Error Stall Up Not Home
 
 ## Type:

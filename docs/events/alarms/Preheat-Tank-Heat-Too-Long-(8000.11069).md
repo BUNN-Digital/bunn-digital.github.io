@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Preheat Tank Heat Too Long"
+---
+
 # Preheat Tank Heat Too Long
 
 ## Type:

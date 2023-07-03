@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Water Pump Stalled"
+---
+
 # Water Pump Stalled
 
 ## Type:

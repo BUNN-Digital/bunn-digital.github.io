@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Dispense Fail"
+---
+
 # Dispense Fail
 
 ## Type:

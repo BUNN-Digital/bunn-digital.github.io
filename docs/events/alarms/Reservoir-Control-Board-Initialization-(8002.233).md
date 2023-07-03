@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Reservoir Control Board Initialization"
+---
+
 # Reservoir Control Board Initialization
 
 ## Type:

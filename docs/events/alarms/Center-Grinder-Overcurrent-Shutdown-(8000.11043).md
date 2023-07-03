@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Center Grinder Overcurrent Shutdown"
+---
+
 # Center Grinder Overcurrent Shutdown
 
 ## Type:

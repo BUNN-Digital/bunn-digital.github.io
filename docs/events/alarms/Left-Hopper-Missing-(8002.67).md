@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Left Hopper Missing"
+---
+
 # Left Hopper Missing
 
 ## Type:

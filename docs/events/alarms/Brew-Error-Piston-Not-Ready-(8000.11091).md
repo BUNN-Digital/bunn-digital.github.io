@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Brew Error Piston Not Ready"
+---
+
 # Brew Error Piston Not Ready
 
 ## Type:

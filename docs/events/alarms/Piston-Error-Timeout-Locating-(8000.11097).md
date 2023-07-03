@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Piston Error Timeout Locating"
+---
+
 # Piston Error Timeout Locating
 
 ## Type:

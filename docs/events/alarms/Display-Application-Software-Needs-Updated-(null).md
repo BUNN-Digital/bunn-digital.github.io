@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Display Application Software Needs Updated"
+---
+
 # Display Application Software Needs Updated
 
 ## Type:

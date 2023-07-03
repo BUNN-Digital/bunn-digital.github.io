@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Software Update - Control Board Application"
+---
+
 # Software Update - Control Board Application
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Watchdog Reset"
+---
+
 # Watchdog Reset
 
 ## Type:

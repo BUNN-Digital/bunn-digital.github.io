@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Date/Time Change - Auto"
+---
+
 # Date/Time Change - Auto
 
 ## Type:

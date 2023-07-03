@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Software Update - HIgh Voltage Control Board Application"
+---
+
 # Software Update - HIgh Voltage Control Board Application
 
 ## Type:

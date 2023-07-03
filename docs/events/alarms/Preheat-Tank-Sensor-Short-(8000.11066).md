@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Preheat Tank Sensor Short"
+---
+
 # Preheat Tank Sensor Short
 
 ## Type:

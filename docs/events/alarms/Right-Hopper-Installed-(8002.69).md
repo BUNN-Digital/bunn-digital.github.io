@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Right Hopper Installed"
+---
+
 # Right Hopper Installed
 
 ## Type:

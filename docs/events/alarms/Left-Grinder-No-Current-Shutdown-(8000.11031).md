@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Left Grinder No Current Shutdown"
+---
+
 # Left Grinder No Current Shutdown
 
 ## Type:

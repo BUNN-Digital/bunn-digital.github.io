@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Finish Tank Heat Test Fail"
+---
+
 # Finish Tank Heat Test Fail
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Center Grinder No Current Shutdown"
+---
+
 # Center Grinder No Current Shutdown
 
 ## Type:

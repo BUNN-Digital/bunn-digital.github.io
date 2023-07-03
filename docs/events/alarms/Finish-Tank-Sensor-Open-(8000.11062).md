@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Finish Tank Sensor Open"
+---
+
 # Finish Tank Sensor Open
 
 ## Type:

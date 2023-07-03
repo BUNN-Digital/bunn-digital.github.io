@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Model Change"
+---
+
 # Model Change
 
 ## Type:

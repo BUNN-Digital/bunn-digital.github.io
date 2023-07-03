@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Cleaning Due Soon"
+---
+
 # Cleaning Due Soon
 
 ## Type:

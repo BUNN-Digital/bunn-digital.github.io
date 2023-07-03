@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Drip Tray Installed"
+---
+
 # Drip Tray Installed
 
 ## Type:

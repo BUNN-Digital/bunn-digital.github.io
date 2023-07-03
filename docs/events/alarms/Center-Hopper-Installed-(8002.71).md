@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Center Hopper Installed"
+---
+
 # Center Hopper Installed
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Rinse Started"
+---
+
 # Rinse Started
 
 ## Type:

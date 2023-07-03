@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Brew Error No Latch"
+---
+
 # Brew Error No Latch
 
 ## Type:

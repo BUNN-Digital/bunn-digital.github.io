@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Rinse Complete"
+---
+
 # Rinse Complete
 
 ## Type:

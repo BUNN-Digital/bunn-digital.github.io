@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Failed To Start Beverage - Multiple Occurrences"
+---
+
 # Failed To Start Beverage - Multiple Occurrences
 
 ## Type:

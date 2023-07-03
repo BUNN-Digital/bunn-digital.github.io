@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Power Supply Error +24V"
+---
+
 # Power Supply Error +24V
 
 ## Type:

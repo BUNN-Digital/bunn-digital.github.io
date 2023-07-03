@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Recipe Brewed"
+---
+
 # Recipe Brewed
 
 ## Type:

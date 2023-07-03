@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Bean Hopper Mismatch Active"
+---
+
 # Bean Hopper Mismatch Active
 
 ## Type:

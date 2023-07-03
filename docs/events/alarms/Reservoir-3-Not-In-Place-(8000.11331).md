@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Reservoir 3 Not In Place"
+---
+
 # Reservoir 3 Not In Place
 
 ## Type:

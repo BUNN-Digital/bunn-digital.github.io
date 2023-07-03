@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Left Grinder Overcurrent Shutdown"
+---
+
 # Left Grinder Overcurrent Shutdown
 
 ## Type:

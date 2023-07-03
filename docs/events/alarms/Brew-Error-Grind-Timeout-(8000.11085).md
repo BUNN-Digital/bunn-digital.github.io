@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Brew Error Grind Timeout"
+---
+
 # Brew Error Grind Timeout
 
 ## Type:

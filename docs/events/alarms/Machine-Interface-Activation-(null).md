@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Machine Interface Activation"
+---
+
 # Machine Interface Activation
 
 ## Type:

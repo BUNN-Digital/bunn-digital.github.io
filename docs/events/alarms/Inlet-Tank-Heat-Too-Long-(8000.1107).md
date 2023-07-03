@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Inlet Tank Heat Too Long"
+---
+
 # Inlet Tank Heat Too Long
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Free Vend"
+---
+
 # Free Vend
 
 ## Type:

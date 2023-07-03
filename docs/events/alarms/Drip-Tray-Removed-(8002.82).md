@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Drip Tray Removed"
+---
+
 # Drip Tray Removed
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Cleaning Required Lockout"
+---
+
 # Cleaning Required Lockout
 
 ## Type:

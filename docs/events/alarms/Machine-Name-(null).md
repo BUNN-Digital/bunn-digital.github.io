@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Machine Name"
+---
+
 # Machine Name
 
 ## Type:

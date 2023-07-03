@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Center Hopper Empty"
+---
+
 # Center Hopper Empty
 
 ## Type:

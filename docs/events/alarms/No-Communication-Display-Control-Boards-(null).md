@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "No Communication Display Control Boards"
+---
+
 # No Communication Display Control Boards
 
 ## Type:

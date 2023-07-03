@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "System API Event"
+---
+
 # System API Event
 
 ## Type:

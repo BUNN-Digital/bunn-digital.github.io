@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Tap Display Interface No Connection - Subsystem 2"
+---
+
 # Tap Display Interface No Connection - Subsystem 2
 
 ## Type:

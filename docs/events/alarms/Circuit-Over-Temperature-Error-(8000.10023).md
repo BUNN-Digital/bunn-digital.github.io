@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Circuit Over Temperature Error"
+---
+
 # Circuit Over Temperature Error
 
 ## Type:

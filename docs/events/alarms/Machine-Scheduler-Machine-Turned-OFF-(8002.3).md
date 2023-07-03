@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Machine Scheduler - Machine Turned OFF"
+---
+
 # Machine Scheduler - Machine Turned OFF
 
 ## Type:

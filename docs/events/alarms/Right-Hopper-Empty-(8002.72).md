@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Right Hopper Empty"
+---
+
 # Right Hopper Empty
 
 ## Type:

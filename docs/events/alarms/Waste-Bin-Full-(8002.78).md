@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Waste Bin Full"
+---
+
 # Waste Bin Full
 
 ## Type:

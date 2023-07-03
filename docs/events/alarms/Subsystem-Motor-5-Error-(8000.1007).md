@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Subsystem/Motor 5 Error"
+---
+
 # Subsystem/Motor 5 Error
 
 ## Type:

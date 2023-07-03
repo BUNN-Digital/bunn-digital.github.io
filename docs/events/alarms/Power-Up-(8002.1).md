@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Power Up"
+---
+
 # Power Up
 
 ## Type:

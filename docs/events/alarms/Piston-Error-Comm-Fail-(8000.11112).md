@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Piston Error Comm Fail"
+---
+
 # Piston Error Comm Fail
 
 ## Type:

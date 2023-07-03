@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Waste Bin Removed"
+---
+
 # Waste Bin Removed
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Date/Time Change - User"
+---
+
 # Date/Time Change - User
 
 ## Type:

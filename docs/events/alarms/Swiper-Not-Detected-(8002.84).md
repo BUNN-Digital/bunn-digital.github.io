@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Swiper Not Detected"
+---
+
 # Swiper Not Detected
 
 ## Type:

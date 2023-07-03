@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Piston Error Stall Down Latched"
+---
+
 # Piston Error Stall Down Latched
 
 ## Type:

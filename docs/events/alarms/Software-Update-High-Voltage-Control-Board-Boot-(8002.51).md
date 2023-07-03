@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Software Update - High Voltage Control Board Boot"
+---
+
 # Software Update - High Voltage Control Board Boot
 
 ## Type:

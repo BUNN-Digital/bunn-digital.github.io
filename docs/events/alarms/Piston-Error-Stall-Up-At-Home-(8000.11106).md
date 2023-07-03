@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Piston Error Stall Up At Home"
+---
+
 # Piston Error Stall Up At Home
 
 ## Type:

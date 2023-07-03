@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Invalid Level Probes - Subsystem 1"
+---
+
 # Invalid Level Probes - Subsystem 1
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Reservoir 2 Schedule Update Failure - Name Mismatch"
+---
+
 # Reservoir 2 Schedule Update Failure - Name Mismatch
 
 ## Type:

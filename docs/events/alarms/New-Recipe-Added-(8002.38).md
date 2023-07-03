@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "New Recipe Added"
+---
+
 # New Recipe Added
 
 ## Type:

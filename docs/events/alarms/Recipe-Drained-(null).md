@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Recipe Drained"
+---
+
 # Recipe Drained
 
 ## Type:

@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Water Flow Too Low Supply"
+---
+
 # Water Flow Too Low Supply
 
 ## Type:

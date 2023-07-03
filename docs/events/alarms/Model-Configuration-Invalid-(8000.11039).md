@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Model Configuration Invalid"
+---
+
 # Model Configuration Invalid
 
 ## Type:

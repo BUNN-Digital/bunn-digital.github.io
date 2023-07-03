@@ -1,3 +1,8 @@
+---
+#layout: minimal
+title: "Cleaning Started"
+---
+
 # Cleaning Started
 
 ## Type:
