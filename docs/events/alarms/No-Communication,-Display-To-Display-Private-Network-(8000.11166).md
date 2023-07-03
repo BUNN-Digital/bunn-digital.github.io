@@ -1,3 +1,6 @@
+layout: page
+title: "No Communication, Display-To-Display Private Network"
+
 # No Communication, Display-To-Display Private Network
 
 ## Type:

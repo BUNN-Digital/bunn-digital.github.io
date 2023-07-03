@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir Cleaning Intervention Required"
+
 # Reservoir Cleaning Intervention Required
 
 ## Type:

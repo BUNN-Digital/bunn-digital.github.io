@@ -1,3 +1,6 @@
+layout: page
+title: "Waste Bin Removed"
+
 # Waste Bin Removed
 
 ## Type:

@@ -1,3 +1,6 @@
+layout: page
+title: "Bean Hopper Mismatch Active"
+
 # Bean Hopper Mismatch Active
 
 ## Type:

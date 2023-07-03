@@ -1,3 +1,6 @@
+layout: page
+title: "Piston Error Stall Down Outside"
+
 # Piston Error Stall Down Outside
 
 ## Type:

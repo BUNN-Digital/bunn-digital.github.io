@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir 1 Schedule Update Failure - Name Mismatch"
+
 # Reservoir 1 Schedule Update Failure - Name Mismatch
 
 ## Type:

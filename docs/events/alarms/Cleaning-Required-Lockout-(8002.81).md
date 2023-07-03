@@ -1,3 +1,6 @@
+layout: page
+title: "Cleaning Required Lockout"
+
 # Cleaning Required Lockout
 
 ## Type:

@@ -1,3 +1,6 @@
+layout: page
+title: "Tank 1 Not Full"
+
 # Tank 1 Not Full
 
 ## Type:

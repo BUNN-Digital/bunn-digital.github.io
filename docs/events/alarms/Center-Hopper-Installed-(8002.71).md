@@ -1,3 +1,6 @@
+layout: page
+title: "Center Hopper Installed"
+
 # Center Hopper Installed
 
 ## Type:

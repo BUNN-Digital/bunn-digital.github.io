@@ -1,3 +1,6 @@
+layout: page
+title: "Cleaning Interrupted (Lockout)"
+
 # Cleaning Interrupted (Lockout)
 
 ## Type:

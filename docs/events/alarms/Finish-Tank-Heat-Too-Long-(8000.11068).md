@@ -1,3 +1,6 @@
+layout: page
+title: "Finish Tank Heat Too Long"
+
 # Finish Tank Heat Too Long
 
 ## Type:

@@ -1,3 +1,6 @@
+layout: page
+title: "Piston Error Stall Down No Latch"
+
 # Piston Error Stall Down No Latch
 
 ## Type:

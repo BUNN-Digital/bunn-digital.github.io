@@ -1,3 +1,6 @@
+layout: page
+title: "Machine Scheduler - Machine Turned ON"
+
 # Machine Scheduler - Machine Turned ON
 
 ## Type:

@@ -1,3 +1,6 @@
+layout: page
+title: "Piston Error Stall Down O-Ring Entry"
+
 # Piston Error Stall Down O-Ring Entry
 
 ## Type:

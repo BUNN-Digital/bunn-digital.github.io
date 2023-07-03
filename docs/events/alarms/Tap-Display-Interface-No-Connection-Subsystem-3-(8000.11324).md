@@ -1,3 +1,6 @@
+layout: page
+title: "Tap Display Interface No Connection - Subsystem 3"
+
 # Tap Display Interface No Connection - Subsystem 3
 
 ## Type:

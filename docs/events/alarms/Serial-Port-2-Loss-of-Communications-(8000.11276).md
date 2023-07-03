@@ -1,3 +1,6 @@
+layout: page
+title: "Serial Port 2 Loss of Communications"
+
 # Serial Port 2 Loss of Communications
 
 ## Type:

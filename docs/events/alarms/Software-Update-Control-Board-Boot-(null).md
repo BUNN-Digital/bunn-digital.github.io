@@ -1,3 +1,6 @@
+layout: page
+title: "Software Update - Control Board Boot"
+
 # Software Update - Control Board Boot
 
 ## Type:

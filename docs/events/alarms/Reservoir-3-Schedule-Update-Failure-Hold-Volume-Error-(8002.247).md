@@ -1,4 +1,7 @@
-# Reservoir 2 Schedule Update Failure - Hold Volume Error
+layout: page
+title: "Reservoir 3 Schedule Update Failure - Hold Volume Error"
+
+# Reservoir 3 Schedule Update Failure - Hold Volume Error
 
 ## Type:
 
@@ -10,7 +13,7 @@ machine.telemetry
 
 ## Description: 
 
-Reservoir 2 Schedule Update Failure - Hold Volume Error (null)
+Reservoir 3 Schedule Update Failure - Hold Volume Error (8002.247)
 
 ## Payload:
 
@@ -36,15 +39,15 @@ Reservoir 2 Schedule Update Failure - Hold Volume Error (null)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-06-12T13:11:43.000Z",
+    "dateTime": "2023-06-12T13:11:44.000Z",
     "zone": "UTC"
   },
   "payload": {
     "boolean": "false",
     "serialNumber": "TEST000001"
   },
-  "description": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
-  "id": "ffb2ce82-7683-48bb-9c85-4573690f7cc5",
+  "description": "Reservoir 3 Schedule Update Failure - Hold Volume Error",
+  "id": "d6d0e09b-ef2f-4c66-8d9b-111b6795f9cf",
   "category": "machine.telemetry",
   "type": "E"
 }

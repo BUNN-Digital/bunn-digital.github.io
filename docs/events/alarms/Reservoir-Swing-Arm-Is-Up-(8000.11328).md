@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir Swing Arm Is Up"
+
 # Reservoir Swing Arm Is Up
 
 ## Type:

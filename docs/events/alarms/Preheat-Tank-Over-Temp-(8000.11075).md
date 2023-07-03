@@ -1,3 +1,6 @@
+layout: page
+title: "Preheat Tank Over Temp"
+
 # Preheat Tank Over Temp
 
 ## Type:

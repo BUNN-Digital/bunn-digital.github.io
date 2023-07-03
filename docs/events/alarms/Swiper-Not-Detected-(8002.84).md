@@ -1,3 +1,6 @@
+layout: page
+title: "Swiper Not Detected"
+
 # Swiper Not Detected
 
 ## Type:

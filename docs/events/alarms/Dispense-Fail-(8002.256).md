@@ -1,3 +1,6 @@
+layout: page
+title: "Dispense Fail"
+
 # Dispense Fail
 
 ## Type:

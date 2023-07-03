@@ -1,3 +1,6 @@
+layout: page
+title: "Brew Error No Swipe Return"
+
 # Brew Error No Swipe Return
 
 ## Type:

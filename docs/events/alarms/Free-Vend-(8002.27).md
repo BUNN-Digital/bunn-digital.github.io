@@ -1,3 +1,6 @@
+layout: page
+title: "Free Vend"
+
 # Free Vend
 
 ## Type:

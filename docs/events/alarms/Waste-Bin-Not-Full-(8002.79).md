@@ -1,3 +1,6 @@
+layout: page
+title: "Waste Bin Not Full"
+
 # Waste Bin Not Full
 
 ## Type:

@@ -1,3 +1,6 @@
+layout: page
+title: "Settings Event - Recipe Change (With Specifier)"
+
 # Settings Event - Recipe Change (With Specifier)
 
 ## Type:

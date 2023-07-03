@@ -1,3 +1,6 @@
+layout: page
+title: "Cleaning Required Subsystem - Hot Coffee"
+
 # Cleaning Required Subsystem - Hot Coffee
 
 ## Type:

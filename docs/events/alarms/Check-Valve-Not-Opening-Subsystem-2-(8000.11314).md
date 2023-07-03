@@ -1,3 +1,6 @@
+layout: page
+title: "Check Valve Not Opening - Subsystem 2"
+
 # Check Valve Not Opening - Subsystem 2
 
 ## Type:

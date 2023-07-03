@@ -1,3 +1,6 @@
+layout: page
+title: "Waste Bin Installed"
+
 # Waste Bin Installed
 
 ## Type:

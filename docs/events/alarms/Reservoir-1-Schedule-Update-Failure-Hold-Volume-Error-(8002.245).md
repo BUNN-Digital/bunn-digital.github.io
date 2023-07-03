@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir 1 Schedule Update Failure - Hold Volume Error"
+
 # Reservoir 1 Schedule Update Failure - Hold Volume Error
 
 ## Type:
@@ -10,7 +13,7 @@ machine.telemetry
 
 ## Description: 
 
-Reservoir 1 Schedule Update Failure - Hold Volume Error (null)
+Reservoir 1 Schedule Update Failure - Hold Volume Error (8002.245)
 
 ## Payload:
 

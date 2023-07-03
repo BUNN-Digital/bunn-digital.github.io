@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir Access Door Closed"
+
 # Reservoir Access Door Closed
 
 ## Type:

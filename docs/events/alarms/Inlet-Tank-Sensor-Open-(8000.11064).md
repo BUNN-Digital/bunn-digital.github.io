@@ -1,3 +1,6 @@
+layout: page
+title: "Inlet Tank Sensor Open"
+
 # Inlet Tank Sensor Open
 
 ## Type:

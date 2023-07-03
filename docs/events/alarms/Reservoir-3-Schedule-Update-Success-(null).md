@@ -1,3 +1,6 @@
+layout: page
+title: "Reservoir 3 Schedule Update Success"
+
 # Reservoir 3 Schedule Update Success
 
 ## Type:

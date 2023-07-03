@@ -1,3 +1,6 @@
+layout: page
+title: "Lost of Communication (Display - Control Boards)"
+
 # Lost of Communication (Display - Control Boards)
 
 ## Type:

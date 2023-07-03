@@ -1,3 +1,6 @@
+layout: page
+title: "Water Flow Too Low Blockage"
+
 # Water Flow Too Low Blockage
 
 ## Type:

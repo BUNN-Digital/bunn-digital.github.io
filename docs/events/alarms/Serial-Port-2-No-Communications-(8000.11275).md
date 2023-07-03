@@ -1,3 +1,6 @@
+layout: page
+title: "Serial Port 2 No Communications"
+
 # Serial Port 2 No Communications
 
 ## Type:

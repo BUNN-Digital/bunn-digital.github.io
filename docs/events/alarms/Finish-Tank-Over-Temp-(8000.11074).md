@@ -1,3 +1,6 @@
+layout: page
+title: "Finish Tank Over Temp"
+
 # Finish Tank Over Temp
 
 ## Type:

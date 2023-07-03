@@ -1,3 +1,6 @@
+layout: page
+title: "Control Board Initialized"
+
 # Control Board Initialized
 
 ## Type:

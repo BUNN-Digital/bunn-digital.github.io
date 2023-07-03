@@ -1,3 +1,6 @@
+layout: page
+title: "Piston Error Stall Up Latched"
+
 # Piston Error Stall Up Latched
 
 ## Type:

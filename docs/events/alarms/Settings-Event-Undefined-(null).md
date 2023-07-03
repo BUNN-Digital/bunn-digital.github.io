@@ -1,3 +1,6 @@
+layout: page
+title: "Settings Event - Undefined"
+
 # Settings Event - Undefined
 
 ## Type:
