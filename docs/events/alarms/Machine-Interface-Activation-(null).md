@@ -1,6 +1,3 @@
-layout: page
-title: "Machine Interface Activation"
-
 # Machine Interface Activation
 
 ## Type:

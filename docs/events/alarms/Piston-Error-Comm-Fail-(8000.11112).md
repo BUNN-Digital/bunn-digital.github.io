@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Comm Fail"
-
 # Piston Error Comm Fail
 
 ## Type:

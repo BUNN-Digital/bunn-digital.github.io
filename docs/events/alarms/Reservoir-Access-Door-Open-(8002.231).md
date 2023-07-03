@@ -1,6 +1,3 @@
-layout: page
-title: "Reservoir Access Door Open"
-
 # Reservoir Access Door Open
 
 ## Type:

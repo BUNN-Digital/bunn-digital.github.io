@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Home Not Open"
-
 # Piston Error Home Not Open
 
 ## Type:

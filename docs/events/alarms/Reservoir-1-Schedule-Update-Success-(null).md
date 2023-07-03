@@ -1,6 +1,3 @@
-layout: page
-title: "Reservoir 1 Schedule Update Success"
-
 # Reservoir 1 Schedule Update Success
 
 ## Type:

@@ -1,6 +1,3 @@
-layout: page
-title: "Mode Is In Standby"
-
 # Mode Is In Standby
 
 ## Type:

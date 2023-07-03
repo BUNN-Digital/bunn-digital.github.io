@@ -1,6 +1,3 @@
-layout: page
-title: "Operator Door Closed"
-
 # Operator Door Closed
 
 ## Type:

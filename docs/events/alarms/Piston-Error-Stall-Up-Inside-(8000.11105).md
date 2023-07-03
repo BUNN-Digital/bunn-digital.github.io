@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Stall Up Inside"
-
 # Piston Error Stall Up Inside
 
 ## Type:

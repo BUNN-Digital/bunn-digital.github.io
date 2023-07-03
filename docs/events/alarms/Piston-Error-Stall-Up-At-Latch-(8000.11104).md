@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Stall Up At Latch"
-
 # Piston Error Stall Up At Latch
 
 ## Type:

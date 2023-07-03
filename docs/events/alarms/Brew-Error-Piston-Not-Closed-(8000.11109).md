@@ -1,6 +1,3 @@
-layout: page
-title: "Brew Error Piston Not Closed"
-
 # Brew Error Piston Not Closed
 
 ## Type:

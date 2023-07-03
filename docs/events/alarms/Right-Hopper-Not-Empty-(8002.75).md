@@ -1,6 +1,3 @@
-layout: page
-title: "Right Hopper Not Empty"
-
 # Right Hopper Not Empty
 
 ## Type:

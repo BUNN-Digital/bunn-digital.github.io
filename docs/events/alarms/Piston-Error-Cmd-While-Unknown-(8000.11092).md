@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Cmd While Unknown"
-
 # Piston Error Cmd While Unknown
 
 ## Type:

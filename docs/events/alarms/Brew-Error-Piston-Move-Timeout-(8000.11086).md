@@ -1,6 +1,3 @@
-layout: page
-title: "Brew Error Piston Move Timeout"
-
 # Brew Error Piston Move Timeout
 
 ## Type:

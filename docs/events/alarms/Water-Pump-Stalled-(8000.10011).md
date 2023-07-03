@@ -1,6 +1,3 @@
-layout: page
-title: "Water Pump Stalled"
-
 # Water Pump Stalled
 
 ## Type:

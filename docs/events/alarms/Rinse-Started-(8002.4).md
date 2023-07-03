@@ -1,6 +1,3 @@
-layout: page
-title: "Rinse Started"
-
 # Rinse Started
 
 ## Type:

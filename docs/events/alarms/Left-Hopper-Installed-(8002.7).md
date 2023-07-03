@@ -1,6 +1,3 @@
-layout: page
-title: "Left Hopper Installed"
-
 # Left Hopper Installed
 
 ## Type:

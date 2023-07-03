@@ -1,6 +1,3 @@
-layout: page
-title: "Check Valve Not Opening - Subsystem 3"
-
 # Check Valve Not Opening - Subsystem 3
 
 ## Type:

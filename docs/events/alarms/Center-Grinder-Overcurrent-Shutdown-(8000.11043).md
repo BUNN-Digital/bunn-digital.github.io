@@ -1,6 +1,3 @@
-layout: page
-title: "Center Grinder Overcurrent Shutdown"
-
 # Center Grinder Overcurrent Shutdown
 
 ## Type:

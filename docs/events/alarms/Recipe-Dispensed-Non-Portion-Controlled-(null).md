@@ -1,6 +1,3 @@
-layout: page
-title: "Recipe Dispensed - Non Portion Controlled"
-
 # Recipe Dispensed - Non Portion Controlled
 
 ## Type:

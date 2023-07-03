@@ -1,6 +1,3 @@
-layout: page
-title: "Inlet Tank Sensor Short"
-
 # Inlet Tank Sensor Short
 
 ## Type:

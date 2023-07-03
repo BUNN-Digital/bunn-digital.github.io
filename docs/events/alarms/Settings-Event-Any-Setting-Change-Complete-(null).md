@@ -1,6 +1,3 @@
-layout: page
-title: "Settings Event - Any Setting Change Complete"
-
 # Settings Event - Any Setting Change Complete
 
 ## Type:

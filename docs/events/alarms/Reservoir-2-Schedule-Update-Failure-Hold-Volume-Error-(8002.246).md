@@ -1,6 +1,3 @@
-layout: page
-title: "Reservoir 2 Schedule Update Failure - Hold Volume Error"
-
 # Reservoir 2 Schedule Update Failure - Hold Volume Error
 
 ## Type:

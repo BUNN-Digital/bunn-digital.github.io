@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Stall Down Latched"
-
 # Piston Error Stall Down Latched
 
 ## Type:

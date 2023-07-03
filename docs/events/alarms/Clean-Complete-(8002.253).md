@@ -1,6 +1,3 @@
-layout: page
-title: "Clean Complete"
-
 # Clean Complete
 
 ## Type:

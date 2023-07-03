@@ -1,6 +1,3 @@
-layout: page
-title: "Operator Door Open"
-
 # Operator Door Open
 
 ## Type:

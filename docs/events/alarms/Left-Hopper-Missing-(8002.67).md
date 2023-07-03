@@ -1,6 +1,3 @@
-layout: page
-title: "Left Hopper Missing"
-
 # Left Hopper Missing
 
 ## Type:

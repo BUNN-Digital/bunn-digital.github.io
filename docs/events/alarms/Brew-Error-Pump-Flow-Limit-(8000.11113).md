@@ -1,6 +1,3 @@
-layout: page
-title: "Brew Error Pump Flow Limit"
-
 # Brew Error Pump Flow Limit
 
 ## Type:

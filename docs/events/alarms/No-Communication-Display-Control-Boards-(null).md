@@ -1,6 +1,3 @@
-layout: page
-title: "No Communication Display Control Boards"
-
 # No Communication Display Control Boards
 
 ## Type:

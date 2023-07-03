@@ -1,6 +1,3 @@
-layout: page
-title: "Power Supply Error +48V"
-
 # Power Supply Error +48V
 
 ## Type:

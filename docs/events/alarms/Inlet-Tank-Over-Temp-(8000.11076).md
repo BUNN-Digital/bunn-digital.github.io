@@ -1,6 +1,3 @@
-layout: page
-title: "Inlet Tank Over Temp"
-
 # Inlet Tank Over Temp
 
 ## Type:

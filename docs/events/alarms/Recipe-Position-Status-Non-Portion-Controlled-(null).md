@@ -1,6 +1,3 @@
-layout: page
-title: "Recipe Position Status - Non Portion Controlled"
-
 # Recipe Position Status - Non Portion Controlled
 
 ## Type:

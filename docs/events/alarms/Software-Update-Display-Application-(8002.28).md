@@ -1,6 +1,3 @@
-layout: page
-title: "Software Update - Display Application"
-
 # Software Update - Display Application
 
 ## Type:

@@ -1,6 +1,3 @@
-layout: page
-title: "Bean Hopper Mismatch Inactive"
-
 # Bean Hopper Mismatch Inactive
 
 ## Type:

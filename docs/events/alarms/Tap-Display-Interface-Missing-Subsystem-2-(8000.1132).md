@@ -1,6 +1,3 @@
-layout: page
-title: "Tap Display Interface Missing - Subsystem 2"
-
 # Tap Display Interface Missing - Subsystem 2
 
 ## Type:

@@ -1,6 +1,3 @@
-layout: page
-title: "Piston Error Timeout Seek Home"
-
 # Piston Error Timeout Seek Home
 
 ## Type:
