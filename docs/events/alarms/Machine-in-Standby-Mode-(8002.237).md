@@ -1,8 +1,3 @@
----
-layout: page
-title: "Machine in Standby Mode"
----
-
 # Machine in Standby Mode
 
 ## Type:

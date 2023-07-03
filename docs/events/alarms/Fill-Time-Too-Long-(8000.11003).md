@@ -1,8 +1,3 @@
----
-layout: page
-title: "Fill Time Too Long"
----
-
 # Fill Time Too Long
 
 ## Type:

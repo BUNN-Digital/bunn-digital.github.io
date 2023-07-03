@@ -1,8 +1,3 @@
----
-layout: page
-title: "Beverage Chiller Not Detected (Uninstalled)"
----
-
 # Beverage Chiller Not Detected (Uninstalled)
 
 ## Type:

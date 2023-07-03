@@ -1,8 +1,3 @@
----
-layout: page
-title: "High Voltage IO Application Software Needs Updated"
----
-
 # High Voltage IO Application Software Needs Updated
 
 ## Type:

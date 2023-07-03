@@ -1,8 +1,3 @@
----
-layout: page
-title: "Too Many Consecutive Errors During Automatic Brewing"
----
-
 # Too Many Consecutive Errors During Automatic Brewing
 
 ## Type:

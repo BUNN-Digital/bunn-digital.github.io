@@ -1,8 +1,3 @@
----
-layout: page
-title: "Drip Tray Removed"
----
-
 # Drip Tray Removed
 
 ## Type:

@@ -1,8 +1,3 @@
----
-layout: page
-title: "High Voltage IO Boot Software Needs Updated"
----
-
 # High Voltage IO Boot Software Needs Updated
 
 ## Type:

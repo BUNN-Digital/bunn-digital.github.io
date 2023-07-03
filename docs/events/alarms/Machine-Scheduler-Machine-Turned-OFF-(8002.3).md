@@ -1,8 +1,3 @@
----
-layout: page
-title: "Machine Scheduler - Machine Turned OFF"
----
-
 # Machine Scheduler - Machine Turned OFF
 
 ## Type:

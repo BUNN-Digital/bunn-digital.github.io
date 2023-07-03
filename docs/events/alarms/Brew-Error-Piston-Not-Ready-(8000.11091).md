@@ -1,8 +1,3 @@
----
-layout: page
-title: "Brew Error Piston Not Ready"
----
-
 # Brew Error Piston Not Ready
 
 ## Type:

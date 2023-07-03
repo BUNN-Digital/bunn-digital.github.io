@@ -1,8 +1,3 @@
----
-layout: page
-title: "Customer Care Events"
----
-
 # Customer Care Events
 
 ## Type:

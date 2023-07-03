@@ -1,8 +1,3 @@
----
-layout: page
-title: "Grounds Swiper Did Not Return"
----
-
 # Grounds Swiper Did Not Return
 
 ## Type:

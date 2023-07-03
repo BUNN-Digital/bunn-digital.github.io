@@ -1,8 +1,3 @@
----
-layout: page
-title: "Finish Tank Sensor Open"
----
-
 # Finish Tank Sensor Open
 
 ## Type:

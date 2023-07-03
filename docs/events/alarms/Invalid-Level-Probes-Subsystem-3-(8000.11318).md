@@ -1,8 +1,3 @@
----
-layout: page
-title: "Invalid Level Probes - Subsystem 3"
----
-
 # Invalid Level Probes - Subsystem 3
 
 ## Type:

@@ -1,8 +1,3 @@
----
-layout: page
-title: "Right Hopper Installed"
----
-
 # Right Hopper Installed
 
 ## Type:

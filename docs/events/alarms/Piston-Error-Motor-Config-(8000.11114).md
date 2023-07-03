@@ -1,8 +1,3 @@
----
-layout: page
-title: "Piston Error Motor Config"
----
-
 # Piston Error Motor Config
 
 ## Type:

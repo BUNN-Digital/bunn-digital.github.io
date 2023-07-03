@@ -1,8 +1,3 @@
----
-layout: page
-title: "Subsystem/Motor 5 Error"
----
-
 # Subsystem/Motor 5 Error
 
 ## Type:

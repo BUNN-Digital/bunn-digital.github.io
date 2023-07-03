@@ -1,8 +1,3 @@
----
-layout: page
-title: "Piston Error Stall Down Chamber Entry"
----
-
 # Piston Error Stall Down Chamber Entry
 
 ## Type:

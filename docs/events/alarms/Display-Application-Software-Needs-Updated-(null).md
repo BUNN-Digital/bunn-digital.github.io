@@ -1,8 +1,3 @@
----
-layout: page
-title: "Display Application Software Needs Updated"
----
-
 # Display Application Software Needs Updated
 
 ## Type:

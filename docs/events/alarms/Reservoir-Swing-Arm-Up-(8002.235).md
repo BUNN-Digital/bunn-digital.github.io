@@ -1,8 +1,3 @@
----
-layout: page
-title: "Reservoir Swing Arm Up"
----
-
 # Reservoir Swing Arm Up
 
 ## Type:

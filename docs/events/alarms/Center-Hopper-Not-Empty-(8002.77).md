@@ -1,8 +1,3 @@
----
-layout: page
-title: "Center Hopper Not Empty"
----
-
 # Center Hopper Not Empty
 
 ## Type:

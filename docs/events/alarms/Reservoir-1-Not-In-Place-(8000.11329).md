@@ -1,8 +1,3 @@
----
-layout: page
-title: "Reservoir 1 Not In Place"
----
-
 # Reservoir 1 Not In Place
 
 ## Type:

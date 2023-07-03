@@ -1,8 +1,3 @@
----
-layout: page
-title: "Reservoir 3 Schedule Update Failure - Name Mismatch"
----
-
 # Reservoir 3 Schedule Update Failure - Name Mismatch
 
 ## Type:

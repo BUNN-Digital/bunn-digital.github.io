@@ -1,8 +1,3 @@
----
-layout: page
-title: "Preheat Tank Heat Too Long"
----
-
 # Preheat Tank Heat Too Long
 
 ## Type:

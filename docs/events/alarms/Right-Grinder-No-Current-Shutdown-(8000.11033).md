@@ -1,8 +1,3 @@
----
-layout: page
-title: "Right Grinder No Current Shutdown"
----
-
 # Right Grinder No Current Shutdown
 
 ## Type:

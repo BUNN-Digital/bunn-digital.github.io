@@ -1,8 +1,3 @@
----
-layout: page
-title: "Piston Error Timeout Locating"
----
-
 # Piston Error Timeout Locating
 
 ## Type:

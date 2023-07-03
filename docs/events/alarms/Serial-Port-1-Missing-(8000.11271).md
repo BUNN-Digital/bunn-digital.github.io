@@ -1,8 +1,3 @@
----
-layout: page
-title: "Serial Port 1 Missing"
----
-
 # Serial Port 1 Missing
 
 ## Type:

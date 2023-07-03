@@ -1,8 +1,3 @@
----
-layout: page
-title: "Serial Port 1 No Communications"
----
-
 # Serial Port 1 No Communications
 
 ## Type:

@@ -1,8 +1,3 @@
----
-layout: page
-title: "Cleaning Interrupted Subsystem - Hot Coffee"
----
-
 # Cleaning Interrupted Subsystem - Hot Coffee
 
 ## Type:

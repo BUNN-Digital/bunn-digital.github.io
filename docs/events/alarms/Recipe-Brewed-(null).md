@@ -1,8 +1,3 @@
----
-layout: page
-title: "Recipe Brewed"
----
-
 # Recipe Brewed
 
 ## Type:

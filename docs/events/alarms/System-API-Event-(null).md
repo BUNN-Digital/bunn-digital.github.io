@@ -1,8 +1,3 @@
----
-layout: page
-title: "System API Event"
----
-
 # System API Event
 
 ## Type:

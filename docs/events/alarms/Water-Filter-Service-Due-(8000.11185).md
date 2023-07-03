@@ -1,8 +1,3 @@
----
-layout: page
-title: "Water Filter Service Due"
----
-
 # Water Filter Service Due
 
 ## Type:

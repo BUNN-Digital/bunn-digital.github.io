@@ -1,8 +1,3 @@
----
-layout: page
-title: "Machine Name"
----
-
 # Machine Name
 
 ## Type:

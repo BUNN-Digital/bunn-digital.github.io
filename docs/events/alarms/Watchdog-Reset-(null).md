@@ -1,8 +1,3 @@
----
-layout: page
-title: "Watchdog Reset"
----
-
 # Watchdog Reset
 
 ## Type:

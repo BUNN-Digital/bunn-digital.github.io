@@ -1,8 +1,3 @@
----
-layout: page
-title: "Recipe Drained"
----
-
 # Recipe Drained
 
 ## Type:

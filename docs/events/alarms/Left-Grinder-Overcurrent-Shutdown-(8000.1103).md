@@ -1,8 +1,3 @@
----
-layout: page
-title: "Left Grinder Overcurrent Shutdown"
----
-
 # Left Grinder Overcurrent Shutdown
 
 ## Type:
