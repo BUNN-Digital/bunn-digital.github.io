@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Rx Overrun"
+layout: minimal
 parent: Alarms
 ---
 

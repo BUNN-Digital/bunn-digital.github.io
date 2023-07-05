@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Display Application Software Needs Updated"
+layout: minimal
 parent: Alarms
 ---
 

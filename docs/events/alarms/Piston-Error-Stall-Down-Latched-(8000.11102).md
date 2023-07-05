@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Piston Error Stall Down Latched"
+layout: minimal
 parent: Alarms
 ---
 

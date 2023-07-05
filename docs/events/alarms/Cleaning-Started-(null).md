@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Cleaning Started"
+layout: minimal
 parent: Alarms
 ---
 

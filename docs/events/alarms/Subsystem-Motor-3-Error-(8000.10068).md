@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Subsystem/Motor 3 Error"
+layout: minimal
 parent: Alarms
 ---
 

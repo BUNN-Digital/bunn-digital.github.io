@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Brew Error Piston Move Timeout"
+layout: minimal
 parent: Alarms
 ---
 

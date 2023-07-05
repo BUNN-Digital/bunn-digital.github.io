@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Free Vend"
+layout: minimal
 parent: Alarms
 ---
 

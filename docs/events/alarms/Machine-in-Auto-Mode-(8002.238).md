@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Machine in Auto Mode"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir 1 Schedule Update Failure - Hold Volume Error"
+layout: minimal
 parent: Alarms
 ---
 

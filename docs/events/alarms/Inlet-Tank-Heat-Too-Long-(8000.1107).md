@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Inlet Tank Heat Too Long"
+layout: minimal
 parent: Alarms
 ---
 

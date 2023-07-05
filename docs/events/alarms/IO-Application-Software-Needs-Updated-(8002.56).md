@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "IO Application Software Needs Updated"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Check Valve Not Opening - Subsystem 2"
+layout: minimal
 parent: Alarms
 ---
 

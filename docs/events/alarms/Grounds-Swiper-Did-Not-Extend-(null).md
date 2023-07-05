@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Grounds Swiper Did Not Extend"
+layout: minimal
 parent: Alarms
 ---
 

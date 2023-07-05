@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Left Grinder No Current Shutdown"
+layout: minimal
 parent: Alarms
 ---
 

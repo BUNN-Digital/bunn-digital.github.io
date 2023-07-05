@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Right Hopper Not Empty"
+layout: minimal
 parent: Alarms
 ---
 

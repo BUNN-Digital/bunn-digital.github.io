@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Serial Port 2 Loss of Communications"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Piston Error Home Not Open"
+layout: minimal
 parent: Alarms
 ---
 

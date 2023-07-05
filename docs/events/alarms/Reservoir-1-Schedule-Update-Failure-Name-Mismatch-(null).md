@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir 1 Schedule Update Failure - Name Mismatch"
+layout: minimal
 parent: Alarms
 ---
 

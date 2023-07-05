@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir Swing Arm Down"
+layout: minimal
 parent: Alarms
 ---
 

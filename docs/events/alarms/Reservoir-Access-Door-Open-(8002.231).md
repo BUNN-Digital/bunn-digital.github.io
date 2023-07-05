@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir Access Door Open"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Grounds Swiper Did Not Return"
+layout: minimal
 parent: Alarms
 ---
 

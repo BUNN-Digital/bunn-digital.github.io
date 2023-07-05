@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Machine Interface Activation"
+layout: minimal
 parent: Alarms
 ---
 

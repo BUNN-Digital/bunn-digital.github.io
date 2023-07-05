@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Center Hopper Not Empty"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Date/Time Change - Auto"
+layout: minimal
 parent: Alarms
 ---
 

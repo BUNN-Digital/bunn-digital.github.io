@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Finish Tank Sensor Open"
+layout: minimal
 parent: Alarms
 ---
 

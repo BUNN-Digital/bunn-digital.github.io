@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Settings EVent - Any Setting Change (Not Recipe)"
+layout: minimal
 parent: Alarms
 ---
 

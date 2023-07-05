@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Water Pump Stalled"
+layout: minimal
 parent: Alarms
 ---
 

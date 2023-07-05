@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir 1 Schedule Update Success"
+layout: minimal
 parent: Alarms
 ---
 

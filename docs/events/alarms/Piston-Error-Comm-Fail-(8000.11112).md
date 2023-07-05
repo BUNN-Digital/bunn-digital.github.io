@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Piston Error Comm Fail"
+layout: minimal
 parent: Alarms
 ---
 

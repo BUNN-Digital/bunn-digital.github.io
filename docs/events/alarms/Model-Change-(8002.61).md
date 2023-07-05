@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Model Change"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Date/Time Change - User"
+layout: minimal
 parent: Alarms
 ---
 

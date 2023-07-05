@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Brew Error Piston Not Closed"
+layout: minimal
 parent: Alarms
 ---
 

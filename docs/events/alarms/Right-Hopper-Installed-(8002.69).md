@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Right Hopper Installed"
+layout: minimal
 parent: Alarms
 ---
 

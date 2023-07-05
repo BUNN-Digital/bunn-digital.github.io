@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Finish Tank Over Temp"
+layout: minimal
 parent: Alarms
 ---
 

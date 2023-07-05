@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Cleaning Interrupted (Lockout)"
+layout: minimal
 parent: Alarms
 ---
 

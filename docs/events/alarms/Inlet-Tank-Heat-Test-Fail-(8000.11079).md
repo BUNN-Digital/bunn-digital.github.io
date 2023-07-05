@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Inlet Tank Heat Test Fail"
+layout: minimal
 parent: Alarms
 ---
 

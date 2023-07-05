@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Loss of Communication (Display - PLC Board)"
+layout: minimal
 parent: Alarms
 ---
 

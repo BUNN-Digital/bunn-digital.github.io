@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Software Update - Control Board Boot"
+layout: minimal
 parent: Alarms
 ---
 

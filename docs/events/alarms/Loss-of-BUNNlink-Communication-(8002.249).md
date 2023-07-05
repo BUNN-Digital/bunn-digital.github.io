@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Loss of BUNNlink Communication"
+layout: minimal
 parent: Alarms
 ---
 

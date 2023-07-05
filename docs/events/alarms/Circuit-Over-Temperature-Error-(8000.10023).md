@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Circuit Over Temperature Error"
+layout: minimal
 parent: Alarms
 ---
 

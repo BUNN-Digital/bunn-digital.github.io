@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Reservoir Control Board 2 Initialization"
+layout: minimal
 parent: Alarms
 ---
 

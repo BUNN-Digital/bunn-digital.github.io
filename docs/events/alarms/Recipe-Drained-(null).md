@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Recipe Drained"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Invalid Level Probes - Subsystem 2"
+layout: minimal
 parent: Alarms
 ---
 

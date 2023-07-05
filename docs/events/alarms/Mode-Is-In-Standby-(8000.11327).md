@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Mode Is In Standby"
+layout: minimal
 parent: Alarms
 ---
 

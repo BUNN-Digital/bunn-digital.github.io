@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "System API Event"
+layout: minimal
 parent: Alarms
 ---
 

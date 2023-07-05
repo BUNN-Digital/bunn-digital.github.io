@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Piston Error Stall Down O-Ring Entry"
+layout: minimal
 parent: Alarms
 ---
 

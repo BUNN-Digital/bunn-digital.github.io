@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Software Update - High Voltage Control Board Boot"
+layout: minimal
 parent: Alarms
 ---
 

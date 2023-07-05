@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Settings Event - Any Setting Change Complete"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Control Board Initialized"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Drip Tray Installed"
+layout: minimal
 parent: Alarms
 ---
 

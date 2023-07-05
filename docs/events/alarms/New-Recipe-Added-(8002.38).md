@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "New Recipe Added"
+layout: minimal
 parent: Alarms
 ---
 

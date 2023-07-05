@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Center Grinder No Current Shutdown"
+layout: minimal
 parent: Alarms
 ---
 

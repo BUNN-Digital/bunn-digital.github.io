@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Recipe Dispensed - Non Portion Controlled"
+layout: minimal
 parent: Alarms
 ---
 

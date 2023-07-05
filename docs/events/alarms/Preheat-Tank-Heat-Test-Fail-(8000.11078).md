@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Preheat Tank Heat Test Fail"
+layout: minimal
 parent: Alarms
 ---
 

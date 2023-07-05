@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Rinse Complete"
+layout: minimal
 parent: Alarms
 ---
 

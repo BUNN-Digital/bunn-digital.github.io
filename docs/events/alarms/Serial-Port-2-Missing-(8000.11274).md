@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Serial Port 2 Missing"
+layout: minimal
 parent: Alarms
 ---
 

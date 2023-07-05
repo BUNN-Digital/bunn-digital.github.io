@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Bean Hopper Mismatch Inactive"
+layout: minimal
 parent: Alarms
 ---
 

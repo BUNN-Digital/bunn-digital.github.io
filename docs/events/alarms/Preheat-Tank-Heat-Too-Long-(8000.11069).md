@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Preheat Tank Heat Too Long"
+layout: minimal
 parent: Alarms
 ---
 

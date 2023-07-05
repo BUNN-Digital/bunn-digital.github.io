@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Left Grinder Overcurrent Shutdown"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Cleaning Required Lockout"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Water Flow Too Low Supply"
+layout: minimal
 parent: Alarms
 ---
 

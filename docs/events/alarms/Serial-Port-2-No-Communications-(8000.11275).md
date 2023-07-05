@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Serial Port 2 No Communications"
+layout: minimal
 parent: Alarms
 ---
 

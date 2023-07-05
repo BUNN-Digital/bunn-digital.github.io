@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Dispense Fail"
+layout: minimal
 parent: Alarms
 ---
 

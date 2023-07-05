@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Brew Error No Swipe Return"
+layout: minimal
 parent: Alarms
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Machine Name"
+layout: minimal
 parent: Alarms
 ---
 

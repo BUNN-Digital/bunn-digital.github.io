@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Finish Tank Heat Too Long"
+layout: minimal
 parent: Alarms
 ---
 

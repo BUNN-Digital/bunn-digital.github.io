@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Swiper Not Detected"
+layout: minimal
 parent: Alarms
 ---
 

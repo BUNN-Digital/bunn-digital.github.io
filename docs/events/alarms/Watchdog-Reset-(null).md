@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Watchdog Reset"
+layout: minimal
 parent: Alarms
 ---
 

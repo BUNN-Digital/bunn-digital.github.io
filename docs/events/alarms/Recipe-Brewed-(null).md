@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Recipe Brewed"
+layout: minimal
 parent: Alarms
 ---
 

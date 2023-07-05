@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Settings Event - Undefined"
+layout: minimal
 parent: Alarms
 ---
 

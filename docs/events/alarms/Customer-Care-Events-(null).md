@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Customer Care Events"
+layout: minimal
 parent: Alarms
 ---
 

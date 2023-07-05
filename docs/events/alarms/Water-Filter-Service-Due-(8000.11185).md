@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Water Filter Service Due"
+layout: minimal
 parent: Alarms
 ---
 

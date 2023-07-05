@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Piston Error Cmd While Unknown"
+layout: minimal
 parent: Alarms
 ---
 

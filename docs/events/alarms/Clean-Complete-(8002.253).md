@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Clean Complete"
+layout: minimal
 parent: Alarms
 ---
 

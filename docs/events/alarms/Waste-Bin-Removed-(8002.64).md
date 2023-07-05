@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Waste Bin Removed"
+layout: minimal
 parent: Alarms
 ---
 

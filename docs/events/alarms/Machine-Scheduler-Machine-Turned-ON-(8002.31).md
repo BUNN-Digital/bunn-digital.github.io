@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: "Machine Scheduler - Machine Turned ON"
+layout: minimal
 parent: Alarms
 ---
 
