@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Bean Hopper Mismatch Active"
+parent: Alarms
 ---
 
 # Bean Hopper Mismatch Active

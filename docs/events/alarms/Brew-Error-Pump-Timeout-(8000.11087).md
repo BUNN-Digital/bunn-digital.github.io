@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error Pump Timeout"
+parent: Alarms
 ---
 
 # Brew Error Pump Timeout

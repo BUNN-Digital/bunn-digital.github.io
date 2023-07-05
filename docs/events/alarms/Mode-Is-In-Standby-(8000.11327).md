@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Mode Is In Standby"
+parent: Alarms
 ---
 
 # Mode Is In Standby

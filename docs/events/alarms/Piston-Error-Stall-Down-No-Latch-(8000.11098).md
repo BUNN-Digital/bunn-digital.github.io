@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Stall Down No Latch"
+parent: Alarms
 ---
 
 # Piston Error Stall Down No Latch

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "No Communication, Display-To-Display Private Network"
+parent: Alarms
 ---
 
 # No Communication, Display-To-Display Private Network

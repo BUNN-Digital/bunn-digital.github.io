@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Finish Tank Over Temp"
+parent: Alarms
 ---
 
 # Finish Tank Over Temp

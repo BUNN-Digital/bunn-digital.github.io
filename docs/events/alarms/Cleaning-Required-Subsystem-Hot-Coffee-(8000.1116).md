@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Cleaning Required Subsystem - Hot Coffee"
+parent: Alarms
 ---
 
 # Cleaning Required Subsystem - Hot Coffee

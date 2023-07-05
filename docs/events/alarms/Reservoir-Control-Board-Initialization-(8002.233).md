@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir Control Board Initialization"
+parent: Alarms
 ---
 
 # Reservoir Control Board Initialization

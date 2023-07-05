@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Model Configuration Invalid"
+parent: Alarms
 ---
 
 # Model Configuration Invalid

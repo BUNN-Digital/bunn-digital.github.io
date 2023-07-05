@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Subsystem/Motor 5 Error"
+parent: Alarms
 ---
 
 # Subsystem/Motor 5 Error

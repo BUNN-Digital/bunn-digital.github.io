@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir Cleaning Intervention Required"
+parent: Alarms
 ---
 
 # Reservoir Cleaning Intervention Required

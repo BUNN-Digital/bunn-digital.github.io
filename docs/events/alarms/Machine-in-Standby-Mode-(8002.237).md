@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Machine in Standby Mode"
+parent: Alarms
 ---
 
 # Machine in Standby Mode

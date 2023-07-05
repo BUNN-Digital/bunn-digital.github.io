@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Recipe Brewed"
+parent: Alarms
 ---
 
 # Recipe Brewed

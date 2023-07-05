@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "High Voltage IO Boot Software Needs Updated"
+parent: Alarms
 ---
 
 # High Voltage IO Boot Software Needs Updated

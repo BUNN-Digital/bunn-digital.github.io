@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir 1 Schedule Update Failure - Name Mismatch"
+parent: Alarms
 ---
 
 # Reservoir 1 Schedule Update Failure - Name Mismatch

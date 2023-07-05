@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Finish Tank Heat Test Fail"
+parent: Alarms
 ---
 
 # Finish Tank Heat Test Fail

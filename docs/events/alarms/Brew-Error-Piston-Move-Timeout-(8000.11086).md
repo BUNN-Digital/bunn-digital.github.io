@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error Piston Move Timeout"
+parent: Alarms
 ---
 
 # Brew Error Piston Move Timeout

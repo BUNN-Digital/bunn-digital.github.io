@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Circuit Over Temperature Error"
+parent: Alarms
 ---
 
 # Circuit Over Temperature Error

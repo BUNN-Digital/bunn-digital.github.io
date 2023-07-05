@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Preheat Tank Sensor Open"
+parent: Alarms
 ---
 
 # Preheat Tank Sensor Open

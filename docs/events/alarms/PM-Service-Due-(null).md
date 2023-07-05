@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "PM Service Due"
+parent: Alarms
 ---
 
 # PM Service Due

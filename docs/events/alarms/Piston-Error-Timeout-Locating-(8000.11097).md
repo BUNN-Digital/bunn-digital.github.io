@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Timeout Locating"
+parent: Alarms
 ---
 
 # Piston Error Timeout Locating

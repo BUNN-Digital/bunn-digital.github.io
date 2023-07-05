@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir 2 Not In Place"
+parent: Alarms
 ---
 
 # Reservoir 2 Not In Place

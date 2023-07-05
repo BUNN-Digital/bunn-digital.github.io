@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Power Supply Error +48V"
+parent: Alarms
 ---
 
 # Power Supply Error +48V

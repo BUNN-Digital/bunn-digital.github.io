@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Tank 1 Not Full"
+parent: Alarms
 ---
 
 # Tank 1 Not Full

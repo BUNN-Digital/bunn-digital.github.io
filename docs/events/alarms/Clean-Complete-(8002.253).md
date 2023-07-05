@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Clean Complete"
+parent: Alarms
 ---
 
 # Clean Complete

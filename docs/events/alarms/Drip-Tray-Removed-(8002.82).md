@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Drip Tray Removed"
+parent: Alarms
 ---
 
 # Drip Tray Removed

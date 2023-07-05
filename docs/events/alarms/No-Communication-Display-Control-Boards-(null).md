@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "No Communication Display Control Boards"
+parent: Alarms
 ---
 
 # No Communication Display Control Boards

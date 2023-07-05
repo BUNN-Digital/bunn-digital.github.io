@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Right Grinder No Current Shutdown"
+parent: Alarms
 ---
 
 # Right Grinder No Current Shutdown

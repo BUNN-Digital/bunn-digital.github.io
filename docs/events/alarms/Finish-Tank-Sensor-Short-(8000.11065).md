@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Finish Tank Sensor Short"
+parent: Alarms
 ---
 
 # Finish Tank Sensor Short

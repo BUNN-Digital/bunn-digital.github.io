@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Tap Display Interface Missing - Subsystem 1"
+parent: Alarms
 ---
 
 # Tap Display Interface Missing - Subsystem 1

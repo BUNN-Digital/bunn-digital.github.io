@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Comm Fail"
+parent: Alarms
 ---
 
 # Piston Error Comm Fail

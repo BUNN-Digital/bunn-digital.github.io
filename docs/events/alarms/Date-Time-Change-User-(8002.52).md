@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Date/Time Change - User"
+parent: Alarms
 ---
 
 # Date/Time Change - User

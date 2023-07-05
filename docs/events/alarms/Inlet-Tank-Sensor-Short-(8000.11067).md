@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Inlet Tank Sensor Short"
+parent: Alarms
 ---
 
 # Inlet Tank Sensor Short

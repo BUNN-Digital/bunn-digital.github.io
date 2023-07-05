@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Center Grinder No Current Shutdown"
+parent: Alarms
 ---
 
 # Center Grinder No Current Shutdown

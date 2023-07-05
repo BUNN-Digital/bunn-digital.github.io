@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Software Update - Control Board Application"
+parent: Alarms
 ---
 
 # Software Update - Control Board Application

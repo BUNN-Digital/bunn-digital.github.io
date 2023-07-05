@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Right Grinder Overcurrent Shutdown"
+parent: Alarms
 ---
 
 # Right Grinder Overcurrent Shutdown

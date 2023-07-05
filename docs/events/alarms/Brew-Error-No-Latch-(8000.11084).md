@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error No Latch"
+parent: Alarms
 ---
 
 # Brew Error No Latch

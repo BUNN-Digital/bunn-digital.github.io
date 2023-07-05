@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Lost of Communication (Display - Control Boards)"
+parent: Alarms
 ---
 
 # Lost of Communication (Display - Control Boards)

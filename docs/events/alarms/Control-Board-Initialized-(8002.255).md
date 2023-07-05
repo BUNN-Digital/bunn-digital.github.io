@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Control Board Initialized"
+parent: Alarms
 ---
 
 # Control Board Initialized

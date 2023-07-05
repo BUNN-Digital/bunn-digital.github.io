@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Failed To Start Beverage - Multiple Occurrences"
+parent: Alarms
 ---
 
 # Failed To Start Beverage - Multiple Occurrences

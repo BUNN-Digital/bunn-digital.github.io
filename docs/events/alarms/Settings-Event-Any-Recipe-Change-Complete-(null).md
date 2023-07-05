@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Settings Event - Any Recipe Change Complete"
+parent: Alarms
 ---
 
 # Settings Event - Any Recipe Change Complete

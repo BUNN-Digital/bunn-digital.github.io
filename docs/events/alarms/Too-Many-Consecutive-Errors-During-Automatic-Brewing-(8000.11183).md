@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Too Many Consecutive Errors During Automatic Brewing"
+parent: Alarms
 ---
 
 # Too Many Consecutive Errors During Automatic Brewing

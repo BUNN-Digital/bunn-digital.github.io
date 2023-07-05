@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Waste Bin Installed"
+parent: Alarms
 ---
 
 # Waste Bin Installed

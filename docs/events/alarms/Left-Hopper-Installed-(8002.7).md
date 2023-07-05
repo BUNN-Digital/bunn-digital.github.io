@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Left Hopper Installed"
+parent: Alarms
 ---
 
 # Left Hopper Installed

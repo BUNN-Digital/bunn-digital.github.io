@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Tap Display Interface No Connection - Subsystem 3"
+parent: Alarms
 ---
 
 # Tap Display Interface No Connection - Subsystem 3

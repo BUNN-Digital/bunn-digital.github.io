@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Machine in Auto Mode"
+parent: Alarms
 ---
 
 # Machine in Auto Mode

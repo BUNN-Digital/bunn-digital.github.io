@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "New Recipe Added"
+parent: Alarms
 ---
 
 # New Recipe Added

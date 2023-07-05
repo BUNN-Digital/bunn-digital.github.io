@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Stall Up At Home"
+parent: Alarms
 ---
 
 # Piston Error Stall Up At Home

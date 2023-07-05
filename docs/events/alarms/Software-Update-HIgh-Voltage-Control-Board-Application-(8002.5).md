@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Software Update - HIgh Voltage Control Board Application"
+parent: Alarms
 ---
 
 # Software Update - HIgh Voltage Control Board Application

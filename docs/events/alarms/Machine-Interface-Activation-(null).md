@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Machine Interface Activation"
+parent: Alarms
 ---
 
 # Machine Interface Activation

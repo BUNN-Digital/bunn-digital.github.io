@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir Access Door Closed"
+parent: Alarms
 ---
 
 # Reservoir Access Door Closed

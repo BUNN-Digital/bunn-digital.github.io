@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Software Update - Display Application"
+parent: Alarms
 ---
 
 # Software Update - Display Application

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Drip Tray Installed"
+parent: Alarms
 ---
 
 # Drip Tray Installed

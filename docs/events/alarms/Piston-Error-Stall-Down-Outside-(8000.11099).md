@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Stall Down Outside"
+parent: Alarms
 ---
 
 # Piston Error Stall Down Outside

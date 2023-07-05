@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Power Supply Error +5V(ext)"
+parent: Alarms
 ---
 
 # Power Supply Error +5V(ext)

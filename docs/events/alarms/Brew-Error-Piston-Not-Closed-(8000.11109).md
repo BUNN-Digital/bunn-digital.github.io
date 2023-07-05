@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error Piston Not Closed"
+parent: Alarms
 ---
 
 # Brew Error Piston Not Closed

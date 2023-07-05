@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "IO Boot Software Needs Updated"
+parent: Alarms
 ---
 
 # IO Boot Software Needs Updated

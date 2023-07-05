@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Beverage Chiller Not Detected (Uninstalled)"
+parent: Alarms
 ---
 
 # Beverage Chiller Not Detected (Uninstalled)

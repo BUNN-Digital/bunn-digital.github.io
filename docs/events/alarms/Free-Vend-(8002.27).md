@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Free Vend"
+parent: Alarms
 ---
 
 # Free Vend

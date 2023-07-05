@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Operator Door Open"
+parent: Alarms
 ---
 
 # Operator Door Open

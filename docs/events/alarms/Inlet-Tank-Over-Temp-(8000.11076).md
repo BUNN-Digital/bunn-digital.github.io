@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Inlet Tank Over Temp"
+parent: Alarms
 ---
 
 # Inlet Tank Over Temp

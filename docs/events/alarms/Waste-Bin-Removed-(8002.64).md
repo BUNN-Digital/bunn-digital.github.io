@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Waste Bin Removed"
+parent: Alarms
 ---
 
 # Waste Bin Removed

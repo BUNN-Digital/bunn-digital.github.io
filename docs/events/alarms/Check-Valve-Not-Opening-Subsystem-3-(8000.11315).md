@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Check Valve Not Opening - Subsystem 3"
+parent: Alarms
 ---
 
 # Check Valve Not Opening - Subsystem 3

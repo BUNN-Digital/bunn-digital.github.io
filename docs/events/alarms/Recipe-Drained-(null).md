@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Recipe Drained"
+parent: Alarms
 ---
 
 # Recipe Drained

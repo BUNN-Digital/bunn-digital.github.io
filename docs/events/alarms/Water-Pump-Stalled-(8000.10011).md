@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Water Pump Stalled"
+parent: Alarms
 ---
 
 # Water Pump Stalled

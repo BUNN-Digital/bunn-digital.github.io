@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Dispense Fail"
+parent: Alarms
 ---
 
 # Dispense Fail

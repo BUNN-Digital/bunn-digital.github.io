@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Serial Port 1 No Communications"
+parent: Alarms
 ---
 
 # Serial Port 1 No Communications

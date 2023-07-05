@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Finish Tank Sensor Open"
+parent: Alarms
 ---
 
 # Finish Tank Sensor Open

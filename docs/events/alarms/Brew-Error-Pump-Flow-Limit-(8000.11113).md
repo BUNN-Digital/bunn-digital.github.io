@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error Pump Flow Limit"
+parent: Alarms
 ---
 
 # Brew Error Pump Flow Limit

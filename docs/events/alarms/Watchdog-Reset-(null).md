@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Watchdog Reset"
+parent: Alarms
 ---
 
 # Watchdog Reset

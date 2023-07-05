@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Preheat Tank Over Temp"
+parent: Alarms
 ---
 
 # Preheat Tank Over Temp

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error No Swipe"
+parent: Alarms
 ---
 
 # Brew Error No Swipe

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "High Voltage IO Application Software Needs Updated"
+parent: Alarms
 ---
 
 # High Voltage IO Application Software Needs Updated

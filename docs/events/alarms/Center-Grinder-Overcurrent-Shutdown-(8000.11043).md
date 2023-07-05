@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Center Grinder Overcurrent Shutdown"
+parent: Alarms
 ---
 
 # Center Grinder Overcurrent Shutdown

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Brew Error Grind Timeout"
+parent: Alarms
 ---
 
 # Brew Error Grind Timeout

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Waste Bin Almost Full"
+parent: Alarms
 ---
 
 # Waste Bin Almost Full

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Left Hopper Missing"
+parent: Alarms
 ---
 
 # Left Hopper Missing

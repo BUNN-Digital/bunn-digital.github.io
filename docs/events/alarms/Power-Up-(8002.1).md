@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Power Up"
+parent: Alarms
 ---
 
 # Power Up

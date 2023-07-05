@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Water Flow Too Low Blockage"
+parent: Alarms
 ---
 
 # Water Flow Too Low Blockage

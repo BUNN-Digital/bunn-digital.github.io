@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Rinse Complete"
+parent: Alarms
 ---
 
 # Rinse Complete

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Machine Scheduler - Machine Turned OFF"
+parent: Alarms
 ---
 
 # Machine Scheduler - Machine Turned OFF

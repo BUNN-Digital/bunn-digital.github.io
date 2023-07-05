@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Machine Name"
+parent: Alarms
 ---
 
 # Machine Name

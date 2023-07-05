@@ -6,8 +6,17 @@ url: https://just-the-docs.github.io
 
 logo: "/assets/images/bunn-logo-mark-light.svg"
 
+# Aux links for the upper right navigation
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "BUNN Home":
+    - "https://www.bunn.com"
+  "BUNN Digital Resources":
+    - "https://bunn-digital.github.io/"
+    - "https://github.com/BUNN-Digital/Event-Consumer-Reference-Implementation-Java"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
 
 
 # Enable or disable the site search

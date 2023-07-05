@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Preheat Tank Sensor Short"
+parent: Alarms
 ---
 
 # Preheat Tank Sensor Short

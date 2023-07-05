@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Cleaning Due Soon"
+parent: Alarms
 ---
 
 # Cleaning Due Soon

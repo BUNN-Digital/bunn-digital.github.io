@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Recipe Position Status - Non Portion Controlled"
+parent: Alarms
 ---
 
 # Recipe Position Status - Non Portion Controlled

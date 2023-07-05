@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Alarms
+has_children: true
 ---
 
 # Alarms

@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Motor Config"
+parent: Alarms
 ---
 
 # Piston Error Motor Config

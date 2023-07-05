@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Grounds Swiper Did Not Extend"
+parent: Alarms
 ---
 
 # Grounds Swiper Did Not Extend

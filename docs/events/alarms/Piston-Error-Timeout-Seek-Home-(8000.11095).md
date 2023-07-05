@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Piston Error Timeout Seek Home"
+parent: Alarms
 ---
 
 # Piston Error Timeout Seek Home

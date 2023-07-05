@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Center Hopper Missing"
+parent: Alarms
 ---
 
 # Center Hopper Missing

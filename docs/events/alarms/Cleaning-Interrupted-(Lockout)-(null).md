@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Cleaning Interrupted (Lockout)"
+parent: Alarms
 ---
 
 # Cleaning Interrupted (Lockout)

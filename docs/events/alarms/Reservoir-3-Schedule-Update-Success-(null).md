@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Reservoir 3 Schedule Update Success"
+parent: Alarms
 ---
 
 # Reservoir 3 Schedule Update Success

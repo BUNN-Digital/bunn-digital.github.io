@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: "Date/Time Change - Auto"
+parent: Alarms
 ---
 
 # Date/Time Change - Auto
