@@ -1,8 +1,9 @@
 ---
 title: Events
 layout: home
-nav_order: 2
+parent: Documentation Home
 has_children: true
+nav_order: 2
 ---
 
 # Events

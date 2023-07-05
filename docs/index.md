@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Documentation Home
 layout: home
+has_children: true
 nav_order: 1
 ---
 
