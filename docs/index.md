@@ -6,8 +6,15 @@ nav_order: 1
 
 # BUNN Digital Documentation
 
-This is the home of BUNN Digital Documentation. (Index)
+Welcome to the home of BUNN Digital Documentation!
 
-[Event Catalog Documentation](events/)
-[Standard Responses and Error Codes](responses/)
+From this page, you may:
+
+- View our [API Status](https://status.bunn.com) page to see API status, announcements, and uptime
+
+- View our the [Customer API](apis/) Documentation
+
+- View our [Event Catalog](events/) Documentation
+
+- View our [Standard Responses and Error Codes](responses/) Documentation
 
