@@ -7,5 +7,4 @@ has_children: true
 
 # Events
 
-- [Alarms](alarms/)
-- [Recipe Events](recipe-events/)
+This section describes events as currently published by the BUNN Digital Event APIs.
