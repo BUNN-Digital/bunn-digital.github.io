@@ -1,6 +1,7 @@
 ---
 title: "Lost of Communication (Display - Control Boards)"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

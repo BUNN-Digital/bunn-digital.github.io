@@ -1,6 +1,7 @@
 ---
 title: "Reservoir 3 Schedule Update Failure - Hold Volume Error"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

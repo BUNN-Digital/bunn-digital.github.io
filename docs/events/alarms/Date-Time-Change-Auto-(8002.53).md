@@ -1,6 +1,7 @@
 ---
 title: "Date/Time Change - Auto"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

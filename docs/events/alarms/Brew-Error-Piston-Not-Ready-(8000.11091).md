@@ -1,6 +1,7 @@
 ---
 title: "Brew Error Piston Not Ready"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Check Valve Not Opening - Subsystem 3"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

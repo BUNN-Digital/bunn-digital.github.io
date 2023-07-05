@@ -1,6 +1,7 @@
 ---
 title: "Brew Error No Latch"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Serial Port 2 Loss of Communications"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Finish Tank Sensor Open"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Reservoir Swing Arm Down"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

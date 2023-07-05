@@ -1,6 +1,7 @@
 ---
 title: "Tap Display Interface Missing - Subsystem 3"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

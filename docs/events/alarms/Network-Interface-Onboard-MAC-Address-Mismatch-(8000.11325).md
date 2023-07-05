@@ -1,6 +1,7 @@
 ---
 title: "Network Interface Onboard MAC Address Mismatch"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

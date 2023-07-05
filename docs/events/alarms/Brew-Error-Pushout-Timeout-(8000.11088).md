@@ -1,6 +1,7 @@
 ---
 title: "Brew Error Pushout Timeout"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

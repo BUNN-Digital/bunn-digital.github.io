@@ -1,6 +1,7 @@
 ---
 title: "Piston Error Stall Up Outside"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Piston Error Stall Down O-Ring Entry"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

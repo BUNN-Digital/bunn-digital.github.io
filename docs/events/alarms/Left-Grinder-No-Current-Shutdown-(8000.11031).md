@@ -1,6 +1,7 @@
 ---
 title: "Left Grinder No Current Shutdown"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

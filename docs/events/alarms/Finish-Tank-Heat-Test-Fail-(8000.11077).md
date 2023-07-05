@@ -1,6 +1,7 @@
 ---
 title: "Finish Tank Heat Test Fail"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

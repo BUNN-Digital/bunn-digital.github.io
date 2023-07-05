@@ -1,6 +1,7 @@
 ---
 title: "Subsystem/Motor 4 Error"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

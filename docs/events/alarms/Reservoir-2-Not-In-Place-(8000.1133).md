@@ -1,6 +1,7 @@
 ---
 title: "Reservoir 2 Not In Place"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

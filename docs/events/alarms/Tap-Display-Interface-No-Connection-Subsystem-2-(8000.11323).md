@@ -1,6 +1,7 @@
 ---
 title: "Tap Display Interface No Connection - Subsystem 2"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Reservoir 2 Schedule Update Success"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

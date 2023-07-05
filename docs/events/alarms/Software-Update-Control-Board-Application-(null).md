@@ -1,6 +1,7 @@
 ---
 title: "Software Update - Control Board Application"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Machine in Auto Mode"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

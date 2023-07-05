@@ -1,6 +1,7 @@
 ---
 title: "Reservoir Control Board 2 Initialization"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---

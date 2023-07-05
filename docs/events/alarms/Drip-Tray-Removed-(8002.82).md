@@ -1,6 +1,7 @@
 ---
 title: "Drip Tray Removed"
-layout: minimal
+#layout: minimal
+layout: default
 parent: Alarms
 grand_parent: Events
 ---
