@@ -1,7 +1,7 @@
 ---
 title: "Bean Hopper Mismatch Inactive"
-#layout: minimal
-layout: default
+layout: minimal
+#layout: default
 parent: Alarms
 grand_parent: Events
 ---
