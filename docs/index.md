@@ -12,9 +12,7 @@ From this page, you may:
 
 - View our [API Status](https://status.bunn.com) page to see API status, announcements, and uptime
 
-- View our the [Customer API](apis/) Documentation
+- View our [API Documentation](apis/)
 
-- View our [Event Catalog](events/) Documentation
-
-- View our [Standard Responses and Error Codes](responses/) Documentation
+- View our [Event Catalog Documentation](events/)
 
