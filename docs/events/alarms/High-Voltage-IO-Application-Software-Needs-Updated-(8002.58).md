@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "High Voltage IO Application Software Needs Updated"
 ---
 

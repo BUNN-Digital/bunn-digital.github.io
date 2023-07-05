@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Cleaning Interrupted Subsystem - Hot Coffee"
 ---
 

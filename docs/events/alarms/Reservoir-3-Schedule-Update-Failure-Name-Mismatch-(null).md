@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Reservoir 3 Schedule Update Failure - Name Mismatch"
 ---
 

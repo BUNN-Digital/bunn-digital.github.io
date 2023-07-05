@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Brew Error Piston Move Timeout"
 ---
 

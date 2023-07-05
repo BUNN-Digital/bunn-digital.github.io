@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Piston Error Stall Up Not Home"
 ---
 

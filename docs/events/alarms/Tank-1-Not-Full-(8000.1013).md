@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Tank 1 Not Full"
 ---
 

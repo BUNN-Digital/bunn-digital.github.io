@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Subsystem/Motor 6 Error"
 ---
 

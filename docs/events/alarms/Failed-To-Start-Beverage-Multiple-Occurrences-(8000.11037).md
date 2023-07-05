@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Failed To Start Beverage - Multiple Occurrences"
 ---
 

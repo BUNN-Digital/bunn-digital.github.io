@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Water Flow Too Low Blockage"
 ---
 

@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Power Supply Error +24V"
 ---
 

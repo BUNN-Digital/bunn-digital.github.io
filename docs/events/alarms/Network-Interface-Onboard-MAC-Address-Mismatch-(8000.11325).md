@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Network Interface Onboard MAC Address Mismatch"
 ---
 

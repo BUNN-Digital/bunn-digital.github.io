@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Finish Tank Heat Test Fail"
 ---
 

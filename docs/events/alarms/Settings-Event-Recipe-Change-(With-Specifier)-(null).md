@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Settings Event - Recipe Change (With Specifier)"
 ---
 

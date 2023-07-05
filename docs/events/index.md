@@ -1,4 +1,4 @@
 # Events
 
-- [Alarms](alarms/README.md)
-- [Recipe Events](recipe-events/README.md)
+- [Alarms](alarms/)
+- [Recipe Events](recipe-events/)

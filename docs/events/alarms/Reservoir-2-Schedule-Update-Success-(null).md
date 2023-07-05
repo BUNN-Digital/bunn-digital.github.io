@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Reservoir 2 Schedule Update Success"
 ---
 

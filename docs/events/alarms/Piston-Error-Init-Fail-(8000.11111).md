@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Piston Error Init Fail"
 ---
 

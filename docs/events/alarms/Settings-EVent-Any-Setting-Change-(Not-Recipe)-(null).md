@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Settings EVent - Any Setting Change (Not Recipe)"
 ---
 

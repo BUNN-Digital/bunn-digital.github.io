@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Check Valve Not Opening - Subsystem 3"
 ---
 

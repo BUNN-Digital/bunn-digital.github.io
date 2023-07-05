@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Grounds Swiper Did Not Extend"
 ---
 

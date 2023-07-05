@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "No Communication Display Control Boards"
 ---
 

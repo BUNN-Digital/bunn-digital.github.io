@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Tap Display Interface Missing - Subsystem 2"
 ---
 

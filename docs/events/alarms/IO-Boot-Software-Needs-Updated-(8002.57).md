@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "IO Boot Software Needs Updated"
 ---
 

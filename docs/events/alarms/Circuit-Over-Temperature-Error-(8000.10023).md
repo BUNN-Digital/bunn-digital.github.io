@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Circuit Over Temperature Error"
 ---
 

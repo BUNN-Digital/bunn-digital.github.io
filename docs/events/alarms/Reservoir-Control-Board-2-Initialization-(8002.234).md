@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Reservoir Control Board 2 Initialization"
 ---
 

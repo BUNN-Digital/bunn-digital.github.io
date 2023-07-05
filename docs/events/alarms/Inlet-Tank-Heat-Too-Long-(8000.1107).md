@@ -1,5 +1,5 @@
 ---
-#layout: minimal
+layout: minimal
 title: "Inlet Tank Heat Too Long"
 ---
 
