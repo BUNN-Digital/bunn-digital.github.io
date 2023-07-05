@@ -3,7 +3,7 @@ title: Recipe Events
 layout: home
 parent: Events
 has_chileren: true
-nav_order: 2
+nav_order: 4
 ---
 
 # Recipe Events
