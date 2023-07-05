@@ -1,6 +1,6 @@
 ---
 title: recipe.brewed
-layout: minimal
+layout: default
 parent: Recipe Events
 grand_parent: Events
 ---

@@ -1,6 +1,6 @@
 ---
 title: recipe.tap.activated
-layout: minimal
+layout: default
 parent: Recipe Events
 grand_parent: Events
 ---

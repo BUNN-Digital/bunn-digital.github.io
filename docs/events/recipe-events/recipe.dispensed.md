@@ -1,6 +1,6 @@
 ---
 title: recipe.dispensed
-layout: minimal
+layout: default
 parent: Recipe Events
 grand_parent: Events
 ---

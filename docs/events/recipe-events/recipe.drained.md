@@ -1,6 +1,6 @@
 ---
 title: recipe.drained
-layout: minimal
+layout: default
 parent: Recipe Events
 grand_parent: Events
 ---
