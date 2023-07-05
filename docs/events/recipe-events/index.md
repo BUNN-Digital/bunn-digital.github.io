@@ -2,6 +2,8 @@
 layout: Home
 title: Recipe Events
 parent: Events
+has_chileren: true
+nav_order: 2
 ---
 
 # Recipe Events
