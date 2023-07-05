@@ -1,9 +1,12 @@
-title: BUNN Digital Documentation
-description: Documentation for BUNN Digital APIs and services
-
+title: Just the Docs Template
+description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
 
 #theme: jekyll-theme-minimal
 #remote_theme: pages-themes/hacker@v0.2.0
