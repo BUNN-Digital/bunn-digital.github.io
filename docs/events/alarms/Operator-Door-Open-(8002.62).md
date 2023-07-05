@@ -2,6 +2,7 @@
 title: "Operator Door Open"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Operator Door Open

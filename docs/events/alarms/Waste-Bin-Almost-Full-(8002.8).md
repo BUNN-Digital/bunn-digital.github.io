@@ -2,6 +2,7 @@
 title: "Waste Bin Almost Full"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Waste Bin Almost Full

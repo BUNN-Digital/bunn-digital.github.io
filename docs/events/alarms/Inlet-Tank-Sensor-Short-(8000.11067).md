@@ -2,6 +2,7 @@
 title: "Inlet Tank Sensor Short"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Inlet Tank Sensor Short

@@ -2,6 +2,7 @@
 title: "Power Supply Error +48V"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Power Supply Error +48V

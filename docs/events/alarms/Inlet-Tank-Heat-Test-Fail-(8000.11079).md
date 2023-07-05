@@ -2,6 +2,7 @@
 title: "Inlet Tank Heat Test Fail"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Inlet Tank Heat Test Fail

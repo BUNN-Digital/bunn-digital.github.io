@@ -2,6 +2,7 @@
 title: "No Communication Display Control Boards"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # No Communication Display Control Boards

@@ -2,6 +2,7 @@
 title: "Left Hopper Not Empty"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Left Hopper Not Empty

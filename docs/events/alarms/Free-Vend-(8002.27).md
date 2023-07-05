@@ -2,6 +2,7 @@
 title: "Free Vend"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Free Vend

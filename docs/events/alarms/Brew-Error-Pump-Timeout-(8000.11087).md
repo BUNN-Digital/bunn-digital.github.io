@@ -2,6 +2,7 @@
 title: "Brew Error Pump Timeout"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error Pump Timeout

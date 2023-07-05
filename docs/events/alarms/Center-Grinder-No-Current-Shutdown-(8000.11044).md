@@ -2,6 +2,7 @@
 title: "Center Grinder No Current Shutdown"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Center Grinder No Current Shutdown

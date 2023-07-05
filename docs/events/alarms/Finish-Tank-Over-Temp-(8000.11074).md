@@ -2,6 +2,7 @@
 title: "Finish Tank Over Temp"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Finish Tank Over Temp

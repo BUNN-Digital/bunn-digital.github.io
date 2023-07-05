@@ -2,6 +2,7 @@
 title: "Brew Error Grind Timeout"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error Grind Timeout

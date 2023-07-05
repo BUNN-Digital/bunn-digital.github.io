@@ -2,6 +2,7 @@
 title: "Lost of Communication (Display - Control Boards)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Lost of Communication (Display - Control Boards)

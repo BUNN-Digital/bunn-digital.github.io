@@ -2,6 +2,7 @@
 title: "Loss of Communication (Display - PLC Board)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Loss of Communication (Display - PLC Board)

@@ -2,6 +2,7 @@
 title: "Finish Tank Sensor Open"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Finish Tank Sensor Open

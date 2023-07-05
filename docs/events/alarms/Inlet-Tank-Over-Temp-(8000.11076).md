@@ -2,6 +2,7 @@
 title: "Inlet Tank Over Temp"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Inlet Tank Over Temp

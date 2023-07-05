@@ -2,6 +2,7 @@
 title: "Cleaning Due Soon"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Due Soon

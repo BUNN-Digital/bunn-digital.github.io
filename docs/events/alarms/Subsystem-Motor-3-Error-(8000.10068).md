@@ -2,6 +2,7 @@
 title: "Subsystem/Motor 3 Error"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Subsystem/Motor 3 Error

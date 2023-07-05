@@ -2,6 +2,7 @@
 title: "Beverage Chiller Not Detected (Uninstalled)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Beverage Chiller Not Detected (Uninstalled)

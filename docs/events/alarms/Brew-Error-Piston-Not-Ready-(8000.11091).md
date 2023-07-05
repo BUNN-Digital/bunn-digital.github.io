@@ -2,6 +2,7 @@
 title: "Brew Error Piston Not Ready"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error Piston Not Ready

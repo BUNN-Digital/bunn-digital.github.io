@@ -2,6 +2,7 @@
 title: "Piston Error Comm Fail"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Comm Fail

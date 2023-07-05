@@ -2,6 +2,7 @@
 title: "Water Pump Stalled"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Water Pump Stalled

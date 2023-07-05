@@ -2,6 +2,7 @@
 title: "Waste Bin Installed"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Waste Bin Installed

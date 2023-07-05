@@ -2,6 +2,7 @@
 title: "Failed To Start Beverage - Multiple Occurrences"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Failed To Start Beverage - Multiple Occurrences

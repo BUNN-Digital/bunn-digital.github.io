@@ -2,6 +2,7 @@
 title: "Watchdog Reset"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Watchdog Reset

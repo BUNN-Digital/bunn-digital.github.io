@@ -2,6 +2,7 @@
 title: "Software Update - Control Board Boot"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Software Update - Control Board Boot

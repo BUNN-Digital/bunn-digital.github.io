@@ -2,6 +2,7 @@
 title: "Mode Is In Standby"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Mode Is In Standby

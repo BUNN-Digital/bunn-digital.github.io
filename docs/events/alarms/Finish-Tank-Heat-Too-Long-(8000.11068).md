@@ -2,6 +2,7 @@
 title: "Finish Tank Heat Too Long"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Finish Tank Heat Too Long

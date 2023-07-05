@@ -2,6 +2,7 @@
 title: "Piston Error Motor Config"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Motor Config

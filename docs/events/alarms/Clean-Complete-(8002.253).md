@@ -2,6 +2,7 @@
 title: "Clean Complete"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Clean Complete

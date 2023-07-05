@@ -2,6 +2,7 @@
 title: "Swiper Not Detected"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Swiper Not Detected

@@ -2,6 +2,7 @@
 title: "Brew Error Pump Flow Limit"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error Pump Flow Limit

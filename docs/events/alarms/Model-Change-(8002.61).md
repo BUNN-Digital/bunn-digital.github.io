@@ -2,6 +2,7 @@
 title: "Model Change"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Model Change

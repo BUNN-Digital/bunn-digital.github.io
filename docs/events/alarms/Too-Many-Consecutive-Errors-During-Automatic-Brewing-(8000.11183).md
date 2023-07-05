@@ -2,6 +2,7 @@
 title: "Too Many Consecutive Errors During Automatic Brewing"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Too Many Consecutive Errors During Automatic Brewing

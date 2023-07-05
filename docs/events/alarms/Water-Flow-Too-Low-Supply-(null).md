@@ -2,6 +2,7 @@
 title: "Water Flow Too Low Supply"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Water Flow Too Low Supply

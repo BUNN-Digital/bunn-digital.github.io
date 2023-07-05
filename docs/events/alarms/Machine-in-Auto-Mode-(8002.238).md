@@ -2,6 +2,7 @@
 title: "Machine in Auto Mode"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Machine in Auto Mode

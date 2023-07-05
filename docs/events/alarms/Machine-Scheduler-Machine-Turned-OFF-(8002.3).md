@@ -2,6 +2,7 @@
 title: "Machine Scheduler - Machine Turned OFF"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Machine Scheduler - Machine Turned OFF

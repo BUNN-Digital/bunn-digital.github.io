@@ -2,6 +2,7 @@
 title: "Piston Error Stall Up Latched"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Stall Up Latched

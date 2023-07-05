@@ -2,6 +2,7 @@
 title: "Left Grinder No Current Shutdown"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Left Grinder No Current Shutdown

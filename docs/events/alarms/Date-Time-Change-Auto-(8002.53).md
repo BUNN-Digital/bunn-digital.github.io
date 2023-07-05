@@ -2,6 +2,7 @@
 title: "Date/Time Change - Auto"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Date/Time Change - Auto

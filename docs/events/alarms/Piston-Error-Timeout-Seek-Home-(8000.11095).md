@@ -2,6 +2,7 @@
 title: "Piston Error Timeout Seek Home"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Timeout Seek Home

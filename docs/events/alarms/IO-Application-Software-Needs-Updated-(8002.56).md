@@ -2,6 +2,7 @@
 title: "IO Application Software Needs Updated"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # IO Application Software Needs Updated

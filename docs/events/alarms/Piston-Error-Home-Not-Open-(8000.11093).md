@@ -2,6 +2,7 @@
 title: "Piston Error Home Not Open"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Home Not Open

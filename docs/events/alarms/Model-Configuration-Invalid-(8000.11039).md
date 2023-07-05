@@ -2,6 +2,7 @@
 title: "Model Configuration Invalid"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Model Configuration Invalid

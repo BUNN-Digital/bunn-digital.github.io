@@ -2,6 +2,7 @@
 title: "Loss of BUNNlink Communication"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Loss of BUNNlink Communication

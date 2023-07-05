@@ -2,6 +2,7 @@
 title: "High Voltage IO Application Software Needs Updated"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # High Voltage IO Application Software Needs Updated

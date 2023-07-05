@@ -2,6 +2,7 @@
 title: "Right Grinder Overcurrent Shutdown"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Right Grinder Overcurrent Shutdown

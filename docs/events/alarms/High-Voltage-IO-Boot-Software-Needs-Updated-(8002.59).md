@@ -2,6 +2,7 @@
 title: "High Voltage IO Boot Software Needs Updated"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # High Voltage IO Boot Software Needs Updated

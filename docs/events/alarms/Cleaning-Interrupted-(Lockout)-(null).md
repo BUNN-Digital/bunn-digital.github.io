@@ -2,6 +2,7 @@
 title: "Cleaning Interrupted (Lockout)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Interrupted (Lockout)

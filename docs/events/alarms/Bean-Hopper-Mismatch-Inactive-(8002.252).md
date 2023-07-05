@@ -2,6 +2,7 @@
 title: "Bean Hopper Mismatch Inactive"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Bean Hopper Mismatch Inactive

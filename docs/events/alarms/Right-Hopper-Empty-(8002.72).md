@@ -2,6 +2,7 @@
 title: "Right Hopper Empty"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Right Hopper Empty

@@ -2,6 +2,7 @@
 title: "Tap Display Interface Missing - Subsystem 2"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Tap Display Interface Missing - Subsystem 2

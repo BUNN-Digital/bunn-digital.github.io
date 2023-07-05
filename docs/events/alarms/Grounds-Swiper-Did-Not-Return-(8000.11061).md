@@ -2,6 +2,7 @@
 title: "Grounds Swiper Did Not Return"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Grounds Swiper Did Not Return

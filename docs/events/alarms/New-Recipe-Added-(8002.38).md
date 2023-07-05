@@ -2,6 +2,7 @@
 title: "New Recipe Added"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # New Recipe Added

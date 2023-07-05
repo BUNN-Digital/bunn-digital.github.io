@@ -2,6 +2,7 @@
 title: "Preheat Tank Sensor Open"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Preheat Tank Sensor Open

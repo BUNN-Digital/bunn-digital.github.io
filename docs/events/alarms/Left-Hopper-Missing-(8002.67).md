@@ -2,6 +2,7 @@
 title: "Left Hopper Missing"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Left Hopper Missing

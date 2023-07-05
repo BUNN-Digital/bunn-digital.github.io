@@ -2,6 +2,7 @@
 title: "Center Hopper Installed"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Center Hopper Installed

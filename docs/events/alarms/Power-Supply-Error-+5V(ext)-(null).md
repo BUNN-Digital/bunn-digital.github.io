@@ -2,6 +2,7 @@
 title: "Power Supply Error +5V(ext)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Power Supply Error +5V(ext)

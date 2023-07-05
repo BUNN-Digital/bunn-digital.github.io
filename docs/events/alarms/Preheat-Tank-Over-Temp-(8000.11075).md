@@ -2,6 +2,7 @@
 title: "Preheat Tank Over Temp"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Preheat Tank Over Temp

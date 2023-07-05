@@ -2,6 +2,7 @@
 title: "Brew Error Pushout Timeout"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error Pushout Timeout

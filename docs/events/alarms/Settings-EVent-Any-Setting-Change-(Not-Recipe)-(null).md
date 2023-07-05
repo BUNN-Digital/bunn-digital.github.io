@@ -2,6 +2,7 @@
 title: "Settings EVent - Any Setting Change (Not Recipe)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Settings EVent - Any Setting Change (Not Recipe)

@@ -2,6 +2,7 @@
 title: "Left Grinder Overcurrent Shutdown"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Left Grinder Overcurrent Shutdown

@@ -2,6 +2,7 @@
 title: "Cleaning Required Lockout"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Required Lockout

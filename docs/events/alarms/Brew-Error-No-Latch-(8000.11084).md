@@ -2,6 +2,7 @@
 title: "Brew Error No Latch"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error No Latch

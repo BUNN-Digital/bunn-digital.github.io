@@ -2,6 +2,7 @@
 title: "Finish Tank Sensor Short"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Finish Tank Sensor Short

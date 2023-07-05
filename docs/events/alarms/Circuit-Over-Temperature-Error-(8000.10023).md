@@ -2,6 +2,7 @@
 title: "Circuit Over Temperature Error"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Circuit Over Temperature Error

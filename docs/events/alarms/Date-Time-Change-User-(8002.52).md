@@ -2,6 +2,7 @@
 title: "Date/Time Change - User"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Date/Time Change - User

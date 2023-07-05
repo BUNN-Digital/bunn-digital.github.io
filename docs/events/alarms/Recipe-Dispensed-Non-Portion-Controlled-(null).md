@@ -2,6 +2,7 @@
 title: "Recipe Dispensed - Non Portion Controlled"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Recipe Dispensed - Non Portion Controlled

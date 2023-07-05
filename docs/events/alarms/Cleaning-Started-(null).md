@@ -2,6 +2,7 @@
 title: "Cleaning Started"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Started

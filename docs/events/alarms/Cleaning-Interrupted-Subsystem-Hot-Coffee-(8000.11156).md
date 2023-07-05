@@ -2,6 +2,7 @@
 title: "Cleaning Interrupted Subsystem - Hot Coffee"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Interrupted Subsystem - Hot Coffee

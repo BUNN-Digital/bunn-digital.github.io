@@ -2,6 +2,7 @@
 title: "IO Boot Software Needs Updated"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # IO Boot Software Needs Updated

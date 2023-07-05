@@ -2,6 +2,7 @@
 title: "Display Application Software Needs Updated"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Display Application Software Needs Updated

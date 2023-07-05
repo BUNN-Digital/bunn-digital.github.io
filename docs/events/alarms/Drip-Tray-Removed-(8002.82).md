@@ -2,6 +2,7 @@
 title: "Drip Tray Removed"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Drip Tray Removed

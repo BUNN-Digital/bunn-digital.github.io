@@ -2,6 +2,7 @@
 title: "Piston Error Stall Up Not Home"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Stall Up Not Home

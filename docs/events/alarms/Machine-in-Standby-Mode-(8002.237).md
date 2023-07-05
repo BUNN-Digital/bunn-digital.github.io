@@ -2,6 +2,7 @@
 title: "Machine in Standby Mode"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Machine in Standby Mode

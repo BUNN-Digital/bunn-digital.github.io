@@ -2,6 +2,7 @@
 title: "Grounds Swiper Did Not Extend"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Grounds Swiper Did Not Extend

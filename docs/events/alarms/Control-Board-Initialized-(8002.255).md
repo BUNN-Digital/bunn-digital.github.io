@@ -2,6 +2,7 @@
 title: "Control Board Initialized"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Control Board Initialized

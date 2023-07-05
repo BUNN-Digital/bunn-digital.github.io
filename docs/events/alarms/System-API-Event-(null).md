@@ -2,6 +2,7 @@
 title: "System API Event"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # System API Event

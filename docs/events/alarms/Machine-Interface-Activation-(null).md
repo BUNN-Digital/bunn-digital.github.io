@@ -2,6 +2,7 @@
 title: "Machine Interface Activation"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Machine Interface Activation

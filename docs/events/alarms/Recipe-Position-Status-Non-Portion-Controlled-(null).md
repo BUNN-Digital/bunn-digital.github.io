@@ -2,6 +2,7 @@
 title: "Recipe Position Status - Non Portion Controlled"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Recipe Position Status - Non Portion Controlled

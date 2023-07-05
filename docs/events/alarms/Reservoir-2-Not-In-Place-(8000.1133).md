@@ -2,6 +2,7 @@
 title: "Reservoir 2 Not In Place"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Reservoir 2 Not In Place

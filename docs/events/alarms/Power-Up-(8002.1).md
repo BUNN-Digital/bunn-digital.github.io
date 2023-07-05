@@ -2,6 +2,7 @@
 title: "Power Up"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Power Up

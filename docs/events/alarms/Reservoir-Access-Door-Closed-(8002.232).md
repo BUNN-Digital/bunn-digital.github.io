@@ -2,6 +2,7 @@
 title: "Reservoir Access Door Closed"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Reservoir Access Door Closed

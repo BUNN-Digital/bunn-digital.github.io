@@ -2,6 +2,7 @@
 title: "Tap Display Interface No Connection - Subsystem 3"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Tap Display Interface No Connection - Subsystem 3

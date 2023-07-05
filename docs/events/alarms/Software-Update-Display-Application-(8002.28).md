@@ -2,6 +2,7 @@
 title: "Software Update - Display Application"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Software Update - Display Application

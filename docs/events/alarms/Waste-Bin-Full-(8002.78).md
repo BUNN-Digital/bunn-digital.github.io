@@ -2,6 +2,7 @@
 title: "Waste Bin Full"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Waste Bin Full

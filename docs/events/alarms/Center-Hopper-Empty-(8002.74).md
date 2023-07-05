@@ -2,6 +2,7 @@
 title: "Center Hopper Empty"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Center Hopper Empty

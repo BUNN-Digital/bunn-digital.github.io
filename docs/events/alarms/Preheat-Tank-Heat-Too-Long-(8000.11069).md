@@ -2,6 +2,7 @@
 title: "Preheat Tank Heat Too Long"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Preheat Tank Heat Too Long

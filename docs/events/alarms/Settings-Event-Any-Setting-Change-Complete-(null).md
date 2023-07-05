@@ -2,6 +2,7 @@
 title: "Settings Event - Any Setting Change Complete"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Settings Event - Any Setting Change Complete

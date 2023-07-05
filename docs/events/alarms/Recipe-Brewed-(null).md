@@ -2,6 +2,7 @@
 title: "Recipe Brewed"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Recipe Brewed

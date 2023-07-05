@@ -2,6 +2,7 @@
 title: "Piston Error Init Fail"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Init Fail

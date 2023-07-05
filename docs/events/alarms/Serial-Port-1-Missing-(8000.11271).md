@@ -2,6 +2,7 @@
 title: "Serial Port 1 Missing"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Serial Port 1 Missing

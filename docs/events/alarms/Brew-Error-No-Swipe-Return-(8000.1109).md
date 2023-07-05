@@ -2,6 +2,7 @@
 title: "Brew Error No Swipe Return"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Brew Error No Swipe Return

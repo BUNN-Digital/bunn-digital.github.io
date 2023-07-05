@@ -2,6 +2,7 @@
 title: "Rinse Complete"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Rinse Complete

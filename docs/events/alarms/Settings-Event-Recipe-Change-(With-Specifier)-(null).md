@@ -2,6 +2,7 @@
 title: "Settings Event - Recipe Change (With Specifier)"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Settings Event - Recipe Change (With Specifier)

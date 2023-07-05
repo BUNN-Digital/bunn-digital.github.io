@@ -2,6 +2,7 @@
 title: "Check Valve Not Opening - Subsystem 3"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Check Valve Not Opening - Subsystem 3

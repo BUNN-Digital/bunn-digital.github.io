@@ -2,6 +2,7 @@
 title: "Cleaning Required Subsystem - Hot Coffee"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Cleaning Required Subsystem - Hot Coffee

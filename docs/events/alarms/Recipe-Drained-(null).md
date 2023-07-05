@@ -2,6 +2,7 @@
 title: "Recipe Drained"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Recipe Drained

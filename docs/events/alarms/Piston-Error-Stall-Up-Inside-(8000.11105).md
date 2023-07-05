@@ -2,6 +2,7 @@
 title: "Piston Error Stall Up Inside"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Piston Error Stall Up Inside

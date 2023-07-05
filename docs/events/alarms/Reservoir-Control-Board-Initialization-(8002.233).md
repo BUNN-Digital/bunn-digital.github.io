@@ -2,6 +2,7 @@
 title: "Reservoir Control Board Initialization"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Reservoir Control Board Initialization

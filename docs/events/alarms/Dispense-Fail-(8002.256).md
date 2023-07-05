@@ -2,6 +2,7 @@
 title: "Dispense Fail"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Dispense Fail

@@ -2,6 +2,7 @@
 title: "Machine Name"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Machine Name

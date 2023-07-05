@@ -2,6 +2,7 @@
 title: "No Communication, Display-To-Display Private Network"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # No Communication, Display-To-Display Private Network

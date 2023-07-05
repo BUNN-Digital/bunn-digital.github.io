@@ -2,6 +2,7 @@
 title: "Reservoir 2 Schedule Update Failure - Name Mismatch"
 layout: minimal
 parent: Alarms
+grand_parent: Events
 ---
 
 # Reservoir 2 Schedule Update Failure - Name Mismatch
