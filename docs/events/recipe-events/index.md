@@ -1,6 +1,7 @@
 ---
 layout: Home
 title: Recipe Events
+parent: Events
 ---
 
 # Recipe Events
