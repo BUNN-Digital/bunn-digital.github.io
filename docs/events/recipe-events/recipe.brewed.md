@@ -1,3 +1,10 @@
+---
+title: recipe.brewed
+layout: minimal
+parent: Recipe Events
+grand_parent: Events
+---
+
 # recipe.brewed
 
 ## Category:

@@ -1,7 +1,6 @@
 ---
 title: Events
 layout: home
-parent: Documentation Home
 has_children: true
 nav_order: 2
 ---
@@ -9,3 +8,6 @@ nav_order: 2
 # Events
 
 This section describes events as currently published by the BUNN Digital Event APIs.
+
+[Reference Implementation for Consuming BUNN API Events (Java/Spring Boot)](https://github.com/BUNN-Digital/Event-Consumer-Reference-Implementation-Java)
+

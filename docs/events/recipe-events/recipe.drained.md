@@ -1,3 +1,10 @@
+---
+title: recipe.drained
+layout: minimal
+parent: Recipe Events
+grand_parent: Events
+---
+
 # recipe.drained
 
 ## Category:

@@ -1,3 +1,10 @@
+---
+title: recipe.tap.activated
+layout: minimal
+parent: Recipe Events
+grand_parent: Events
+---
+
 # recipe.tap.activated
 
 ## Category:
