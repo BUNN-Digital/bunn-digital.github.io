@@ -1,7 +1,10 @@
 ---
 #layout: default
 title: Alarms
+---
+
 # Alarms
+
 
 - [Bean Hopper Mismatch Active (8002.251)](Bean-Hopper-Mismatch-Active-(8002.251))
 
