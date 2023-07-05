@@ -1,3 +1,8 @@
+---
+layout: Home
+title: Events
+---
+
 # Events
 
 - [Alarms](alarms/)

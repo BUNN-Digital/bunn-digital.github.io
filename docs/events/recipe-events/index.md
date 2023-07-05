@@ -1,3 +1,8 @@
+---
+layout: Home
+title: Recipe Events
+---
+
 # Recipe Events
 
 - [Recipe Brewed](recipe.brewed)
