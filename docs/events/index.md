@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Events
+has_children: true
 ---
 
 # Events
