@@ -1,5 +1,5 @@
 ---
-title: Brew Schedule
+title: "Usage: Brew Schedule"
 layout: default
 parent: "BUNN Asset Management API"
 grand_parent: "BUNN APIs"

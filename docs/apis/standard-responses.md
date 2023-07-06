@@ -3,7 +3,7 @@ title: Responses and Error Codes
 layout: home
 parent: BUNN APIs
 has_children: false
-nav_order: 2
+nav_order: 3
 ---
 
 # Standard Responses and Error Codes

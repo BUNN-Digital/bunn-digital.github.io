@@ -1,5 +1,5 @@
 ---
-title: Recipe Assignment
+title: "Usage: Recipe Assignment"
 layout: default
 parent: "BUNN Asset Management API"
 grand_parent: "BUNN APIs"

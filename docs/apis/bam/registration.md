@@ -1,5 +1,5 @@
 ---
-title: BAM API Registration
+title: API Registration
 layout: home
 parent: "BUNN Asset Management API"
 grand_parent: "BUNN APIs"
