@@ -1,9 +1,9 @@
 ---
 title: Recipe Events
-layout: home
-parent: Events
+layout: default
+parent: Event Catalog
 has_chileren: true
-nav_order: 4
+nav_order: 2
 ---
 
 # Recipe Events
