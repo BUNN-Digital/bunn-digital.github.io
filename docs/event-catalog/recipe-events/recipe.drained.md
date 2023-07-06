@@ -3,6 +3,8 @@ title: recipe.drained
 layout: default
 parent: "Recipe Events"
 grand_parent: "Event Catalog"
+has_chileren: false
+nav_order: 4
 ---
 
 # recipe.drained

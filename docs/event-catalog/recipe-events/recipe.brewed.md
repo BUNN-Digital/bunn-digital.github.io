@@ -3,6 +3,8 @@ title: recipe.brewed
 layout: default
 parent: "Recipe Events"
 grand_parent: "Event Catalog"
+has_chileren: false
+nav_order: 1
 ---
 
 # recipe.brewed

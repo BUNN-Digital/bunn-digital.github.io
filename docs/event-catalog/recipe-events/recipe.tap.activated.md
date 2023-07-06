@@ -3,6 +3,8 @@ title: recipe.tap.activated
 layout: default
 parent: "Recipe Events"
 grand_parent: "Event Catalog"
+has_chileren: false
+nav_order: 2
 ---
 
 # recipe.tap.activated
