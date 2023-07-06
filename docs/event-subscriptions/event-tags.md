@@ -1,7 +1,7 @@
 ---
 title: Event Tags
 layout: default
-parent: Events
+parent: "Event Subscriptions"
 has_children: false
 nav_order: 2
 ---
