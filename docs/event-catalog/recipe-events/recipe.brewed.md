@@ -1,5 +1,5 @@
 ---
-title: recipe.brewed
+title: "recipe.brewed"
 layout: default
 parent: "Recipe Events"
 grand_parent: "Event Catalog"
