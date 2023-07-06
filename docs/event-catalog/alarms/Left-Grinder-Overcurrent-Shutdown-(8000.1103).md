@@ -1,9 +1,8 @@
 ---
 title: "Left Grinder Overcurrent Shutdown"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Left Grinder Overcurrent Shutdown

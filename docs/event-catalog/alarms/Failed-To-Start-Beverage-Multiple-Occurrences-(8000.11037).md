@@ -1,9 +1,8 @@
 ---
 title: "Failed To Start Beverage - Multiple Occurrences"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Failed To Start Beverage - Multiple Occurrences

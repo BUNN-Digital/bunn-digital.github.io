@@ -1,9 +1,8 @@
 ---
 title: "Right Hopper Empty"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Right Hopper Empty

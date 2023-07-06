@@ -1,9 +1,8 @@
 ---
 title: "System API Event"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # System API Event

@@ -1,9 +1,8 @@
 ---
 title: "Recipe Dispensed - Non Portion Controlled"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Recipe Dispensed - Non Portion Controlled

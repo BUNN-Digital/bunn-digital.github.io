@@ -1,9 +1,8 @@
 ---
 title: "Tank 1 Not Full"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Tank 1 Not Full

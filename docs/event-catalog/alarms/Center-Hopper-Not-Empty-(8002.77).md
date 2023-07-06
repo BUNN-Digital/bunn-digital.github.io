@@ -1,9 +1,8 @@
 ---
 title: "Center Hopper Not Empty"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Center Hopper Not Empty

@@ -1,9 +1,8 @@
 ---
 title: "Machine in Auto Mode"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Machine in Auto Mode

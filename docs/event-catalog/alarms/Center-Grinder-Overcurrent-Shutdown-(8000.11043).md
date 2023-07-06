@@ -1,9 +1,8 @@
 ---
 title: "Center Grinder Overcurrent Shutdown"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Center Grinder Overcurrent Shutdown

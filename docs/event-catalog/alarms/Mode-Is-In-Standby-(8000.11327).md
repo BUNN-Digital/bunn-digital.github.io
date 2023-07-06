@@ -1,9 +1,8 @@
 ---
 title: "Mode Is In Standby"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Mode Is In Standby

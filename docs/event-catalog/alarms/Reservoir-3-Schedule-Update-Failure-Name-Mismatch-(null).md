@@ -1,9 +1,8 @@
 ---
 title: "Reservoir 3 Schedule Update Failure - Name Mismatch"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Reservoir 3 Schedule Update Failure - Name Mismatch

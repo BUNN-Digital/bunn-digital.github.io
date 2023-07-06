@@ -1,9 +1,8 @@
 ---
 title: "PM Service Due"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # PM Service Due

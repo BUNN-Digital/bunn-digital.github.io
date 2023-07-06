@@ -1,9 +1,8 @@
 ---
 title: "Finish Tank Over Temp"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Finish Tank Over Temp

@@ -1,9 +1,8 @@
 ---
 title: "Date/Time Change - User"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Date/Time Change - User

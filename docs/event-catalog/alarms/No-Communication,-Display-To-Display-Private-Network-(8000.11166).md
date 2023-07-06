@@ -1,9 +1,8 @@
 ---
 title: "No Communication, Display-To-Display Private Network"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # No Communication, Display-To-Display Private Network

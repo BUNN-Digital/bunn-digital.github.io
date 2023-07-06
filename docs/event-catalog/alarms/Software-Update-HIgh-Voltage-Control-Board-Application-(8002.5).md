@@ -1,9 +1,8 @@
 ---
 title: "Software Update - HIgh Voltage Control Board Application"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Software Update - HIgh Voltage Control Board Application

@@ -1,9 +1,8 @@
 ---
 title: "Fill Time Too Long"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Fill Time Too Long

@@ -1,9 +1,8 @@
 ---
 title: "Finish Tank Sensor Short"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Finish Tank Sensor Short

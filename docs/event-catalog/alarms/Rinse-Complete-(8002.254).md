@@ -1,9 +1,8 @@
 ---
 title: "Rinse Complete"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Rinse Complete

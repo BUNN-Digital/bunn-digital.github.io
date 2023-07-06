@@ -1,9 +1,8 @@
 ---
 title: "Cleaning Required Lockout"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Cleaning Required Lockout

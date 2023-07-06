@@ -1,9 +1,8 @@
 ---
 title: "Brew Error Piston Move Timeout"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Brew Error Piston Move Timeout

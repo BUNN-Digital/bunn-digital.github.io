@@ -1,9 +1,8 @@
 ---
 title: "Reservoir Cleaning Intervention Required"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Reservoir Cleaning Intervention Required

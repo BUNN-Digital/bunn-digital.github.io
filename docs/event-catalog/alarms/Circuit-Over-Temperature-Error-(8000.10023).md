@@ -1,9 +1,8 @@
 ---
 title: "Circuit Over Temperature Error"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Circuit Over Temperature Error

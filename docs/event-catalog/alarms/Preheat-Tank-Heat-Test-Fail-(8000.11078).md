@@ -1,9 +1,8 @@
 ---
 title: "Preheat Tank Heat Test Fail"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Preheat Tank Heat Test Fail

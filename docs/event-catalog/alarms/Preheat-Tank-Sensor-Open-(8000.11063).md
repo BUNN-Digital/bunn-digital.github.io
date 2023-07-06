@@ -1,9 +1,8 @@
 ---
 title: "Preheat Tank Sensor Open"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Preheat Tank Sensor Open

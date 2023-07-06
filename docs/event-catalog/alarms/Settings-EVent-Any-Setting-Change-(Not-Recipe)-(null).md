@@ -1,9 +1,8 @@
 ---
 title: "Settings EVent - Any Setting Change (Not Recipe)"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Settings EVent - Any Setting Change (Not Recipe)

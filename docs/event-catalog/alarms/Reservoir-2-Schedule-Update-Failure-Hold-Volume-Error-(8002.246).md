@@ -1,9 +1,8 @@
 ---
 title: "Reservoir 2 Schedule Update Failure - Hold Volume Error"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Reservoir 2 Schedule Update Failure - Hold Volume Error

@@ -1,9 +1,8 @@
 ---
 title: "Software Update - High Voltage Control Board Boot"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Software Update - High Voltage Control Board Boot

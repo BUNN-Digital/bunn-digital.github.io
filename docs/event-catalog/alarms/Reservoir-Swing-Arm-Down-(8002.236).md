@@ -1,9 +1,8 @@
 ---
 title: "Reservoir Swing Arm Down"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Reservoir Swing Arm Down

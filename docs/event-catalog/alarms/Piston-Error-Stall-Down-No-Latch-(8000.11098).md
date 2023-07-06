@@ -1,9 +1,8 @@
 ---
 title: "Piston Error Stall Down No Latch"
-#layout: minimal
 layout: default
-parent: Alarms
-grand_parent: Events
+parent: "Alarms"
+grand_parent: "Event Catalog"
 ---
 
 # Piston Error Stall Down No Latch
