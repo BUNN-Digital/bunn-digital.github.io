@@ -2,7 +2,7 @@
 title: Brew Schedule
 layout: default
 parent: "API Usage"
-grand_parent: BUNN Asset Management API
+grand_parent: "BUNN Asset Management API"
 has_children: false
 nav_order: 2
 ---

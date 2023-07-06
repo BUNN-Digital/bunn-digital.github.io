@@ -1,7 +1,7 @@
 ---
 title: "BUNN Asset Management API"
 layout: home
-parent: BUNN APIs
+parent: "BUNN APIs"
 has_children: true
 nav_order: 1
 ---
