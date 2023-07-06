@@ -1,10 +1,10 @@
 ---
 title: Recipe Assignment
 layout: default
-parent: "API Usage"
-grand_parent: "BUNN Asset Management API"
+parent: "BUNN Asset Management API"
+grand_parent: "BUNN APIs"
 has_children: false
-nav_order: 1
+nav_order: 3
 ---
 
 # How to push a Recipe Assignement

@@ -1,10 +1,10 @@
 ---
 title: Brew Schedule
 layout: default
-parent: "API Usage"
-grand_parent: "BUNN Asset Management API"
+parent: "BUNN Asset Management API"
+grand_parent: "BUNN APIs"
 has_children: false
-nav_order: 2
+nav_order: 4
 ---
 
 # How to push a Brew Schedule
