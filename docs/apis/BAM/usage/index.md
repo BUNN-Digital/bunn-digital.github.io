@@ -1,9 +1,9 @@
 ---
-title: API Usage
+title: "API Usage"
 layout: default
-parent: BUNN Asset Management API
+parent: "BUNN Asset Management API"
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
 

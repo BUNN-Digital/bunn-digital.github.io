@@ -1,7 +1,7 @@
 ---
-title: BUNN Asset Management API
+title: BAM API Registration
 layout: home
-parent: BUNN Asset Management API
+parent: "BUNN Asset Management API"
 has_children: false
 nav_order: 2
 ---
