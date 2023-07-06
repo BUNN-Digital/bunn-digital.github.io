@@ -9,15 +9,15 @@ nav_order: 1
 
 # recipe.brewed
 
-## Category:
+## Category
 
 asset.telemetry
 
-## Description: 
+## Description
 
 Describes a brew operation on a machine.
 
-## Payload: (JSON Schema?)
+## Payload
 
 ```
 {
@@ -39,7 +39,7 @@ Describes a brew operation on a machine.
 }
 ```
 
-## Example:
+## Example
 
 ```
 {

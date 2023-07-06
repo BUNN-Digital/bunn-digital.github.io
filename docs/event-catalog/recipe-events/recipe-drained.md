@@ -9,15 +9,15 @@ nav_order: 4
 
 # recipe.drained
 
-## Category:
+## Category
 
 asset.telemetry
 
-## Description: 
+## Description
 
 Describes a drain operation on a machine.
 
-## Payload: (JSON Schema?)
+## Payload
 
 ```
 {
@@ -35,7 +35,7 @@ Describes a drain operation on a machine.
 }
 ```
 
-## Example:
+## Example
 
 ```
 {

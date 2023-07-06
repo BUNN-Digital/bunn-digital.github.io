@@ -9,15 +9,15 @@ nav_order: 2
 
 # recipe.tap.activated
 
-## Category:
+## Category
 
 asset.telemetry
 
-## Description: 
+## Description
 
 Describes a tap activation event on a machine.
 
-## Payload: (JSON Schema?)
+## Payload
 
 ```
 {
@@ -33,7 +33,7 @@ Describes a tap activation event on a machine.
 }
 ```
 
-## Example:
+## Example
 
 ```
 {

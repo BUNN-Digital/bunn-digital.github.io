@@ -9,15 +9,15 @@ nav_order: 3
 
 # recipe.dispensed
 
-## Category:
+## Category
 
 asset.telemetry
 
-## Description: 
+## Description
 
 Describes a dispense operation on a machine.
 
-## Payload: (JSON Schema?)
+## Payload
 
 ```
 {
@@ -36,7 +36,7 @@ Describes a dispense operation on a machine.
 }
 ```
 
-## Example:
+## Example
 
 ```
 {
