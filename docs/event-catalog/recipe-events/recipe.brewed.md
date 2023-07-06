@@ -1,8 +1,8 @@
 ---
 title: recipe.brewed
 layout: default
-parent: Recipe Events
-grand_parent: Events
+parent: "Recipe Events"
+grand_parent: "Event Catalog"
 ---
 
 # recipe.brewed

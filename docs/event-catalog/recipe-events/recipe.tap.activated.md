@@ -1,8 +1,8 @@
 ---
 title: recipe.tap.activated
 layout: default
-parent: Recipe Events
-grand_parent: Events
+parent: "Recipe Events"
+grand_parent: "Event Catalog"
 ---
 
 # recipe.tap.activated

@@ -1,8 +1,8 @@
 ---
 title: recipe.drained
 layout: default
-parent: Recipe Events
-grand_parent: Events
+parent: "Recipe Events"
+grand_parent: "Event Catalog"
 ---
 
 # recipe.drained
