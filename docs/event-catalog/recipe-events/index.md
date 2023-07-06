@@ -2,7 +2,7 @@
 title: "Recipe Events"
 layout: default
 parent: "Event Catalog"
-has_chileren: true
+has_children: true
 nav_order: 2
 ---
 
