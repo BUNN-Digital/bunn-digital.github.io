@@ -13,7 +13,6 @@ nav_order: 4
 
 - Active BUNNlink subscription
 - Machine is connected
-- Recipes are assigned
 
 ## Procedure
 
