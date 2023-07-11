@@ -6,6 +6,10 @@ url: https://bunn-digital.github.io
 
 logo: "/assets/images/bunn-logo-horiz-light.svg"
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
+
+
 # Aux links for the upper right navigation
 aux_links:
   "BUNN Home": "https://www.bunn.com"

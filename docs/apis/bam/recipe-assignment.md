@@ -4,7 +4,7 @@ layout: default
 parent: "BUNN Asset Management API"
 grand_parent: "BUNN APIs"
 has_children: false
-nav_order: 3
+nav_order: 5
 ---
 
 # How to push a Recipe Assignement
@@ -12,7 +12,8 @@ nav_order: 3
 ## Prerequisites
 
 - Active BUNNlink subscription
-- Machine is connected
+- Machine is connected to BUNNlink
+- API credentials are issued (Auth0)
 
 ## Procedure
 
