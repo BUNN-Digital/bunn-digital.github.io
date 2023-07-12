@@ -17,7 +17,7 @@ Brew Schedules allow customers to set hold volumes and other settings for specif
 - You have current API credentials (Auth0)
 - The machine to configure is a Bean-to-Batch machine
 - The machine to configure is actively connected to BUNNlink
-- The machine is running software at version 00.34 or later
+- The machine is running software at version 0.34.0 or later
 
 ## Procedure
 
