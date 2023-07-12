@@ -11,6 +11,4 @@ nav_order: 2
 
 To register for the BUNN APIs, please contact: 
 
-someone@bunn.com
-
-1-800-123-1234
+bunnlink@bunn.com
