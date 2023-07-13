@@ -14,5 +14,5 @@ From this page, you may:
 
 - View our [API Documentation](apis/)
 
-- View our [Event Catalog Documentation](events/)
+- View our [Event Catalog Documentation](event-catalog/)
 
