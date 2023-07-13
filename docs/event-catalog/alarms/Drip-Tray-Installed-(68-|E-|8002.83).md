@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.83
+68\|E\|8002.83
 
 ## Category:
 
@@ -60,8 +60,7 @@ Drip Tray Installed (68\|E\|8002.83)
   "description": "Drip Tray Installed",
   "_id": "be7a0255-9f12-4939-9780-ddd9c8665744",
   "label": "Drip Tray Installed",
-  "eventType": "68\\|E\\|8002.83",
   "category": "machine.telemetry",
-  "type": "68|E|8002.83"
+  "type": "68\\|E\\|8002.83"
 }
 ```

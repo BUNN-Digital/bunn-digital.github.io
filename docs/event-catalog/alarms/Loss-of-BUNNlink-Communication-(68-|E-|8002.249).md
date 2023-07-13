@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.249
+68\|E\|8002.249
 
 ## Category:
 
@@ -60,8 +60,7 @@ Loss of BUNNlink Communication (68\|E\|8002.249)
   "description": "Loss of BUNNlink Communication",
   "_id": "53f5202f-d3e5-4e05-ae7b-acd23359c339",
   "label": "Loss of BUNNlink Communication",
-  "eventType": "68\\|E\\|8002.249",
   "category": "machine.telemetry",
-  "type": "68|E|8002.249"
+  "type": "68\\|E\\|8002.249"
 }
 ```

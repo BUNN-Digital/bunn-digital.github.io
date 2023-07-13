@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11271
+68\|E\|8000.11271
 
 ## Category:
 
@@ -60,8 +60,7 @@ Serial Port 1 Missing (68\|E\|8000.11271)
   "description": "Serial Port 1 Missing",
   "_id": "767a4ed9-9d48-41df-a705-20419cac6077",
   "label": "Serial Port 1 Missing",
-  "eventType": "68\\|E\\|8000.11271",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11271"
+  "type": "68\\|E\\|8000.11271"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11318
+68\|E\|8000.11318
 
 ## Category:
 
@@ -60,8 +60,7 @@ Invalid Level Probes - Subsystem 3 (68\|E\|8000.11318)
   "description": "Invalid Level Probes - Subsystem 3",
   "_id": "b1fff76c-9fc5-4094-9eb6-d809f850c9b0",
   "label": "Invalid Level Probes - Subsystem 3",
-  "eventType": "68\\|E\\|8000.11318",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11318"
+  "type": "68\\|E\\|8000.11318"
 }
 ```

@@ -60,7 +60,6 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
   "description": "Recipe Position Status - Non Portion Controlled",
   "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
   "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
   "category": "machine.telemetry",
   "type": "recipe.tap.activated"
 }

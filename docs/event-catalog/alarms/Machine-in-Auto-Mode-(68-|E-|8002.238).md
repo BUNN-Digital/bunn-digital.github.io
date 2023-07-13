@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.238
+68\|E\|8002.238
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine in Auto Mode (68\|E\|8002.238)
   "description": "Machine in Auto Mode",
   "_id": "33f4dc36-9be6-435e-a4de-52dd702be6c6",
   "label": "Machine in Auto Mode",
-  "eventType": "68\\|E\\|8002.238",
   "category": "machine.telemetry",
-  "type": "68|E|8002.238"
+  "type": "68\\|E\\|8002.238"
 }
 ```

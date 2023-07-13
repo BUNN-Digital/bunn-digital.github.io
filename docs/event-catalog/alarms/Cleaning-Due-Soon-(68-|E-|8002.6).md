@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.6
+68\|E\|8002.6
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Due Soon (68\|E\|8002.6)
   "description": "Cleaning Due Soon",
   "_id": "56fdab0c-220a-4b27-9994-93584758f066",
   "label": "Cleaning Due Soon",
-  "eventType": "68\\|E\\|8002.6",
   "category": "machine.telemetry",
-  "type": "68|E|8002.6"
+  "type": "68\\|E\\|8002.6"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10034
+68\|E\|8000.10034
 
 ## Category:
 
@@ -60,8 +60,7 @@ Power Supply Error +24V (68\|E\|8000.10034)
   "description": "Power Supply Error +24V",
   "_id": "5d7bdd31-4419-414a-9a1f-cf6d9a927ba5",
   "label": "Power Supply Error +24V",
-  "eventType": "68\\|E\\|8000.10034",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10034"
+  "type": "68\\|E\\|8000.10034"
 }
 ```

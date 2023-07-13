@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.234
+68\|E\|8002.234
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir Control Board 2 Initialization (68\|E\|8002.234)
   "description": "Reservoir Control Board 2 Initialization",
   "_id": "ab49c9c2-ff3e-4c8e-9e5e-43a6b637d5e3",
   "label": "Reservoir Control Board 2 Initialization",
-  "eventType": "68\\|E\\|8002.234",
   "category": "machine.telemetry",
-  "type": "68|E|8002.234"
+  "type": "68\\|E\\|8002.234"
 }
 ```

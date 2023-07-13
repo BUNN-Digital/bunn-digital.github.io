@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.241
+68\|E\|8002.241
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir 3 Schedule Update Success (68\|E\|8002.241)
   "description": "Reservoir 3 Schedule Update Success",
   "_id": "ceaf2bdb-786c-445b-ade5-056acaacfd60",
   "label": "Reservoir 3 Schedule Update Success",
-  "eventType": "68\\|E\\|8002.241",
   "category": "machine.telemetry",
-  "type": "68|E|8002.241"
+  "type": "68\\|E\\|8002.241"
 }
 ```

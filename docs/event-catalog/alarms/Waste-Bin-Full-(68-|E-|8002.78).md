@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.78
+68\|E\|8002.78
 
 ## Category:
 
@@ -60,8 +60,7 @@ Waste Bin Full (68\|E\|8002.78)
   "description": "Waste Bin Full",
   "_id": "6a3465f4-4fb3-4e3c-95df-5f1b6dc84ae6",
   "label": "Waste Bin Full",
-  "eventType": "68\\|E\\|8002.78",
   "category": "machine.telemetry",
-  "type": "68|E|8002.78"
+  "type": "68\\|E\\|8002.78"
 }
 ```

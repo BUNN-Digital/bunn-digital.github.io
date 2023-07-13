@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11326
+68\|E\|8000.11326
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir Cleaning Intervention Required (68\|E\|8000.11326)
   "description": "Reservoir Cleaning Intervention Required",
   "_id": "bc9f936b-9eac-4930-a7c6-db1bf056e30f",
   "label": "Reservoir Cleaning Intervention Required",
-  "eventType": "68\\|E\\|8000.11326",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11326"
+  "type": "68\\|E\\|8000.11326"
 }
 ```

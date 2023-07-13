@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11113
+68\|E\|8000.11113
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Pump Flow Limit (68\|E\|8000.11113)
   "description": "Brew Error Pump Flow Limit",
   "_id": "25f911c0-b5b5-4a2a-85be-193b59a475b3",
   "label": "Brew Error Pump Flow Limit",
-  "eventType": "68\\|E\\|8000.11113",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11113"
+  "type": "68\\|E\\|8000.11113"
 }
 ```

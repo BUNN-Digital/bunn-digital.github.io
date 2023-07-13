@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.56
+68\|E\|8002.56
 
 ## Category:
 
@@ -60,8 +60,7 @@ IO Application Software Needs Updated (68\|E\|8002.56)
   "description": "IO Application Software Needs Updated",
   "_id": "b20f6dce-49bd-4988-a453-2678be8a10c2",
   "label": "IO Application Software Needs Updated",
-  "eventType": "68\\|E\\|8002.56",
   "category": "machine.telemetry",
-  "type": "68|E|8002.56"
+  "type": "68\\|E\\|8002.56"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10036
+68\|E\|8000.10036
 
 ## Category:
 
@@ -60,8 +60,7 @@ Power Supply Error +5V(ext) (68\|E\|8000.10036)
   "description": "Power Supply Error +5V(ext)",
   "_id": "52e10a1c-a10f-43ff-8bd8-dff8bb852ff5",
   "label": "Power Supply Error +5V(ext)",
-  "eventType": "68\\|E\\|8000.10036",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10036"
+  "type": "68\\|E\\|8000.10036"
 }
 ```

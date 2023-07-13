@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8008
+68\|E\|8008
 
 ## Category:
 
@@ -55,8 +55,7 @@ System API Event (68\|E\|8008)
   "description": "System API Event",
   "_id": "281b80c3-c750-4191-9a16-b631cb0ef73c",
   "label": "System API Event",
-  "eventType": "68\\|E\\|8008",
   "category": "machine.telemetry",
-  "type": "68|E|8008"
+  "type": "68\\|E\\|8008"
 }
 ```

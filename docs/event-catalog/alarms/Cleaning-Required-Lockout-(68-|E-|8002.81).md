@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.81
+68\|E\|8002.81
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Required Lockout (68\|E\|8002.81)
   "description": "Cleaning Required Lockout",
   "_id": "9eb1aac5-1e72-48e7-987f-586ed27dfdba",
   "label": "Cleaning Required Lockout",
-  "eventType": "68\\|E\\|8002.81",
   "category": "machine.telemetry",
-  "type": "68|E|8002.81"
+  "type": "68\\|E\\|8002.81"
 }
 ```

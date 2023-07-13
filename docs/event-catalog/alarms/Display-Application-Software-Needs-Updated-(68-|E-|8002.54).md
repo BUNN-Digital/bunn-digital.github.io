@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.54
+68\|E\|8002.54
 
 ## Category:
 
@@ -60,8 +60,7 @@ Display Application Software Needs Updated (68\|E\|8002.54)
   "description": "Display Application Software Needs Updated",
   "_id": "87ab5d85-7325-4e4c-92d7-fd1898d2245e",
   "label": "Display Application Software Needs Updated",
-  "eventType": "68\\|E\\|8002.54",
   "category": "machine.telemetry",
-  "type": "68|E|8002.54"
+  "type": "68\\|E\\|8002.54"
 }
 ```

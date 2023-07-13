@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11091
+68\|E\|8000.11091
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Piston Not Ready (68\|E\|8000.11091)
   "description": "Brew Error Piston Not Ready",
   "_id": "afdd2fd2-170d-4d86-919a-fbfc96bce65f",
   "label": "Brew Error Piston Not Ready",
-  "eventType": "68\\|E\\|8000.11091",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11091"
+  "type": "68\\|E\\|8000.11091"
 }
 ```

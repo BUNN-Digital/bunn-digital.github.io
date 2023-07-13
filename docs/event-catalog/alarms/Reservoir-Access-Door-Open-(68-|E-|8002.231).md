@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.231
+68\|E\|8002.231
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir Access Door Open (68\|E\|8002.231)
   "description": "Reservoir Access Door Open",
   "_id": "d9076998-0518-44f7-a449-ba0e81a828e6",
   "label": "Reservoir Access Door Open",
-  "eventType": "68\\|E\\|8002.231",
   "category": "machine.telemetry",
-  "type": "68|E|8002.231"
+  "type": "68\\|E\\|8002.231"
 }
 ```

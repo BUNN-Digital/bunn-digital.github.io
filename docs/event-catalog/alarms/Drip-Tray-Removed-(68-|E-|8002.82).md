@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.82
+68\|E\|8002.82
 
 ## Category:
 
@@ -60,8 +60,7 @@ Drip Tray Removed (68\|E\|8002.82)
   "description": "Drip Tray Removed",
   "_id": "37c9b453-d618-45a1-bc7d-e7b15d5aedcd",
   "label": "Drip Tray Removed",
-  "eventType": "68\\|E\\|8002.82",
   "category": "machine.telemetry",
-  "type": "68|E|8002.82"
+  "type": "68\\|E\\|8002.82"
 }
 ```

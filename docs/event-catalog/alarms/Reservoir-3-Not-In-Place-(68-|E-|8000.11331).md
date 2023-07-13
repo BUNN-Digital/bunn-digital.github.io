@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11331
+68\|E\|8000.11331
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir 3 Not In Place (68\|E\|8000.11331)
   "description": "Reservoir 3 Not In Place",
   "_id": "ac0a8cf3-e564-4e17-9911-ad1ff670793e",
   "label": "Reservoir 3 Not In Place",
-  "eventType": "68\\|E\\|8000.11331",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11331"
+  "type": "68\\|E\\|8000.11331"
 }
 ```

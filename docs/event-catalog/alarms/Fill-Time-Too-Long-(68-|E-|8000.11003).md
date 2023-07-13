@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11003
+68\|E\|8000.11003
 
 ## Category:
 
@@ -60,8 +60,7 @@ Fill Time Too Long (68\|E\|8000.11003)
   "description": "Fill Time Too Long",
   "_id": "5e911af5-dfde-4521-a3cc-3e1b2e855e8f",
   "label": "Fill Time Too Long",
-  "eventType": "68\\|E\\|8000.11003",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11003"
+  "type": "68\\|E\\|8000.11003"
 }
 ```

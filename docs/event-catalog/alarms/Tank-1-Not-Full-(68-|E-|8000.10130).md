@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10130
+68\|E\|8000.10130
 
 ## Category:
 
@@ -60,8 +60,7 @@ Tank 1 Not Full (68\|E\|8000.10130)
   "description": "Tank 1 Not Full",
   "_id": "d325074a-00c6-476e-aef8-7e9b7966d4fd",
   "label": "Tank 1 Not Full",
-  "eventType": "68\\|E\\|8000.10130",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10130"
+  "type": "68\\|E\\|8000.10130"
 }
 ```

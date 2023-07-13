@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11069
+68\|E\|8000.11069
 
 ## Category:
 
@@ -60,8 +60,7 @@ Preheat Tank Heat Too Long (68\|E\|8000.11069)
   "description": "Preheat Tank Heat Too Long",
   "_id": "eaaf3f7f-8da5-4b9b-95c5-3c2ac0a2902c",
   "label": "Preheat Tank Heat Too Long",
-  "eventType": "68\\|E\\|8000.11069",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11069"
+  "type": "68\\|E\\|8000.11069"
 }
 ```

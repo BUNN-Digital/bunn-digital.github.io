@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8003.3
+68\|E\|8003.3
 
 ## Category:
 
@@ -60,8 +60,7 @@ Settings Event - Any Setting Change Complete (68\|E\|8003.3)
   "description": "Settings Event - Any Setting Change Complete",
   "_id": "ca82e73d-f6cd-4947-ad14-b84c581089fc",
   "label": "Settings Event - Any Setting Change Complete",
-  "eventType": "68\\|E\\|8003.3",
   "category": "machine.telemetry",
-  "type": "68|E|8003.3"
+  "type": "68\\|E\\|8003.3"
 }
 ```

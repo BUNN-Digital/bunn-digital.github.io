@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11087
+68\|E\|8000.11087
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Pump Timeout (68\|E\|8000.11087)
   "description": "Brew Error Pump Timeout",
   "_id": "40c96fd5-134f-4137-9aae-918492033459",
   "label": "Brew Error Pump Timeout",
-  "eventType": "68\\|E\\|8000.11087",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11087"
+  "type": "68\\|E\\|8000.11087"
 }
 ```

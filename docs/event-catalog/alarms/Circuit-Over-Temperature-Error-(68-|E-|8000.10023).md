@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10023
+68\|E\|8000.10023
 
 ## Category:
 
@@ -60,8 +60,7 @@ Circuit Over Temperature Error (68\|E\|8000.10023)
   "description": "Circuit Over Temperature Error",
   "_id": "fca9039e-3c2a-4655-89f3-6466eecd0dc9",
   "label": "Circuit Over Temperature Error",
-  "eventType": "68\\|E\\|8000.10023",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10023"
+  "type": "68\\|E\\|8000.10023"
 }
 ```

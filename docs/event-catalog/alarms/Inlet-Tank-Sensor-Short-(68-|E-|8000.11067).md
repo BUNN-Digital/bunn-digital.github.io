@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11067
+68\|E\|8000.11067
 
 ## Category:
 
@@ -60,8 +60,7 @@ Inlet Tank Sensor Short (68\|E\|8000.11067)
   "description": "Inlet Tank Sensor Short",
   "_id": "50a8649b-7d0e-49c6-82af-5304d4f10fb7",
   "label": "Inlet Tank Sensor Short",
-  "eventType": "68\\|E\\|8000.11067",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11067"
+  "type": "68\\|E\\|8000.11067"
 }
 ```

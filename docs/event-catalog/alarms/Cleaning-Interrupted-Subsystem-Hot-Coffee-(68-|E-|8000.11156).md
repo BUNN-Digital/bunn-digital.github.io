@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11156
+68\|E\|8000.11156
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Interrupted Subsystem - Hot Coffee (68\|E\|8000.11156)
   "description": "Cleaning Interrupted Subsystem - Hot Coffee",
   "_id": "a07e159e-41ba-4106-8f4b-18c90aeb57f3",
   "label": "Cleaning Interrupted Subsystem - Hot Coffee",
-  "eventType": "68\\|E\\|8000.11156",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11156"
+  "type": "68\\|E\\|8000.11156"
 }
 ```

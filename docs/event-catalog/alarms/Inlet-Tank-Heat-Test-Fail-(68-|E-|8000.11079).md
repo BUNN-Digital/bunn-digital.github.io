@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11079
+68\|E\|8000.11079
 
 ## Category:
 
@@ -60,8 +60,7 @@ Inlet Tank Heat Test Fail (68\|E\|8000.11079)
   "description": "Inlet Tank Heat Test Fail",
   "_id": "31ef7d89-e389-477e-9acc-770100e3e96c",
   "label": "Inlet Tank Heat Test Fail",
-  "eventType": "68\\|E\\|8000.11079",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11079"
+  "type": "68\\|E\\|8000.11079"
 }
 ```

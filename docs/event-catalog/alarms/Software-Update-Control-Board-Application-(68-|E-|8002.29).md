@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.29
+68\|E\|8002.29
 
 ## Category:
 
@@ -60,8 +60,7 @@ Software Update - Control Board Application (68\|E\|8002.29)
   "description": "Software Update - Control Board Application",
   "_id": "8301a61c-d6bd-48db-8259-2483e0856bfe",
   "label": "Software Update - Control Board Application",
-  "eventType": "68\\|E\\|8002.29",
   "category": "machine.telemetry",
-  "type": "68|E|8002.29"
+  "type": "68\\|E\\|8002.29"
 }
 ```

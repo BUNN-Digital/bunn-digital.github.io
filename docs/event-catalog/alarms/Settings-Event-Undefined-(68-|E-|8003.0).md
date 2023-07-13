@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8003.0
+68\|E\|8003.0
 
 ## Category:
 
@@ -60,8 +60,7 @@ Settings Event - Undefined (68\|E\|8003.0)
   "description": "Settings Event - Undefined",
   "_id": "4c3e2972-7594-4b96-bf4e-040db15a73b2",
   "label": "Settings Event - Undefined",
-  "eventType": "68\\|E\\|8003.0",
   "category": "machine.telemetry",
-  "type": "68|E|8003.0"
+  "type": "68\\|E\\|8003.0"
 }
 ```

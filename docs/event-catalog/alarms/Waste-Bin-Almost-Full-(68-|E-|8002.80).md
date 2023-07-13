@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.80
+68\|E\|8002.80
 
 ## Category:
 
@@ -60,8 +60,7 @@ Waste Bin Almost Full (68\|E\|8002.80)
   "description": "Waste Bin Almost Full",
   "_id": "5412ddc7-65e4-421f-823d-ee9fbc6afb1c",
   "label": "Waste Bin Almost Full",
-  "eventType": "68\\|E\\|8002.80",
   "category": "machine.telemetry",
-  "type": "68|E|8002.80"
+  "type": "68\\|E\\|8002.80"
 }
 ```

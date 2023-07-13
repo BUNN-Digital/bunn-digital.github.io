@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.75
+68\|E\|8002.75
 
 ## Category:
 
@@ -60,8 +60,7 @@ Right Hopper Not Empty (68\|E\|8002.75)
   "description": "Right Hopper Not Empty",
   "_id": "8c0d0e1d-a154-4fce-b6a5-ddb5317d6bb6",
   "label": "Right Hopper Not Empty",
-  "eventType": "68\\|E\\|8002.75",
   "category": "machine.telemetry",
-  "type": "68|E|8002.75"
+  "type": "68\\|E\\|8002.75"
 }
 ```

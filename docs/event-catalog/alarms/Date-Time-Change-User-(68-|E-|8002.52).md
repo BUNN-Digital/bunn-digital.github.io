@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.52
+68\|E\|8002.52
 
 ## Category:
 
@@ -60,8 +60,7 @@ Date/Time Change - User (68\|E\|8002.52)
   "description": "Date/Time Change - User",
   "_id": "7fe09f88-07db-40d5-8279-e27b2f705ade",
   "label": "Date/Time Change - User",
-  "eventType": "68\\|E\\|8002.52",
   "category": "machine.telemetry",
-  "type": "68|E|8002.52"
+  "type": "68\\|E\\|8002.52"
 }
 ```

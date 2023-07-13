@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.7
+68\|E\|8002.7
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine Interface Activation (68\|E\|8002.7)
   "description": "Machine Interface Activation",
   "_id": "ac08c44e-2d5c-4b57-a0b1-3224e86dbc10",
   "label": "Machine Interface Activation",
-  "eventType": "68\\|E\\|8002.7",
   "category": "machine.telemetry",
-  "type": "68|E|8002.7"
+  "type": "68\\|E\\|8002.7"
 }
 ```

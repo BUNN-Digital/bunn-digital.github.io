@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.57
+68\|E\|8002.57
 
 ## Category:
 
@@ -60,8 +60,7 @@ IO Boot Software Needs Updated (68\|E\|8002.57)
   "description": "IO Boot Software Needs Updated",
   "_id": "c388f277-78d4-4575-a6af-77cbf314cfca",
   "label": "IO Boot Software Needs Updated",
-  "eventType": "68\\|E\\|8002.57",
   "category": "machine.telemetry",
-  "type": "68|E|8002.57"
+  "type": "68\\|E\\|8002.57"
 }
 ```

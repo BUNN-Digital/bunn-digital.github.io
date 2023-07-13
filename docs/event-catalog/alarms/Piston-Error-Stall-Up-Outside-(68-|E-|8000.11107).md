@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11107
+68\|E\|8000.11107
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Up Outside (68\|E\|8000.11107)
   "description": "Piston Error Stall Up Outside",
   "_id": "fb8e7f80-60cc-45c5-8162-719708a3562a",
   "label": "Piston Error Stall Up Outside",
-  "eventType": "68\\|E\\|8000.11107",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11107"
+  "type": "68\\|E\\|8000.11107"
 }
 ```

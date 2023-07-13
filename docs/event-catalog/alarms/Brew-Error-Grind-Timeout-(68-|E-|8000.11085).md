@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11085
+68\|E\|8000.11085
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Grind Timeout (68\|E\|8000.11085)
   "description": "Brew Error Grind Timeout",
   "_id": "bba8549e-35e1-43df-affc-e413935883f8",
   "label": "Brew Error Grind Timeout",
-  "eventType": "68\\|E\\|8000.11085",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11085"
+  "type": "68\\|E\\|8000.11085"
 }
 ```

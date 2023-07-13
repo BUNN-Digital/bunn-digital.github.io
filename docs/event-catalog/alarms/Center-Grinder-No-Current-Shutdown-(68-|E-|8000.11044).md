@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11044
+68\|E\|8000.11044
 
 ## Category:
 
@@ -60,8 +60,7 @@ Center Grinder No Current Shutdown (68\|E\|8000.11044)
   "description": "Center Grinder No Current Shutdown",
   "_id": "7c965502-f4ac-47bb-b494-f54acf65cc49",
   "label": "Center Grinder No Current Shutdown",
-  "eventType": "68\\|E\\|8000.11044",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11044"
+  "type": "68\\|E\\|8000.11044"
 }
 ```

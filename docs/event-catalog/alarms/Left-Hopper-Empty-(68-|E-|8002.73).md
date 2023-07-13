@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.73
+68\|E\|8002.73
 
 ## Category:
 
@@ -60,8 +60,7 @@ Left Hopper Empty (68\|E\|8002.73)
   "description": "Left Hopper Empty",
   "_id": "00c62e07-6f41-49e7-b23a-ec00234ecd61",
   "label": "Left Hopper Empty",
-  "eventType": "68\\|E\\|8002.73",
   "category": "machine.telemetry",
-  "type": "68|E|8002.73"
+  "type": "68\\|E\\|8002.73"
 }
 ```

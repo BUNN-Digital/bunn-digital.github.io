@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11084
+68\|E\|8000.11084
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error No Latch (68\|E\|8000.11084)
   "description": "Brew Error No Latch",
   "_id": "6682dc87-5b2e-4e3f-829c-8047ba0095bd",
   "label": "Brew Error No Latch",
-  "eventType": "68\\|E\\|8000.11084",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11084"
+  "type": "68\\|E\\|8000.11084"
 }
 ```

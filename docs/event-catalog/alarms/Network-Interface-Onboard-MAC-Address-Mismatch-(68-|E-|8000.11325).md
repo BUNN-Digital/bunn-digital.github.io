@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11325
+68\|E\|8000.11325
 
 ## Category:
 
@@ -60,8 +60,7 @@ Network Interface Onboard MAC Address Mismatch (68\|E\|8000.11325)
   "description": "Network Interface Onboard MAC Address Mismatch",
   "_id": "3faf8b26-fb93-4324-b4d6-d5bab5b7ac35",
   "label": "Network Interface Onboard MAC Address Mismatch",
-  "eventType": "68\\|E\\|8000.11325",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11325"
+  "type": "68\\|E\\|8000.11325"
 }
 ```

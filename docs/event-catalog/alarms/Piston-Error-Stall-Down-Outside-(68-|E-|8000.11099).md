@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11099
+68\|E\|8000.11099
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Down Outside (68\|E\|8000.11099)
   "description": "Piston Error Stall Down Outside",
   "_id": "51515b14-a4e4-4d15-8fa3-1582c376910d",
   "label": "Piston Error Stall Down Outside",
-  "eventType": "68\\|E\\|8000.11099",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11099"
+  "type": "68\\|E\\|8000.11099"
 }
 ```

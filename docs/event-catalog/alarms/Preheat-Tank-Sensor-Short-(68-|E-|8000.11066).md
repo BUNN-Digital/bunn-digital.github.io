@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11066
+68\|E\|8000.11066
 
 ## Category:
 
@@ -60,8 +60,7 @@ Preheat Tank Sensor Short (68\|E\|8000.11066)
   "description": "Preheat Tank Sensor Short",
   "_id": "3b67d22a-9275-40dd-bef0-4b990f5fabac",
   "label": "Preheat Tank Sensor Short",
-  "eventType": "68\\|E\\|8000.11066",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11066"
+  "type": "68\\|E\\|8000.11066"
 }
 ```

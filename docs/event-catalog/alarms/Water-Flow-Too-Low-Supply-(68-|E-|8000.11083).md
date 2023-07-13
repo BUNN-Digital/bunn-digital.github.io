@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11083
+68\|E\|8000.11083
 
 ## Category:
 
@@ -60,8 +60,7 @@ Water Flow Too Low Supply (68\|E\|8000.11083)
   "description": "Water Flow Too Low Supply",
   "_id": "54636278-fa8a-4338-8da8-8bd3d68a52c9",
   "label": "Water Flow Too Low Supply",
-  "eventType": "68\\|E\\|8000.11083",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11083"
+  "type": "68\\|E\\|8000.11083"
 }
 ```

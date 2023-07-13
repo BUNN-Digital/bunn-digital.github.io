@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.253
+68\|E\|8002.253
 
 ## Category:
 
@@ -60,8 +60,7 @@ Clean Complete (68\|E\|8002.253)
   "description": "Clean Complete",
   "_id": "8fb80674-9796-4b1d-b253-ed0da376758d",
   "label": "Clean Complete",
-  "eventType": "68\\|E\\|8002.253",
   "category": "machine.telemetry",
-  "type": "68|E|8002.253"
+  "type": "68\\|E\\|8002.253"
 }
 ```

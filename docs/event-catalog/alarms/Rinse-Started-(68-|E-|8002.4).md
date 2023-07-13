@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.4
+68\|E\|8002.4
 
 ## Category:
 
@@ -60,8 +60,7 @@ Rinse Started (68\|E\|8002.4)
   "description": "Rinse Started",
   "_id": "b4969e7a-5c2f-44d0-8244-d762e343ccdd",
   "label": "Rinse Started",
-  "eventType": "68\\|E\\|8002.4",
   "category": "machine.telemetry",
-  "type": "68|E|8002.4"
+  "type": "68\\|E\\|8002.4"
 }
 ```

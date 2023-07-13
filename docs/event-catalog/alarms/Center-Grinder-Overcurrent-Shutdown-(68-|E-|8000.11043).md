@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11043
+68\|E\|8000.11043
 
 ## Category:
 
@@ -60,8 +60,7 @@ Center Grinder Overcurrent Shutdown (68\|E\|8000.11043)
   "description": "Center Grinder Overcurrent Shutdown",
   "_id": "9cee9d23-78cc-48a9-88ce-1718eb8bdf94",
   "label": "Center Grinder Overcurrent Shutdown",
-  "eventType": "68\\|E\\|8000.11043",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11043"
+  "type": "68\\|E\\|8000.11043"
 }
 ```

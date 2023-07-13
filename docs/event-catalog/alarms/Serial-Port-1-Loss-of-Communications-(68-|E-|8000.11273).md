@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11273
+68\|E\|8000.11273
 
 ## Category:
 
@@ -60,8 +60,7 @@ Serial Port 1 Loss of Communications (68\|E\|8000.11273)
   "description": "Serial Port 1 Loss of Communications",
   "_id": "0f92b0e8-c199-4658-98dc-e098fd6a5150",
   "label": "Serial Port 1 Loss of Communications",
-  "eventType": "68\\|E\\|8000.11273",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11273"
+  "type": "68\\|E\\|8000.11273"
 }
 ```

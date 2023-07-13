@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.33
+68\|E\|8002.33
 
 ## Category:
 
@@ -60,8 +60,7 @@ Software Update - Control Board Boot (68\|E\|8002.33)
   "description": "Software Update - Control Board Boot",
   "_id": "54c3f7a5-68ab-4cf3-9b4e-c835ec6d5169",
   "label": "Software Update - Control Board Boot",
-  "eventType": "68\\|E\\|8002.33",
   "category": "machine.telemetry",
-  "type": "68|E|8002.33"
+  "type": "68\\|E\\|8002.33"
 }
 ```

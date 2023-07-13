@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11039
+68\|E\|8000.11039
 
 ## Category:
 
@@ -60,8 +60,7 @@ Model Configuration Invalid (68\|E\|8000.11039)
   "description": "Model Configuration Invalid",
   "_id": "b1d412a5-e316-447b-906c-ad5e1277e18f",
   "label": "Model Configuration Invalid",
-  "eventType": "68\\|E\\|8000.11039",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11039"
+  "type": "68\\|E\\|8000.11039"
 }
 ```

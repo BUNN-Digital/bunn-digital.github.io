@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.47
+68\|E\|8002.47
 
 ## Category:
 
@@ -60,8 +60,7 @@ Watchdog Reset (68\|E\|8002.47)
   "description": "Watchdog Reset",
   "_id": "9d5e2969-d6f7-41bc-87dd-16a7a3ab635d",
   "label": "Watchdog Reset",
-  "eventType": "68\\|E\\|8002.47",
   "category": "machine.telemetry",
-  "type": "68|E|8002.47"
+  "type": "68\\|E\\|8002.47"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.51
+68\|E\|8002.51
 
 ## Category:
 
@@ -60,8 +60,7 @@ Software Update - High Voltage Control Board Boot (68\|E\|8002.51)
   "description": "Software Update - High Voltage Control Board Boot",
   "_id": "0b88ee85-1bb3-49f3-b789-d0f4d6be0626",
   "label": "Software Update - High Voltage Control Board Boot",
-  "eventType": "68\\|E\\|8002.51",
   "category": "machine.telemetry",
-  "type": "68|E|8002.51"
+  "type": "68\\|E\\|8002.51"
 }
 ```

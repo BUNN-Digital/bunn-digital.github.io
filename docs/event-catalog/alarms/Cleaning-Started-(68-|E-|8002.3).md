@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.3
+68\|E\|8002.3
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Started (68\|E\|8002.3)
   "description": "Cleaning Started",
   "_id": "1b7b20d9-bb10-48d5-8d19-2293eb3711e6",
   "label": "Cleaning Started",
-  "eventType": "68\\|E\\|8002.3",
   "category": "machine.telemetry",
-  "type": "68|E|8002.3"
+  "type": "68\\|E\\|8002.3"
 }
 ```

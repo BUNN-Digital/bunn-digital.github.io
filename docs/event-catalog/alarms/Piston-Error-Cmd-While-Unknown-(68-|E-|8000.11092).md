@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11092
+68\|E\|8000.11092
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Cmd While Unknown (68\|E\|8000.11092)
   "description": "Piston Error Cmd While Unknown",
   "_id": "152f2b8d-d090-4acc-9594-6c443605666c",
   "label": "Piston Error Cmd While Unknown",
-  "eventType": "68\\|E\\|8000.11092",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11092"
+  "type": "68\\|E\\|8000.11092"
 }
 ```

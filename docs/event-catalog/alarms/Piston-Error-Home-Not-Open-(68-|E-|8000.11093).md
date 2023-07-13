@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11093
+68\|E\|8000.11093
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Home Not Open (68\|E\|8000.11093)
   "description": "Piston Error Home Not Open",
   "_id": "da39b867-b00e-4d86-9771-bab588dc0186",
   "label": "Piston Error Home Not Open",
-  "eventType": "68\\|E\\|8000.11093",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11093"
+  "type": "68\\|E\\|8000.11093"
 }
 ```

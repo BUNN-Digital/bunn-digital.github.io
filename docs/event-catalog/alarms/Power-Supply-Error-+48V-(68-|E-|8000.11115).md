@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11115
+68\|E\|8000.11115
 
 ## Category:
 
@@ -60,8 +60,7 @@ Power Supply Error +48V (68\|E\|8000.11115)
   "description": "Power Supply Error +48V",
   "_id": "b10828bb-7fb2-46c2-90ae-7b97e86a7e82",
   "label": "Power Supply Error +48V",
-  "eventType": "68\\|E\\|8000.11115",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11115"
+  "type": "68\\|E\\|8000.11115"
 }
 ```

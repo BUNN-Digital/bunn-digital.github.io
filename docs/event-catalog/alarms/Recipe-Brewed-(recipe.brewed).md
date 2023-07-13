@@ -66,7 +66,6 @@ Recipe Brewed (recipe.brewed)
   "description": "Recipe Brewed",
   "_id": "d94df28f-2a5d-4926-bfbe-c34ab079935a",
   "label": "Recipe Brewed",
-  "eventType": "recipe.brewed",
   "category": "machine.telemetry",
   "type": "recipe.brewed"
 }

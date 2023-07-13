@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.65
+68\|E\|8002.65
 
 ## Category:
 
@@ -60,8 +60,7 @@ Waste Bin Installed (68\|E\|8002.65)
   "description": "Waste Bin Installed",
   "_id": "d0899a8b-8ff3-4713-8c5c-c4cd04eae3b9",
   "label": "Waste Bin Installed",
-  "eventType": "68\\|E\\|8002.65",
   "category": "machine.telemetry",
-  "type": "68|E|8002.65"
+  "type": "68\\|E\\|8002.65"
 }
 ```

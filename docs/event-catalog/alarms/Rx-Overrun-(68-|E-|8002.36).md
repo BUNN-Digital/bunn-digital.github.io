@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.36
+68\|E\|8002.36
 
 ## Category:
 
@@ -60,8 +60,7 @@ Rx Overrun (68\|E\|8002.36)
   "description": "Rx Overrun",
   "_id": "6a402b53-302e-49c3-9d54-507071dd159e",
   "label": "Rx Overrun",
-  "eventType": "68\\|E\\|8002.36",
   "category": "machine.telemetry",
-  "type": "68|E|8002.36"
+  "type": "68\\|E\\|8002.36"
 }
 ```

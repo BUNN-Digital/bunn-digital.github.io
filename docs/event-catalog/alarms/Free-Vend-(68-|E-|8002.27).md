@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.27
+68\|E\|8002.27
 
 ## Category:
 
@@ -60,8 +60,7 @@ Free Vend (68\|E\|8002.27)
   "description": "Free Vend",
   "_id": "267f8dbd-e400-41d5-a81f-850c8022fb5c",
   "label": "Free Vend",
-  "eventType": "68\\|E\\|8002.27",
   "category": "machine.telemetry",
-  "type": "68|E|8002.27"
+  "type": "68\\|E\\|8002.27"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.60
+68\|E\|8002.60
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Interrupted (Lockout) (68\|E\|8002.60)
   "description": "Cleaning Interrupted (Lockout)",
   "_id": "b49e47d3-ed6c-4497-97b4-df0777dc2bf6",
   "label": "Cleaning Interrupted (Lockout)",
-  "eventType": "68\\|E\\|8002.60",
   "category": "machine.telemetry",
-  "type": "68|E|8002.60"
+  "type": "68\\|E\\|8002.60"
 }
 ```

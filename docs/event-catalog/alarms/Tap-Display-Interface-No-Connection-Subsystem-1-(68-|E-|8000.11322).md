@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11322
+68\|E\|8000.11322
 
 ## Category:
 
@@ -60,8 +60,7 @@ Tap Display Interface No Connection - Subsystem 1 (68\|E\|8000.11322)
   "description": "Tap Display Interface No Connection - Subsystem 1",
   "_id": "b397cf59-13a7-4968-afb1-f50c157f07cb",
   "label": "Tap Display Interface No Connection - Subsystem 1",
-  "eventType": "68\\|E\\|8000.11322",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11322"
+  "type": "68\\|E\\|8000.11322"
 }
 ```

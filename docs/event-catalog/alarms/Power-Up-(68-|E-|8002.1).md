@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.1
+68\|E\|8002.1
 
 ## Category:
 
@@ -60,8 +60,7 @@ Power Up (68\|E\|8002.1)
   "description": "Power Up",
   "_id": "9aec1510-2f71-4e3a-9e2a-32efefb32c3e",
   "label": "Power Up",
-  "eventType": "68\\|E\\|8002.1",
   "category": "machine.telemetry",
-  "type": "68|E|8002.1"
+  "type": "68\\|E\\|8002.1"
 }
 ```

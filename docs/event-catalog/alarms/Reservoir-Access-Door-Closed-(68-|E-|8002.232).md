@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.232
+68\|E\|8002.232
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir Access Door Closed (68\|E\|8002.232)
   "description": "Reservoir Access Door Closed",
   "_id": "23a77fa7-c31f-49f0-a704-93269db3776c",
   "label": "Reservoir Access Door Closed",
-  "eventType": "68\\|E\\|8002.232",
   "category": "machine.telemetry",
-  "type": "68|E|8002.232"
+  "type": "68\\|E\\|8002.232"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11166
+68\|E\|8000.11166
 
 ## Category:
 
@@ -60,8 +60,7 @@ No Communication, Display-To-Display Private Network (68\|E\|8000.11166)
   "description": "No Communication, Display-To-Display Private Network",
   "_id": "e16c0c25-c006-4855-aff4-0e6155b20f86",
   "label": "No Communication, Display-To-Display Private Network",
-  "eventType": "68\\|E\\|8000.11166",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11166"
+  "type": "68\\|E\\|8000.11166"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11111
+68\|E\|8000.11111
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Init Fail (68\|E\|8000.11111)
   "description": "Piston Error Init Fail",
   "_id": "14db300d-5060-4bee-bb2f-5923812d0815",
   "label": "Piston Error Init Fail",
-  "eventType": "68\\|E\\|8000.11111",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11111"
+  "type": "68\\|E\\|8000.11111"
 }
 ```

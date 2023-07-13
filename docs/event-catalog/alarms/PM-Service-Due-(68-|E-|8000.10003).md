@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10003
+68\|E\|8000.10003
 
 ## Category:
 
@@ -60,8 +60,7 @@ PM Service Due (68\|E\|8000.10003)
   "description": "PM Service Due",
   "_id": "34509298-93fc-4fb7-ba94-107c285e2e24",
   "label": "PM Service Due",
-  "eventType": "68\\|E\\|8000.10003",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10003"
+  "type": "68\\|E\\|8000.10003"
 }
 ```

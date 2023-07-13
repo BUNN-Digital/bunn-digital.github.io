@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11068
+68\|E\|8000.11068
 
 ## Category:
 
@@ -60,8 +60,7 @@ Finish Tank Heat Too Long (68\|E\|8000.11068)
   "description": "Finish Tank Heat Too Long",
   "_id": "ae37016a-345d-4801-8d04-d51eeb021979",
   "label": "Finish Tank Heat Too Long",
-  "eventType": "68\\|E\\|8000.11068",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11068"
+  "type": "68\\|E\\|8000.11068"
 }
 ```

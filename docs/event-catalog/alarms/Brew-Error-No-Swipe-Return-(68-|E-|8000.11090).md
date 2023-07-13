@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11090
+68\|E\|8000.11090
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error No Swipe Return (68\|E\|8000.11090)
   "description": "Brew Error No Swipe Return",
   "_id": "5e981217-1af2-47cb-83da-795cf4543017",
   "label": "Brew Error No Swipe Return",
-  "eventType": "68\\|E\\|8000.11090",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11090"
+  "type": "68\\|E\\|8000.11090"
 }
 ```
