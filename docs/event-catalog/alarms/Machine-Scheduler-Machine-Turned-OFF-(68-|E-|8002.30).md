@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.30
+68\|E\|8002.30
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine Scheduler - Machine Turned OFF (68\|E\|8002.30)
   "description": "Machine Scheduler - Machine Turned OFF",
   "_id": "bbaed0dd-0f22-444b-9829-45e4f3b70d6c",
   "label": "Machine Scheduler - Machine Turned OFF",
-  "eventType": "68\\|E\\|8002.30",
   "category": "machine.telemetry",
-  "type": "68|E|8002.30"
+  "type": "68\\|E\\|8002.30"
 }
 ```

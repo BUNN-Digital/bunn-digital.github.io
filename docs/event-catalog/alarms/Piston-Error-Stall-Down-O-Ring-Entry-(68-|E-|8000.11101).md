@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11101
+68\|E\|8000.11101
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Down O-Ring Entry (68\|E\|8000.11101)
   "description": "Piston Error Stall Down O-Ring Entry",
   "_id": "44d79a90-4a7e-4478-953a-f35a51cbe95e",
   "label": "Piston Error Stall Down O-Ring Entry",
-  "eventType": "68\\|E\\|8000.11101",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11101"
+  "type": "68\\|E\\|8000.11101"
 }
 ```

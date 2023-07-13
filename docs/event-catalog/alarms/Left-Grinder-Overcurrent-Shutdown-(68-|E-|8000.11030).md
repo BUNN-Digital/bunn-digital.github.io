@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11030
+68\|E\|8000.11030
 
 ## Category:
 
@@ -60,8 +60,7 @@ Left Grinder Overcurrent Shutdown (68\|E\|8000.11030)
   "description": "Left Grinder Overcurrent Shutdown",
   "_id": "9c10d577-7045-49bb-9774-d5dd0d1af7a8",
   "label": "Left Grinder Overcurrent Shutdown",
-  "eventType": "68\\|E\\|8000.11030",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11030"
+  "type": "68\\|E\\|8000.11030"
 }
 ```

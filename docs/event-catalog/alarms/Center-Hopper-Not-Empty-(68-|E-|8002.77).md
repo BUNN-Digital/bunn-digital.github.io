@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.77
+68\|E\|8002.77
 
 ## Category:
 
@@ -60,8 +60,7 @@ Center Hopper Not Empty (68\|E\|8002.77)
   "description": "Center Hopper Not Empty",
   "_id": "8f86cc38-4ea1-493b-a00a-46efb340330c",
   "label": "Center Hopper Not Empty",
-  "eventType": "68\\|E\\|8002.77",
   "category": "machine.telemetry",
-  "type": "68|E|8002.77"
+  "type": "68\\|E\\|8002.77"
 }
 ```

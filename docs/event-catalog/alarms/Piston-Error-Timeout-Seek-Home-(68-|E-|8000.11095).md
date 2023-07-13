@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11095
+68\|E\|8000.11095
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Timeout Seek Home (68\|E\|8000.11095)
   "description": "Piston Error Timeout Seek Home",
   "_id": "f4fef2af-ce3c-4cd3-baf9-125ad1441d4e",
   "label": "Piston Error Timeout Seek Home",
-  "eventType": "68\\|E\\|8000.11095",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11095"
+  "type": "68\\|E\\|8000.11095"
 }
 ```

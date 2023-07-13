@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11276
+68\|E\|8000.11276
 
 ## Category:
 
@@ -60,8 +60,7 @@ Serial Port 2 Loss of Communications (68\|E\|8000.11276)
   "description": "Serial Port 2 Loss of Communications",
   "_id": "19c80569-b6da-4f70-8fd3-320eb7acecc1",
   "label": "Serial Port 2 Loss of Communications",
-  "eventType": "68\\|E\\|8000.11276",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11276"
+  "type": "68\\|E\\|8000.11276"
 }
 ```

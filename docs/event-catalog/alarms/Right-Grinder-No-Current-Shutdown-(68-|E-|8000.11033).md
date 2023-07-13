@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11033
+68\|E\|8000.11033
 
 ## Category:
 
@@ -60,8 +60,7 @@ Right Grinder No Current Shutdown (68\|E\|8000.11033)
   "description": "Right Grinder No Current Shutdown",
   "_id": "7e682b3b-b041-45dc-9cd8-bb9cca0d6ba4",
   "label": "Right Grinder No Current Shutdown",
-  "eventType": "68\\|E\\|8000.11033",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11033"
+  "type": "68\\|E\\|8000.11033"
 }
 ```

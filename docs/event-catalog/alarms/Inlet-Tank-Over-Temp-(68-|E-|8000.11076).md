@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11076
+68\|E\|8000.11076
 
 ## Category:
 
@@ -60,8 +60,7 @@ Inlet Tank Over Temp (68\|E\|8000.11076)
   "description": "Inlet Tank Over Temp",
   "_id": "cfe43964-e73e-426c-b13b-b709b064dea9",
   "label": "Inlet Tank Over Temp",
-  "eventType": "68\\|E\\|8000.11076",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11076"
+  "type": "68\\|E\\|8000.11076"
 }
 ```

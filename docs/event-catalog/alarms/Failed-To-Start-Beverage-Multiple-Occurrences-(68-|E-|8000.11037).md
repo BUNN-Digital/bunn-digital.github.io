@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11037
+68\|E\|8000.11037
 
 ## Category:
 
@@ -60,8 +60,7 @@ Failed To Start Beverage - Multiple Occurrences (68\|E\|8000.11037)
   "description": "Failed To Start Beverage - Multiple Occurrences",
   "_id": "344cd527-ddc6-4be6-aa14-f9fac67603d3",
   "label": "Failed To Start Beverage - Multiple Occurrences",
-  "eventType": "68\\|E\\|8000.11037",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11037"
+  "type": "68\\|E\\|8000.11037"
 }
 ```

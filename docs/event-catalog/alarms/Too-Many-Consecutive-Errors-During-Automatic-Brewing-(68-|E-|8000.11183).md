@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11183
+68\|E\|8000.11183
 
 ## Category:
 
@@ -60,8 +60,7 @@ Too Many Consecutive Errors During Automatic Brewing (68\|E\|8000.11183)
   "description": "Too Many Consecutive Errors During Automatic Brewing",
   "_id": "8f06d249-e0ab-490e-89de-39b53a3dad0e",
   "label": "Too Many Consecutive Errors During Automatic Brewing",
-  "eventType": "68\\|E\\|8000.11183",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11183"
+  "type": "68\\|E\\|8000.11183"
 }
 ```

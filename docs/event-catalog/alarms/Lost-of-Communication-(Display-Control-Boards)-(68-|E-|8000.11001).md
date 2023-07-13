@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11001
+68\|E\|8000.11001
 
 ## Category:
 
@@ -60,8 +60,7 @@ Lost of Communication (Display - Control Boards) (68\|E\|8000.11001)
   "description": "Lost of Communication (Display - Control Boards)",
   "_id": "c9760d99-a643-4165-92c7-cd02ce195a78",
   "label": "Lost of Communication (Display - Control Boards)",
-  "eventType": "68\\|E\\|8000.11001",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11001"
+  "type": "68\\|E\\|8000.11001"
 }
 ```

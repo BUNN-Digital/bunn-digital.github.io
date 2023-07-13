@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11185
+68\|E\|8000.11185
 
 ## Category:
 
@@ -60,8 +60,7 @@ Water Filter Service Due (68\|E\|8000.11185)
   "description": "Water Filter Service Due",
   "_id": "e8b0e337-e53b-4e5f-a529-8ea593573a36",
   "label": "Water Filter Service Due",
-  "eventType": "68\\|E\\|8000.11185",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11185"
+  "type": "68\\|E\\|8000.11185"
 }
 ```

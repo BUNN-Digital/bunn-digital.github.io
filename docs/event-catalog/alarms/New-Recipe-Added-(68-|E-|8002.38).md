@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.38
+68\|E\|8002.38
 
 ## Category:
 
@@ -60,8 +60,7 @@ New Recipe Added (68\|E\|8002.38)
   "description": "New Recipe Added",
   "_id": "01adf2a6-6a6e-4139-83f6-8525ff8fd58b",
   "label": "New Recipe Added",
-  "eventType": "68\\|E\\|8002.38",
   "category": "machine.telemetry",
-  "type": "68|E|8002.38"
+  "type": "68\\|E\\|8002.38"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11272
+68\|E\|8000.11272
 
 ## Category:
 
@@ -60,8 +60,7 @@ Serial Port 1 No Communications (68\|E\|8000.11272)
   "description": "Serial Port 1 No Communications",
   "_id": "dfb9d76e-8f95-41e7-aa3c-be76c63dd822",
   "label": "Serial Port 1 No Communications",
-  "eventType": "68\\|E\\|8000.11272",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11272"
+  "type": "68\\|E\\|8000.11272"
 }
 ```

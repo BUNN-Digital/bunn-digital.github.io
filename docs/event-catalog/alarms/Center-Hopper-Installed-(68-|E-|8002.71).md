@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.71
+68\|E\|8002.71
 
 ## Category:
 
@@ -60,8 +60,7 @@ Center Hopper Installed (68\|E\|8002.71)
   "description": "Center Hopper Installed",
   "_id": "2b510435-afe6-4768-991f-96967489ea45",
   "label": "Center Hopper Installed",
-  "eventType": "68\\|E\\|8002.71",
   "category": "machine.telemetry",
-  "type": "68|E|8002.71"
+  "type": "68\\|E\\|8002.71"
 }
 ```

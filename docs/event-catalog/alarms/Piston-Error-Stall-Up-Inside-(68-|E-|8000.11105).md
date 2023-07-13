@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11105
+68\|E\|8000.11105
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Up Inside (68\|E\|8000.11105)
   "description": "Piston Error Stall Up Inside",
   "_id": "65eceefb-e633-4488-8313-afb7b37919ca",
   "label": "Piston Error Stall Up Inside",
-  "eventType": "68\\|E\\|8000.11105",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11105"
+  "type": "68\\|E\\|8000.11105"
 }
 ```

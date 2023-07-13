@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10011
+68\|E\|8000.10011
 
 ## Category:
 
@@ -60,8 +60,7 @@ Water Pump Stalled (68\|E\|8000.10011)
   "description": "Water Pump Stalled",
   "_id": "26259814-995e-481a-9538-1df08a392964",
   "label": "Water Pump Stalled",
-  "eventType": "68\\|E\\|8000.10011",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10011"
+  "type": "68\\|E\\|8000.10011"
 }
 ```

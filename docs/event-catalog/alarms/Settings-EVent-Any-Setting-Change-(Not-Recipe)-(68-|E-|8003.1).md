@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8003.1
+68\|E\|8003.1
 
 ## Category:
 
@@ -60,8 +60,7 @@ Settings EVent - Any Setting Change (Not Recipe) (68\|E\|8003.1)
   "description": "Settings EVent - Any Setting Change (Not Recipe)",
   "_id": "ae3ac672-67be-433b-a21d-b15a332334d4",
   "label": "Settings EVent - Any Setting Change (Not Recipe)",
-  "eventType": "68\\|E\\|8003.1",
   "category": "machine.telemetry",
-  "type": "68|E|8003.1"
+  "type": "68\\|E\\|8003.1"
 }
 ```

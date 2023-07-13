@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11110
+68\|E\|8000.11110
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Init No Latch (68\|E\|8000.11110)
   "description": "Piston Error Init No Latch",
   "_id": "3b2c251b-7fa0-422f-ac38-9eee627c929f",
   "label": "Piston Error Init No Latch",
-  "eventType": "68\\|E\\|8000.11110",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11110"
+  "type": "68\\|E\\|8000.11110"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11070
+68\|E\|8000.11070
 
 ## Category:
 
@@ -60,8 +60,7 @@ Inlet Tank Heat Too Long (68\|E\|8000.11070)
   "description": "Inlet Tank Heat Too Long",
   "_id": "0d7c723b-b5df-4c0d-a59f-e15b8b5b0551",
   "label": "Inlet Tank Heat Too Long",
-  "eventType": "68\\|E\\|8000.11070",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11070"
+  "type": "68\\|E\\|8000.11070"
 }
 ```

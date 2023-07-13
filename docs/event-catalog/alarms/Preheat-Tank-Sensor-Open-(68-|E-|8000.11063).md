@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11063
+68\|E\|8000.11063
 
 ## Category:
 
@@ -60,8 +60,7 @@ Preheat Tank Sensor Open (68\|E\|8000.11063)
   "description": "Preheat Tank Sensor Open",
   "_id": "bcfcfb90-be69-42b2-aa62-fa447e12329c",
   "label": "Preheat Tank Sensor Open",
-  "eventType": "68\\|E\\|8000.11063",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11063"
+  "type": "68\\|E\\|8000.11063"
 }
 ```

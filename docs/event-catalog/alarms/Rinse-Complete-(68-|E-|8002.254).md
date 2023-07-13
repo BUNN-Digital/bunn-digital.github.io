@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.254
+68\|E\|8002.254
 
 ## Category:
 
@@ -60,8 +60,7 @@ Rinse Complete (68\|E\|8002.254)
   "description": "Rinse Complete",
   "_id": "71eb59dc-8e48-4ddb-8db1-ba4c8dc79485",
   "label": "Rinse Complete",
-  "eventType": "68\\|E\\|8002.254",
   "category": "machine.telemetry",
-  "type": "68|E|8002.254"
+  "type": "68\\|E\\|8002.254"
 }
 ```

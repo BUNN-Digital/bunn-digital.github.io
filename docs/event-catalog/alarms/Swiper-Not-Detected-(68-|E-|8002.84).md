@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.84
+68\|E\|8002.84
 
 ## Category:
 
@@ -60,8 +60,7 @@ Swiper Not Detected (68\|E\|8002.84)
   "description": "Swiper Not Detected",
   "_id": "fa9c5c24-528b-46e1-9a3a-2fe9dc62d795",
   "label": "Swiper Not Detected",
-  "eventType": "68\\|E\\|8002.84",
   "category": "machine.telemetry",
-  "type": "68|E|8002.84"
+  "type": "68\\|E\\|8002.84"
 }
 ```

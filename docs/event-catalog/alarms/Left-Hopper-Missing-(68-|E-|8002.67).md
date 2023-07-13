@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.67
+68\|E\|8002.67
 
 ## Category:
 
@@ -60,8 +60,7 @@ Left Hopper Missing (68\|E\|8002.67)
   "description": "Left Hopper Missing",
   "_id": "1a34362c-df83-4754-8511-5582c0b2d099",
   "label": "Left Hopper Missing",
-  "eventType": "68\\|E\\|8002.67",
   "category": "machine.telemetry",
-  "type": "68|E|8002.67"
+  "type": "68\\|E\\|8002.67"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11097
+68\|E\|8000.11097
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Timeout Locating (68\|E\|8000.11097)
   "description": "Piston Error Timeout Locating",
   "_id": "64fb5b9c-2dce-428c-83af-6e65571d6e90",
   "label": "Piston Error Timeout Locating",
-  "eventType": "68\\|E\\|8000.11097",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11097"
+  "type": "68\\|E\\|8000.11097"
 }
 ```

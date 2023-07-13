@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8005
+68\|E\|8005
 
 ## Category:
 
@@ -55,8 +55,7 @@ Customer Care Events (68\|E\|8005)
   "description": "Customer Care Events",
   "_id": "0ffd2879-edf6-490a-acf7-b0f2a6768d90",
   "label": "Customer Care Events",
-  "eventType": "68\\|E\\|8005",
   "category": "machine.telemetry",
-  "type": "68|E|8005"
+  "type": "68\\|E\\|8005"
 }
 ```

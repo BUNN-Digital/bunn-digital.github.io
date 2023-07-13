@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.252
+68\|E\|8002.252
 
 ## Category:
 
@@ -60,8 +60,7 @@ Bean Hopper Mismatch Inactive (68\|E\|8002.252)
   "description": "Bean Hopper Mismatch Inactive",
   "_id": "f187bcef-7395-4d6e-9cab-b378fb8772e4",
   "label": "Bean Hopper Mismatch Inactive",
-  "eventType": "68\\|E\\|8002.252",
   "category": "machine.telemetry",
-  "type": "68|E|8002.252"
+  "type": "68\\|E\\|8002.252"
 }
 ```

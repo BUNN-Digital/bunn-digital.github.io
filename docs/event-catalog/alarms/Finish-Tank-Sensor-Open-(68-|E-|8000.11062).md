@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11062
+68\|E\|8000.11062
 
 ## Category:
 
@@ -60,8 +60,7 @@ Finish Tank Sensor Open (68\|E\|8000.11062)
   "description": "Finish Tank Sensor Open",
   "_id": "bee5c8df-f7ee-40ff-9c85-d74fc92dc619",
   "label": "Finish Tank Sensor Open",
-  "eventType": "68\\|E\\|8000.11062",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11062"
+  "type": "68\\|E\\|8000.11062"
 }
 ```

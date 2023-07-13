@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.63
+68\|E\|8002.63
 
 ## Category:
 
@@ -60,8 +60,7 @@ Operator Door Closed (68\|E\|8002.63)
   "description": "Operator Door Closed",
   "_id": "67b88d84-22c9-443e-b161-a2115791df0c",
   "label": "Operator Door Closed",
-  "eventType": "68\\|E\\|8002.63",
   "category": "machine.telemetry",
-  "type": "68|E|8002.63"
+  "type": "68\\|E\\|8002.63"
 }
 ```

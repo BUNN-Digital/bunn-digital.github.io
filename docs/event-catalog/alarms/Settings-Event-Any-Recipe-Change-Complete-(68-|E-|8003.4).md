@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8003.4
+68\|E\|8003.4
 
 ## Category:
 
@@ -60,8 +60,7 @@ Settings Event - Any Recipe Change Complete (68\|E\|8003.4)
   "description": "Settings Event - Any Recipe Change Complete",
   "_id": "9099833e-6548-420c-ae7b-7e5790132737",
   "label": "Settings Event - Any Recipe Change Complete",
-  "eventType": "68\\|E\\|8003.4",
   "category": "machine.telemetry",
-  "type": "68|E|8003.4"
+  "type": "68\\|E\\|8003.4"
 }
 ```

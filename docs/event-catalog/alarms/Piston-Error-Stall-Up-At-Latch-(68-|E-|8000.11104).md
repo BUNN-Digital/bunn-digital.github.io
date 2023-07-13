@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11104
+68\|E\|8000.11104
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Up At Latch (68\|E\|8000.11104)
   "description": "Piston Error Stall Up At Latch",
   "_id": "0a2aecb8-f541-4cf2-a08c-0c39b9c94165",
   "label": "Piston Error Stall Up At Latch",
-  "eventType": "68\\|E\\|8000.11104",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11104"
+  "type": "68\\|E\\|8000.11104"
 }
 ```

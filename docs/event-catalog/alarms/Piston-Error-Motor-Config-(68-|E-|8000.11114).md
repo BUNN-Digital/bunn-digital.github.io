@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11114
+68\|E\|8000.11114
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Motor Config (68\|E\|8000.11114)
   "description": "Piston Error Motor Config",
   "_id": "33baf557-a924-486c-8be9-b3de1d4fe2f0",
   "label": "Piston Error Motor Config",
-  "eventType": "68\\|E\\|8000.11114",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11114"
+  "type": "68\\|E\\|8000.11114"
 }
 ```

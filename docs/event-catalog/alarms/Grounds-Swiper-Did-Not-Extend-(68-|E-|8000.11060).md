@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11060
+68\|E\|8000.11060
 
 ## Category:
 
@@ -60,8 +60,7 @@ Grounds Swiper Did Not Extend (68\|E\|8000.11060)
   "description": "Grounds Swiper Did Not Extend",
   "_id": "78b8b085-345d-47c4-8237-5e8afe4a3b8b",
   "label": "Grounds Swiper Did Not Extend",
-  "eventType": "68\\|E\\|8000.11060",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11060"
+  "type": "68\\|E\\|8000.11060"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.31
+68\|E\|8002.31
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine Scheduler - Machine Turned ON (68\|E\|8002.31)
   "description": "Machine Scheduler - Machine Turned ON",
   "_id": "c0dbaa86-8991-40ef-a849-77caf66da9fc",
   "label": "Machine Scheduler - Machine Turned ON",
-  "eventType": "68\\|E\\|8002.31",
   "category": "machine.telemetry",
-  "type": "68|E|8002.31"
+  "type": "68\\|E\\|8002.31"
 }
 ```

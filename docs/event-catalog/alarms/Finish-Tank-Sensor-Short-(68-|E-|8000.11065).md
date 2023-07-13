@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11065
+68\|E\|8000.11065
 
 ## Category:
 
@@ -60,8 +60,7 @@ Finish Tank Sensor Short (68\|E\|8000.11065)
   "description": "Finish Tank Sensor Short",
   "_id": "68d715b6-f7e6-4961-beb0-c813be14368b",
   "label": "Finish Tank Sensor Short",
-  "eventType": "68\\|E\\|8000.11065",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11065"
+  "type": "68\\|E\\|8000.11065"
 }
 ```

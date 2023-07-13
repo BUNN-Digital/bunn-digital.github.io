@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.243
+68\|E\|8002.243
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir 2 Schedule Update Failure - Name Mismatch (68\|E\|8002.243)
   "description": "Reservoir 2 Schedule Update Failure - Name Mismatch",
   "_id": "8dda3fd0-ac1f-46b8-a047-4ca5e0ac55f9",
   "label": "Reservoir 2 Schedule Update Failure - Name Mismatch",
-  "eventType": "68\\|E\\|8002.243",
   "category": "machine.telemetry",
-  "type": "68|E|8002.243"
+  "type": "68\\|E\\|8002.243"
 }
 ```

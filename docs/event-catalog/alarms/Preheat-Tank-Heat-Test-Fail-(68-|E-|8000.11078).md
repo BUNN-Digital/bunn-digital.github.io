@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11078
+68\|E\|8000.11078
 
 ## Category:
 
@@ -60,8 +60,7 @@ Preheat Tank Heat Test Fail (68\|E\|8000.11078)
   "description": "Preheat Tank Heat Test Fail",
   "_id": "44548107-590c-439b-9eb6-7b9263e211b9",
   "label": "Preheat Tank Heat Test Fail",
-  "eventType": "68\\|E\\|8000.11078",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11078"
+  "type": "68\\|E\\|8000.11078"
 }
 ```

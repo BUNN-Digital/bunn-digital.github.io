@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11109
+68\|E\|8000.11109
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Piston Not Closed (68\|E\|8000.11109)
   "description": "Brew Error Piston Not Closed",
   "_id": "4a6a2b2f-62e3-42d1-b720-6192ede14d65",
   "label": "Brew Error Piston Not Closed",
-  "eventType": "68\\|E\\|8000.11109",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11109"
+  "type": "68\\|E\\|8000.11109"
 }
 ```

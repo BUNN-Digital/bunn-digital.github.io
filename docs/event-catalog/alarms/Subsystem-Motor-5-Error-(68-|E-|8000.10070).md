@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10070
+68\|E\|8000.10070
 
 ## Category:
 
@@ -60,8 +60,7 @@ Subsystem/Motor 5 Error (68\|E\|8000.10070)
   "description": "Subsystem/Motor 5 Error",
   "_id": "2eed2ba8-da49-4571-bcdf-f6a7a70dde18",
   "label": "Subsystem/Motor 5 Error",
-  "eventType": "68\\|E\\|8000.10070",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10070"
+  "type": "68\\|E\\|8000.10070"
 }
 ```

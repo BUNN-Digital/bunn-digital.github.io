@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10068
+68\|E\|8000.10068
 
 ## Category:
 
@@ -60,8 +60,7 @@ Subsystem/Motor 3 Error (68\|E\|8000.10068)
   "description": "Subsystem/Motor 3 Error",
   "_id": "099caf7e-a9dc-4aef-8b71-0f7fb212b5bb",
   "label": "Subsystem/Motor 3 Error",
-  "eventType": "68\\|E\\|8000.10068",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10068"
+  "type": "68\\|E\\|8000.10068"
 }
 ```

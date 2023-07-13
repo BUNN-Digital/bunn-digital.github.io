@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11096
+68\|E\|8000.11096
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Timeout Seek Bottom (68\|E\|8000.11096)
   "description": "Piston Error Timeout Seek Bottom",
   "_id": "750378cb-dd67-4e66-8a59-a1da064afcb4",
   "label": "Piston Error Timeout Seek Bottom",
-  "eventType": "68\\|E\\|8000.11096",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11096"
+  "type": "68\\|E\\|8000.11096"
 }
 ```

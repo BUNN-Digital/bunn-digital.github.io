@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.255
+68\|E\|8002.255
 
 ## Category:
 
@@ -60,8 +60,7 @@ Control Board Initialized (68\|E\|8002.255)
   "description": "Control Board Initialized",
   "_id": "c0312655-a519-4bb0-babb-d3fe8e5e815c",
   "label": "Control Board Initialized",
-  "eventType": "68\\|E\\|8002.255",
   "category": "machine.telemetry",
-  "type": "68|E|8002.255"
+  "type": "68\\|E\\|8002.255"
 }
 ```

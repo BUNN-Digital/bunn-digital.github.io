@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11098
+68\|E\|8000.11098
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Down No Latch (68\|E\|8000.11098)
   "description": "Piston Error Stall Down No Latch",
   "_id": "ea253f9c-cdcb-4c4c-b187-e015902bf0d7",
   "label": "Piston Error Stall Down No Latch",
-  "eventType": "68\\|E\\|8000.11098",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11098"
+  "type": "68\\|E\\|8000.11098"
 }
 ```

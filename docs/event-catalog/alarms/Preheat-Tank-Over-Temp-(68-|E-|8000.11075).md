@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11075
+68\|E\|8000.11075
 
 ## Category:
 
@@ -60,8 +60,7 @@ Preheat Tank Over Temp (68\|E\|8000.11075)
   "description": "Preheat Tank Over Temp",
   "_id": "b00c2a7a-e6ed-4bd2-97cc-b8d650cd7ace",
   "label": "Preheat Tank Over Temp",
-  "eventType": "68\\|E\\|8000.11075",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11075"
+  "type": "68\\|E\\|8000.11075"
 }
 ```

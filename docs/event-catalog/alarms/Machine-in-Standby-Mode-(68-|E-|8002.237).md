@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.237
+68\|E\|8002.237
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine in Standby Mode (68\|E\|8002.237)
   "description": "Machine in Standby Mode",
   "_id": "ed903b42-fa90-4e01-a3ac-32a97d33854c",
   "label": "Machine in Standby Mode",
-  "eventType": "68\\|E\\|8002.237",
   "category": "machine.telemetry",
-  "type": "68|E|8002.237"
+  "type": "68\\|E\\|8002.237"
 }
 ```

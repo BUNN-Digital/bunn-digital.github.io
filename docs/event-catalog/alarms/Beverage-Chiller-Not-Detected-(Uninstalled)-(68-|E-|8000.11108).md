@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11108
+68\|E\|8000.11108
 
 ## Category:
 
@@ -60,8 +60,7 @@ Beverage Chiller Not Detected (Uninstalled) (68\|E\|8000.11108)
   "description": "Beverage Chiller Not Detected (Uninstalled)",
   "_id": "d1401d56-3c11-4c3c-84b0-a2159bb83b40",
   "label": "Beverage Chiller Not Detected (Uninstalled)",
-  "eventType": "68\\|E\\|8000.11108",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11108"
+  "type": "68\\|E\\|8000.11108"
 }
 ```

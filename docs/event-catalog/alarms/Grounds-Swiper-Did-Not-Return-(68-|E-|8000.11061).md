@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11061
+68\|E\|8000.11061
 
 ## Category:
 
@@ -60,8 +60,7 @@ Grounds Swiper Did Not Return (68\|E\|8000.11061)
   "description": "Grounds Swiper Did Not Return",
   "_id": "14a90e77-a39f-46f4-b62f-223c9a25b65b",
   "label": "Grounds Swiper Did Not Return",
-  "eventType": "68\\|E\\|8000.11061",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11061"
+  "type": "68\\|E\\|8000.11061"
 }
 ```

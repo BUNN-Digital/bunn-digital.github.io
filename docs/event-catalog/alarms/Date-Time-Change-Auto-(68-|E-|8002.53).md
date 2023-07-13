@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.53
+68\|E\|8002.53
 
 ## Category:
 
@@ -60,8 +60,7 @@ Date/Time Change - Auto (68\|E\|8002.53)
   "description": "Date/Time Change - Auto",
   "_id": "80e8c7ac-6826-48aa-bb8c-2b71e951ed68",
   "label": "Date/Time Change - Auto",
-  "eventType": "68\\|E\\|8002.53",
   "category": "machine.telemetry",
-  "type": "68|E|8002.53"
+  "type": "68\\|E\\|8002.53"
 }
 ```

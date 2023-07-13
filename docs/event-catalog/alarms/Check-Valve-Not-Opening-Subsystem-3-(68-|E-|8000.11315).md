@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11315
+68\|E\|8000.11315
 
 ## Category:
 
@@ -60,8 +60,7 @@ Check Valve Not Opening - Subsystem 3 (68\|E\|8000.11315)
   "description": "Check Valve Not Opening - Subsystem 3",
   "_id": "708639dd-2e7d-4d36-ad72-af8474ac8c41",
   "label": "Check Valve Not Opening - Subsystem 3",
-  "eventType": "68\\|E\\|8000.11315",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11315"
+  "type": "68\\|E\\|8000.11315"
 }
 ```

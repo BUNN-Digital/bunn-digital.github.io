@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11274
+68\|E\|8000.11274
 
 ## Category:
 
@@ -60,8 +60,7 @@ Serial Port 2 Missing (68\|E\|8000.11274)
   "description": "Serial Port 2 Missing",
   "_id": "a336632d-2305-471d-84ba-51d392917312",
   "label": "Serial Port 2 Missing",
-  "eventType": "68\\|E\\|8000.11274",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11274"
+  "type": "68\\|E\\|8000.11274"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11321
+68\|E\|8000.11321
 
 ## Category:
 
@@ -60,8 +60,7 @@ Tap Display Interface Missing - Subsystem 3 (68\|E\|8000.11321)
   "description": "Tap Display Interface Missing - Subsystem 3",
   "_id": "37f3a229-3cbb-4193-804d-3e16893421cd",
   "label": "Tap Display Interface Missing - Subsystem 3",
-  "eventType": "68\\|E\\|8000.11321",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11321"
+  "type": "68\\|E\\|8000.11321"
 }
 ```

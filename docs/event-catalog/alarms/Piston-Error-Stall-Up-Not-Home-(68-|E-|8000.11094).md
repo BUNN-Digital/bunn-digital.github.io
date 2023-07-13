@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11094
+68\|E\|8000.11094
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Up Not Home (68\|E\|8000.11094)
   "description": "Piston Error Stall Up Not Home",
   "_id": "71a3acfc-9250-4b76-95f9-3b9801caf1f1",
   "label": "Piston Error Stall Up Not Home",
-  "eventType": "68\\|E\\|8000.11094",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11094"
+  "type": "68\\|E\\|8000.11094"
 }
 ```

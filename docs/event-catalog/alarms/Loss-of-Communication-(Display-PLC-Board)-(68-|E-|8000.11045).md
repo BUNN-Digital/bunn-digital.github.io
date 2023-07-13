@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11045
+68\|E\|8000.11045
 
 ## Category:
 
@@ -60,8 +60,7 @@ Loss of Communication (Display - PLC Board) (68\|E\|8000.11045)
   "description": "Loss of Communication (Display - PLC Board)",
   "_id": "a47b6286-f88a-49f3-b324-a2c2a785843f",
   "label": "Loss of Communication (Display - PLC Board)",
-  "eventType": "68\\|E\\|8000.11045",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11045"
+  "type": "68\\|E\\|8000.11045"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.58
+68\|E\|8002.58
 
 ## Category:
 
@@ -60,8 +60,7 @@ High Voltage IO Application Software Needs Updated (68\|E\|8002.58)
   "description": "High Voltage IO Application Software Needs Updated",
   "_id": "977649f7-b717-472b-90a8-4d3e5ebd1aa6",
   "label": "High Voltage IO Application Software Needs Updated",
-  "eventType": "68\\|E\\|8002.58",
   "category": "machine.telemetry",
-  "type": "68|E|8002.58"
+  "type": "68\\|E\\|8002.58"
 }
 ```

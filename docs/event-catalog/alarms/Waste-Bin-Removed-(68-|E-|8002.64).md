@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.64
+68\|E\|8002.64
 
 ## Category:
 
@@ -60,8 +60,7 @@ Waste Bin Removed (68\|E\|8002.64)
   "description": "Waste Bin Removed",
   "_id": "4c443044-86de-4088-8cd3-5621f0a8b694",
   "label": "Waste Bin Removed",
-  "eventType": "68\\|E\\|8002.64",
   "category": "machine.telemetry",
-  "type": "68|E|8002.64"
+  "type": "68\\|E\\|8002.64"
 }
 ```

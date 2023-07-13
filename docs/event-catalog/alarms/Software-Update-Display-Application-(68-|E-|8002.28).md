@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.28
+68\|E\|8002.28
 
 ## Category:
 
@@ -60,8 +60,7 @@ Software Update - Display Application (68\|E\|8002.28)
   "description": "Software Update - Display Application",
   "_id": "3debeec6-e629-40df-be6a-9f991597eb65",
   "label": "Software Update - Display Application",
-  "eventType": "68\\|E\\|8002.28",
   "category": "machine.telemetry",
-  "type": "68|E|8002.28"
+  "type": "68\\|E\\|8002.28"
 }
 ```

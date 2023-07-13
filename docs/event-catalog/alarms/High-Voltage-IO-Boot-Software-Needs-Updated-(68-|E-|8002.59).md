@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.59
+68\|E\|8002.59
 
 ## Category:
 
@@ -60,8 +60,7 @@ High Voltage IO Boot Software Needs Updated (68\|E\|8002.59)
   "description": "High Voltage IO Boot Software Needs Updated",
   "_id": "647bef7d-c86a-4803-b92a-904a6ee2f8b1",
   "label": "High Voltage IO Boot Software Needs Updated",
-  "eventType": "68\\|E\\|8002.59",
   "category": "machine.telemetry",
-  "type": "68|E|8002.59"
+  "type": "68\\|E\\|8002.59"
 }
 ```

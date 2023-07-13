@@ -63,7 +63,6 @@ Recipe Dispensed - Non Portion Controlled (recipe.dispensed)
   "description": "Recipe Dispensed - Non Portion Controlled",
   "_id": "7024bb9a-0b4b-4455-8c7e-165fdc5ad1fb",
   "label": "Recipe Dispensed - Non Portion Controlled",
-  "eventType": "recipe.dispensed",
   "category": "machine.telemetry",
   "type": "recipe.dispensed"
 }

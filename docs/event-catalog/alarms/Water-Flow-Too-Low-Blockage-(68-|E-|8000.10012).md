@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.10012
+68\|E\|8000.10012
 
 ## Category:
 
@@ -60,8 +60,7 @@ Water Flow Too Low Blockage (68\|E\|8000.10012)
   "description": "Water Flow Too Low Blockage",
   "_id": "143fa65e-641c-455a-a089-7ed6daf1904e",
   "label": "Water Flow Too Low Blockage",
-  "eventType": "68\\|E\\|8000.10012",
   "category": "machine.telemetry",
-  "type": "68|E|8000.10012"
+  "type": "68\\|E\\|8000.10012"
 }
 ```

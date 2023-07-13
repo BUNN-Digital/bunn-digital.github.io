@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11086
+68\|E\|8000.11086
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Piston Move Timeout (68\|E\|8000.11086)
   "description": "Brew Error Piston Move Timeout",
   "_id": "9bdca93f-df17-4e7c-b516-10e0c2aa49cb",
   "label": "Brew Error Piston Move Timeout",
-  "eventType": "68\\|E\\|8000.11086",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11086"
+  "type": "68\\|E\\|8000.11086"
 }
 ```

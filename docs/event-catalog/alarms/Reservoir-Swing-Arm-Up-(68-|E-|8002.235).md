@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.235
+68\|E\|8002.235
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir Swing Arm Up (68\|E\|8002.235)
   "description": "Reservoir Swing Arm Up",
   "_id": "56b2a340-f325-497a-9829-8159ccee5a83",
   "label": "Reservoir Swing Arm Up",
-  "eventType": "68\\|E\\|8002.235",
   "category": "machine.telemetry",
-  "type": "68|E|8002.235"
+  "type": "68\\|E\\|8002.235"
 }
 ```

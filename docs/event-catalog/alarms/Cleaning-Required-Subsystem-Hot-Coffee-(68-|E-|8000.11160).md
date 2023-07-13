@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11160
+68\|E\|8000.11160
 
 ## Category:
 
@@ -60,8 +60,7 @@ Cleaning Required Subsystem - Hot Coffee (68\|E\|8000.11160)
   "description": "Cleaning Required Subsystem - Hot Coffee",
   "_id": "8046e5b5-76e2-4a6d-acb8-1533ce90d567",
   "label": "Cleaning Required Subsystem - Hot Coffee",
-  "eventType": "68\\|E\\|8000.11160",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11160"
+  "type": "68\\|E\\|8000.11160"
 }
 ```

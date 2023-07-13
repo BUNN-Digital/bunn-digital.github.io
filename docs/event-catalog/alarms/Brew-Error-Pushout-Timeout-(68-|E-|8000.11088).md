@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11088
+68\|E\|8000.11088
 
 ## Category:
 
@@ -60,8 +60,7 @@ Brew Error Pushout Timeout (68\|E\|8000.11088)
   "description": "Brew Error Pushout Timeout",
   "_id": "ad4938a3-f224-43c6-87b1-0488494b6708",
   "label": "Brew Error Pushout Timeout",
-  "eventType": "68\\|E\\|8000.11088",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11088"
+  "type": "68\\|E\\|8000.11088"
 }
 ```

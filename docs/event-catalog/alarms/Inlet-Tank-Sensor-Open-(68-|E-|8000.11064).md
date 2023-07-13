@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11064
+68\|E\|8000.11064
 
 ## Category:
 
@@ -60,8 +60,7 @@ Inlet Tank Sensor Open (68\|E\|8000.11064)
   "description": "Inlet Tank Sensor Open",
   "_id": "d4bf8c41-a1d2-432f-a684-2d1aecf5c631",
   "label": "Inlet Tank Sensor Open",
-  "eventType": "68\\|E\\|8000.11064",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11064"
+  "type": "68\\|E\\|8000.11064"
 }
 ```

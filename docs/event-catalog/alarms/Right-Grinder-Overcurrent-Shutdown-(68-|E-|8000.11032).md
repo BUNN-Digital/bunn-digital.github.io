@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11032
+68\|E\|8000.11032
 
 ## Category:
 
@@ -60,8 +60,7 @@ Right Grinder Overcurrent Shutdown (68\|E\|8000.11032)
   "description": "Right Grinder Overcurrent Shutdown",
   "_id": "fa24a50c-5280-4be3-ad80-6e50f210648f",
   "label": "Right Grinder Overcurrent Shutdown",
-  "eventType": "68\\|E\\|8000.11032",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11032"
+  "type": "68\\|E\\|8000.11032"
 }
 ```

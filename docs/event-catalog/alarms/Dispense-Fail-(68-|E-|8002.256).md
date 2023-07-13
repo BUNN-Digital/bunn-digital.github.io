@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.256
+68\|E\|8002.256
 
 ## Category:
 
@@ -60,8 +60,7 @@ Dispense Fail (68\|E\|8002.256)
   "description": "Dispense Fail",
   "_id": "96615616-a860-4ab4-935c-fd474bce7c6d",
   "label": "Dispense Fail",
-  "eventType": "68\\|E\\|8002.256",
   "category": "machine.telemetry",
-  "type": "68|E|8002.256"
+  "type": "68\\|E\\|8002.256"
 }
 ```

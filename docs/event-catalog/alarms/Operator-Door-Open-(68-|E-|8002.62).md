@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.62
+68\|E\|8002.62
 
 ## Category:
 
@@ -60,8 +60,7 @@ Operator Door Open (68\|E\|8002.62)
   "description": "Operator Door Open",
   "_id": "335a8904-46a6-46df-a287-2d6c2c1c3b13",
   "label": "Operator Door Open",
-  "eventType": "68\\|E\\|8002.62",
   "category": "machine.telemetry",
-  "type": "68|E|8002.62"
+  "type": "68\\|E\\|8002.62"
 }
 ```

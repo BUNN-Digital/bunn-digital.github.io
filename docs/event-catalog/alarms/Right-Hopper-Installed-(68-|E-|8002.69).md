@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.69
+68\|E\|8002.69
 
 ## Category:
 
@@ -60,8 +60,7 @@ Right Hopper Installed (68\|E\|8002.69)
   "description": "Right Hopper Installed",
   "_id": "d72ec396-8622-49cf-a049-034c1da88b60",
   "label": "Right Hopper Installed",
-  "eventType": "68\\|E\\|8002.69",
   "category": "machine.telemetry",
-  "type": "68|E|8002.69"
+  "type": "68\\|E\\|8002.69"
 }
 ```

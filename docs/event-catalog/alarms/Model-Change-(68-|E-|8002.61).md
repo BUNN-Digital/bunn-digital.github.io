@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.61
+68\|E\|8002.61
 
 ## Category:
 
@@ -60,8 +60,7 @@ Model Change (68\|E\|8002.61)
   "description": "Model Change",
   "_id": "67ec1a44-9483-4698-847f-5272c257abfd",
   "label": "Model Change",
-  "eventType": "68\\|E\\|8002.61",
   "category": "machine.telemetry",
-  "type": "68|E|8002.61"
+  "type": "68\\|E\\|8002.61"
 }
 ```

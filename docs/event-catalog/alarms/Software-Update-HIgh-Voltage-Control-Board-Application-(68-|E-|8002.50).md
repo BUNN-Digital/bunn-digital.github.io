@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.50
+68\|E\|8002.50
 
 ## Category:
 
@@ -60,8 +60,7 @@ Software Update - HIgh Voltage Control Board Application (68\|E\|8002.50)
   "description": "Software Update - HIgh Voltage Control Board Application",
   "_id": "b1e19dd4-1474-474d-a8a8-dfc29a8823bf",
   "label": "Software Update - HIgh Voltage Control Board Application",
-  "eventType": "68\\|E\\|8002.50",
   "category": "machine.telemetry",
-  "type": "68|E|8002.50"
+  "type": "68\\|E\\|8002.50"
 }
 ```

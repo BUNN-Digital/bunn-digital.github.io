@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11000
+68\|E\|8000.11000
 
 ## Category:
 
@@ -60,8 +60,7 @@ No Communication Display Control Boards (68\|E\|8000.11000)
   "description": "No Communication Display Control Boards",
   "_id": "3601438c-2147-4b2d-aba2-c78cfb5ce0e1",
   "label": "No Communication Display Control Boards",
-  "eventType": "68\\|E\\|8000.11000",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11000"
+  "type": "68\\|E\\|8000.11000"
 }
 ```

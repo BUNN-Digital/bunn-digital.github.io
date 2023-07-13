@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|A|8124
+68\|A\|8124
 
 ## Category:
 
@@ -60,8 +60,7 @@ Machine Name (68\|A\|8124)
   "description": "Machine Name",
   "_id": "414ed5cf-86fd-4208-b250-8ca41f2acbed",
   "label": "Machine Name",
-  "eventType": "68\\|A\\|8124",
   "category": "machine.telemetry",
-  "type": "68|A|8124"
+  "type": "68\\|A\\|8124"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11100
+68\|E\|8000.11100
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Stall Down Chamber Entry (68\|E\|8000.11100)
   "description": "Piston Error Stall Down Chamber Entry",
   "_id": "f7bde3af-fde6-433d-9cb4-395b00879b33",
   "label": "Piston Error Stall Down Chamber Entry",
-  "eventType": "68\\|E\\|8000.11100",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11100"
+  "type": "68\\|E\\|8000.11100"
 }
 ```

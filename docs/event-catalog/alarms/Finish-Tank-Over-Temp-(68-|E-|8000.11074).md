@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11074
+68\|E\|8000.11074
 
 ## Category:
 
@@ -60,8 +60,7 @@ Finish Tank Over Temp (68\|E\|8000.11074)
   "description": "Finish Tank Over Temp",
   "_id": "fffbb82a-e6a2-4211-8476-b294187bb2a4",
   "label": "Finish Tank Over Temp",
-  "eventType": "68\\|E\\|8000.11074",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11074"
+  "type": "68\\|E\\|8000.11074"
 }
 ```

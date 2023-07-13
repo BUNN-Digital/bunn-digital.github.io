@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11112
+68\|E\|8000.11112
 
 ## Category:
 
@@ -60,8 +60,7 @@ Piston Error Comm Fail (68\|E\|8000.11112)
   "description": "Piston Error Comm Fail",
   "_id": "42fb23b7-9f4c-4bb3-9ac7-e1029ccb1b7d",
   "label": "Piston Error Comm Fail",
-  "eventType": "68\\|E\\|8000.11112",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11112"
+  "type": "68\\|E\\|8000.11112"
 }
 ```

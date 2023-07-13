@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11327
+68\|E\|8000.11327
 
 ## Category:
 
@@ -60,8 +60,7 @@ Mode Is In Standby (68\|E\|8000.11327)
   "description": "Mode Is In Standby",
   "_id": "8f7ac769-5724-4d45-8eb2-db61ee2fe619",
   "label": "Mode Is In Standby",
-  "eventType": "68\\|E\\|8000.11327",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11327"
+  "type": "68\\|E\\|8000.11327"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8002.246
+68\|E\|8002.246
 
 ## Category:
 
@@ -60,8 +60,7 @@ Reservoir 2 Schedule Update Failure - Hold Volume Error (68\|E\|8002.246)
   "description": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
   "_id": "13d893dd-6502-4527-bc9e-f996c66efe4c",
   "label": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
-  "eventType": "68\\|E\\|8002.246",
   "category": "machine.telemetry",
-  "type": "68|E|8002.246"
+  "type": "68\\|E\\|8002.246"
 }
 ```

@@ -9,7 +9,7 @@ grand_parent: "Event Catalog"
 
 ## Type:
 
-68|E|8000.11077
+68\|E\|8000.11077
 
 ## Category:
 
@@ -60,8 +60,7 @@ Finish Tank Heat Test Fail (68\|E\|8000.11077)
   "description": "Finish Tank Heat Test Fail",
   "_id": "cfe6179e-2772-46b3-bc4f-9233f18aa88f",
   "label": "Finish Tank Heat Test Fail",
-  "eventType": "68\\|E\\|8000.11077",
   "category": "machine.telemetry",
-  "type": "68|E|8000.11077"
+  "type": "68\\|E\\|8000.11077"
 }
 ```
