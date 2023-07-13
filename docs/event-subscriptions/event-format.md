@@ -22,10 +22,7 @@ All events published by the BUNN APIs will conform to a standard format.
         "tag1",
         "tag2"
     ],
-    "eventCategories": [
-        "category1",
-        "category2"
-    ],
+    "category": "category",
     "payload": {
         "serialNumber": "if applicable"
         "additionalProp1": "string",
@@ -47,10 +44,7 @@ All events published by the BUNN APIs will conform to a standard format.
         "machine",
         "telemetry"
     ],
-    "eventCategories": [
-        "machine",
-        "telemetry"
-    ],
+    "category": "machine.telemetry",
     "payload": {
         "serialNumber": "EP00005696",
         "timestamp": "2023-01-01T17:38:43",
@@ -74,6 +68,6 @@ All events published by the BUNN APIs will conform to a standard format.
 | type                    | String | "recipe.brewed" | This is the "kind" of event that was published and corresponds to an event definition in our [Event Catalog](/event-catalog). |
 | description             | String | "This event describes a brew operation on a machine." | A brief, human-readable description of the event type. Corresponds to descriptions found in our [Event Catalog](/event-catalog). |
 | receivedTimestampUtc    | String | "1970-01-01T00:00:00.000000000Z" | The data and time that the event was recieved by the event-processing system. <br><br>Conforms to [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) in [Coordinated Universal Time (UTC)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time). |
-| categories (deprecated) | String Array | ["alarm", "fault"] | Tags describe one or more ways to group like events. These can be used to filter events when searching or publishing to your [Event Consumer](event-consumer). <br><br>More information can be found in our [Event Tags](event-tags) documentation. |
+| category (deprecated) | String | "machine.alarm" | Deprecated. Will be replaced with tags. <br><br> Category describes a hierarchical grouping for this event that is used for filtering when searching or publishing to your [Event Consumer](event-consumer).  |
 | tags                    | String Array | ["alarm", "fault"] | Tags describe one or more ways to group like events. These can be used to filter events when searching or publishing to your [Event Consumer](event-consumer). <br><br>More information can be found in our [Event Tags](event-tags) documentation. |
 | payload                 | JSON | { "active": false } | The payload holds the custom data elements for each event. The format for each event type can be found in our [Event Catalog](/event-catalog). <br><br>Conforms to the [JSON specification](https://www.json.org/json-en.html). |
