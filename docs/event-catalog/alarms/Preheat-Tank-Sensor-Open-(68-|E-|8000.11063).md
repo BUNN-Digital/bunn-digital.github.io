@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Preheat Tank Sensor Open"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Preheat Tank Sensor Open
 
 ## Type:
 
-recipe.tap.activated
+68|E|8000.11063
 
 ## Category:
 
@@ -17,13 +17,18 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Preheat Tank Sensor Open (68\|E\|8000.11063)
 
 ## Payload:
 
 ```
 [
-  null,
+  {
+    "fieldName": "boolean",
+    "type": "boolean",
+    "descrtiption": "An unspecified boolean value. Most commonly this describes the state of the event itself - e.g. active (true) or inactive/resolved (false) if the event is an alarm",
+    "example": "true"
+  },
   {
     "fieldName": "serialNumber",
     "type": "text",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:07:06.000Z",
     "zone": "UTC"
   },
   "payload": {
+    "boolean": "false",
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "datapointId": "68|E|8000.11063"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Preheat Tank Sensor Open",
+  "_id": "bcfcfb90-be69-42b2-aa62-fa447e12329c",
+  "label": "Preheat Tank Sensor Open",
+  "eventType": "68\\|E\\|8000.11063",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8000.11063"
 }
 ```

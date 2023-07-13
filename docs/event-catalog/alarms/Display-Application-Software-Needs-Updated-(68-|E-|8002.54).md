@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Display Application Software Needs Updated"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Display Application Software Needs Updated
 
 ## Type:
 
-recipe.tap.activated
+68|E|8002.54
 
 ## Category:
 
@@ -17,18 +17,23 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Display Application Software Needs Updated (68\|E\|8002.54)
 
 ## Payload:
 
 ```
 [
-  null,
   {
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
     "example": "TEST000001"
+  },
+  {
+    "fieldName": "text",
+    "type": "text",
+    "descrtiption": "Unspecified text value.",
+    "example": "This is a text value."
   },
   {
     "fieldName": "datapointId",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:08:35.000Z",
     "zone": "UTC"
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "text": "false",
+    "datapointId": "68|E|8002.54"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Display Application Software Needs Updated",
+  "_id": "87ab5d85-7325-4e4c-92d7-fd1898d2245e",
+  "label": "Display Application Software Needs Updated",
+  "eventType": "68\\|E\\|8002.54",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8002.54"
 }
 ```

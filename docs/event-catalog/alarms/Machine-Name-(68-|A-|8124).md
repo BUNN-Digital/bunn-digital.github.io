@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Machine Name"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Machine Name
 
 ## Type:
 
-recipe.tap.activated
+68|A|8124
 
 ## Category:
 
@@ -17,18 +17,23 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Machine Name (68\|A\|8124)
 
 ## Payload:
 
 ```
 [
-  null,
   {
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
     "example": "TEST000001"
+  },
+  {
+    "fieldName": "text",
+    "type": "text",
+    "descrtiption": "Unspecified text value.",
+    "example": "This is a text value."
   },
   {
     "fieldName": "datapointId",
@@ -49,19 +54,14 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "text": "false",
+    "datapointId": "68|A|8124"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Machine Name",
+  "_id": "414ed5cf-86fd-4208-b250-8ca41f2acbed",
+  "label": "Machine Name",
+  "eventType": "68\\|A\\|8124",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|A|8124"
 }
 ```

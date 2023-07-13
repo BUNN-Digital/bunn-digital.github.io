@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "System API Event"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# System API Event
 
 ## Type:
 
-recipe.tap.activated
+68|E|8008
 
 ## Category:
 
@@ -17,7 +17,7 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+System API Event (68\|E\|8008)
 
 ## Payload:
 
@@ -44,24 +44,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:09:06.000Z",
     "zone": "UTC"
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "decimal": "75",
+    "datapointId": "68|E|8008"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "System API Event",
+  "_id": "281b80c3-c750-4191-9a16-b631cb0ef73c",
+  "label": "System API Event",
+  "eventType": "68\\|E\\|8008",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8008"
 }
 ```

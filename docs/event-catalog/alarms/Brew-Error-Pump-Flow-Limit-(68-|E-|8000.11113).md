@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Brew Error Pump Flow Limit"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Brew Error Pump Flow Limit
 
 ## Type:
 
-recipe.tap.activated
+68|E|8000.11113
 
 ## Category:
 
@@ -17,13 +17,18 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Brew Error Pump Flow Limit (68\|E\|8000.11113)
 
 ## Payload:
 
 ```
 [
-  null,
+  {
+    "fieldName": "boolean",
+    "type": "boolean",
+    "descrtiption": "An unspecified boolean value. Most commonly this describes the state of the event itself - e.g. active (true) or inactive/resolved (false) if the event is an alarm",
+    "example": "true"
+  },
   {
     "fieldName": "serialNumber",
     "type": "text",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:07:41.000Z",
     "zone": "UTC"
   },
   "payload": {
+    "boolean": "false",
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "datapointId": "68|E|8000.11113"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Brew Error Pump Flow Limit",
+  "_id": "25f911c0-b5b5-4a2a-85be-193b59a475b3",
+  "label": "Brew Error Pump Flow Limit",
+  "eventType": "68\\|E\\|8000.11113",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8000.11113"
 }
 ```

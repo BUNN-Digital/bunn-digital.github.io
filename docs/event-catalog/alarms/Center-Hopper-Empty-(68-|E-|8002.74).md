@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Center Hopper Empty"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Center Hopper Empty
 
 ## Type:
 
-recipe.tap.activated
+68|E|8002.74
 
 ## Category:
 
@@ -17,18 +17,23 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Center Hopper Empty (68\|E\|8002.74)
 
 ## Payload:
 
 ```
 [
-  null,
   {
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
     "example": "TEST000001"
+  },
+  {
+    "fieldName": "text",
+    "type": "text",
+    "descrtiption": "Unspecified text value.",
+    "example": "This is a text value."
   },
   {
     "fieldName": "datapointId",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:08:51.000Z",
     "zone": "UTC"
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "text": "false",
+    "datapointId": "68|E|8002.74"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Center Hopper Empty",
+  "_id": "b793c814-c539-4ddb-9639-d9ae76428267",
+  "label": "Center Hopper Empty",
+  "eventType": "68\\|E\\|8002.74",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8002.74"
 }
 ```

@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Customer Care Events"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Customer Care Events
 
 ## Type:
 
-recipe.tap.activated
+68|E|8005
 
 ## Category:
 
@@ -17,7 +17,7 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Customer Care Events (68\|E\|8005)
 
 ## Payload:
 
@@ -44,24 +44,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:09:05.000Z",
     "zone": "UTC"
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "decimal": "15",
+    "datapointId": "68|E|8005"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Customer Care Events",
+  "_id": "0ffd2879-edf6-490a-acf7-b0f2a6768d90",
+  "label": "Customer Care Events",
+  "eventType": "68\\|E\\|8005",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8005"
 }
 ```

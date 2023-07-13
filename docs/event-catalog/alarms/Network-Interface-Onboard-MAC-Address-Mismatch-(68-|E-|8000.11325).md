@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Network Interface Onboard MAC Address Mismatch"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Network Interface Onboard MAC Address Mismatch
 
 ## Type:
 
-recipe.tap.activated
+68|E|8000.11325
 
 ## Category:
 
@@ -17,13 +17,18 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Network Interface Onboard MAC Address Mismatch (68\|E\|8000.11325)
 
 ## Payload:
 
 ```
 [
-  null,
+  {
+    "fieldName": "boolean",
+    "type": "boolean",
+    "descrtiption": "An unspecified boolean value. Most commonly this describes the state of the event itself - e.g. active (true) or inactive/resolved (false) if the event is an alarm",
+    "example": "true"
+  },
   {
     "fieldName": "serialNumber",
     "type": "text",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:08:02.000Z",
     "zone": "UTC"
   },
   "payload": {
+    "boolean": "false",
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "datapointId": "68|E|8000.11325"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Network Interface Onboard MAC Address Mismatch",
+  "_id": "3faf8b26-fb93-4324-b4d6-d5bab5b7ac35",
+  "label": "Network Interface Onboard MAC Address Mismatch",
+  "eventType": "68\\|E\\|8000.11325",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8000.11325"
 }
 ```

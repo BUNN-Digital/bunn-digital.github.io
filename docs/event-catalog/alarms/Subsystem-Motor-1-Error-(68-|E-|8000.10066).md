@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Subsystem/Motor 1 Error"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Subsystem/Motor 1 Error
 
 ## Type:
 
-recipe.tap.activated
+68|E|8000.10066
 
 ## Category:
 
@@ -17,13 +17,18 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Subsystem/Motor 1 Error (68\|E\|8000.10066)
 
 ## Payload:
 
 ```
 [
-  null,
+  {
+    "fieldName": "boolean",
+    "type": "boolean",
+    "descrtiption": "An unspecified boolean value. Most commonly this describes the state of the event itself - e.g. active (true) or inactive/resolved (false) if the event is an alarm",
+    "example": "true"
+  },
   {
     "fieldName": "serialNumber",
     "type": "text",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:06:46.000Z",
     "zone": "UTC"
   },
   "payload": {
+    "boolean": "false",
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "datapointId": "68|E|8000.10066"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Subsystem/Motor 1 Error",
+  "_id": "95583c13-1379-4d70-8929-bf3c62456972",
+  "label": "Subsystem/Motor 1 Error",
+  "eventType": "68\\|E\\|8000.10066",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8000.10066"
 }
 ```

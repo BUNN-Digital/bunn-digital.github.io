@@ -1,15 +1,15 @@
 ---
-title: "Recipe Position Status - Non Portion Controlled"
+title: "Software Update - Control Board Boot"
 layout: default
 parent: "Alarms"
 grand_parent: "Event Catalog"
 ---
 
-# Recipe Position Status - Non Portion Controlled
+# Software Update - Control Board Boot
 
 ## Type:
 
-recipe.tap.activated
+68|E|8002.33
 
 ## Category:
 
@@ -17,18 +17,23 @@ machine.telemetry
 
 ## Description: 
 
-Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
+Software Update - Control Board Boot (68\|E\|8002.33)
 
 ## Payload:
 
 ```
 [
-  null,
   {
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
     "example": "TEST000001"
+  },
+  {
+    "fieldName": "text",
+    "type": "text",
+    "descrtiption": "Unspecified text value.",
+    "example": "This is a text value."
   },
   {
     "fieldName": "datapointId",
@@ -44,24 +49,19 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ```
 {
   "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
+    "dateTime": "2023-07-10T21:08:30.000Z",
     "zone": "UTC"
   },
   "payload": {
     "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
+    "text": "false",
+    "datapointId": "68|E|8002.33"
   },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "eventType": "recipe.tap.activated",
+  "description": "Software Update - Control Board Boot",
+  "_id": "54c3f7a5-68ab-4cf3-9b4e-c835ec6d5169",
+  "label": "Software Update - Control Board Boot",
+  "eventType": "68\\|E\\|8002.33",
   "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
+  "type": "68|E|8002.33"
 }
 ```
