@@ -62,6 +62,7 @@ Recipe Drained (recipe.drained)
   "description": "Recipe Drained",
   "_id": "a74d5ff2-64da-44c1-839f-2f9c14643131",
   "label": "Recipe Drained",
+  "eventType": "recipe.drained",
   "category": "machine.telemetry",
   "type": "recipe.drained"
 }
