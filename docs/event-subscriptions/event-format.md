@@ -18,11 +18,11 @@ All events published by the BUNN APIs will conform to a standard format.
     "type": "event.type",
     "description": "Friendly Description",
     "receivedTimestampUtc": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+    "category": "category",
     "tags": [
         "tag1",
         "tag2"
     ],
-    "category": "category",
     "payload": {
         "serialNumber": "if applicable"
         "additionalProp1": "string",
@@ -40,11 +40,11 @@ All events published by the BUNN APIs will conform to a standard format.
     "type": "recipe.dispensed",
     "description": "Recipe Dispensed - Non Portion Controlled",
     "receivedTimestampUtc": "2023-01-01T22:40:03.265086400Z",
+    "category": "machine.telemetry",
     "tags": [
         "machine",
         "telemetry"
     ],
-    "category": "machine.telemetry",
     "payload": {
         "serialNumber": "EP00005696",
         "timestamp": "2023-01-01T17:38:43",
