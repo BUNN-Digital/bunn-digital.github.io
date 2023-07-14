@@ -21,6 +21,13 @@ machine.telemetry
 
 Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 
+## Payload Fields:
+
+| Field | Type | Example | Description |
+|:------|:-----|:--------|:------------|
+| serialNumber | text | "SN1234" | The unique identifier for the machine that generated the event |
+| datapointId | text | "68\|E\|8000.10000" | Identifies the datapoint related to this event. A datapoint is a low-level representation of machine data and/or events passed through BUNNlink. The Datapoint ID allows correlation of events from machine to BUNNlink to the Event API. The Datapoint ID is similar to event type, but is machine-specific. |
+
 ## Example:
 
 ```
@@ -42,24 +49,3 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
   }
 }
 ```
-
-## Payload Description
-
-```
-[
-  null,
-  {
-    "fieldName": "serialNumber",
-    "type": "text",
-    "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "SN1234"
-  },
-  {
-    "fieldName": "datapointId",
-    "type": "text",
-    "descrtiption": "Identifies the datapoint related to this event. A datapoint is a low-level representation of machine data and/or events passed through BUNNlink. The Datapoint ID allows correlation of events from machine to BUNNlink to the Event API. The Datapoint ID is similar to event type, but is machine-specific.",
-    "example": "68|E|8000.10000"
-  }
-]
-```
-
