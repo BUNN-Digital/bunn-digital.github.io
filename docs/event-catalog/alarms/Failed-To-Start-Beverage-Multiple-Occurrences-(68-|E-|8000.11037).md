@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Failed To Start Beverage - Multiple Occurrences
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11037
@@ -19,7 +21,24 @@ machine.telemetry
 
 Failed To Start Beverage - Multiple Occurrences (68\|E\|8000.11037)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11037",
+  "description": "Failed To Start Beverage - Multiple Occurrences",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11037"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Failed To Start Beverage - Multiple Occurrences (68\|E\|8000.11037)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Failed To Start Beverage - Multiple Occurrences (68\|E\|8000.11037)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:00.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11037"
-  },
-  "description": "Failed To Start Beverage - Multiple Occurrences",
-  "_id": "344cd527-ddc6-4be6-aa14-f9fac67603d3",
-  "label": "Failed To Start Beverage - Multiple Occurrences",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11037"
-}
-```

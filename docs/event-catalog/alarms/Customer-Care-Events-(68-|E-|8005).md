@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Customer Care Events
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8005
@@ -19,7 +21,24 @@ machine.telemetry
 
 Customer Care Events (68\|E\|8005)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8005",
+  "description": "Customer Care Events",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "decimal": "15",
+    "datapointId": "68|E|8005"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -28,7 +47,7 @@ Customer Care Events (68\|E\|8005)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -39,23 +58,3 @@ Customer Care Events (68\|E\|8005)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:09:05.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "decimal": "15",
-    "datapointId": "68|E|8005"
-  },
-  "description": "Customer Care Events",
-  "_id": "0ffd2879-edf6-490a-acf7-b0f2a6768d90",
-  "label": "Customer Care Events",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8005"
-}
-```

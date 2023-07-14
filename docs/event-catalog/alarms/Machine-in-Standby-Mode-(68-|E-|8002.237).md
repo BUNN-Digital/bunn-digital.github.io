@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Machine in Standby Mode
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.237
@@ -19,7 +21,24 @@ machine.telemetry
 
 Machine in Standby Mode (68\|E\|8002.237)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.237",
+  "description": "Machine in Standby Mode",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.237"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Machine in Standby Mode (68\|E\|8002.237)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Machine in Standby Mode (68\|E\|8002.237)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:11.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.237"
-  },
-  "description": "Machine in Standby Mode",
-  "_id": "ed903b42-fa90-4e01-a3ac-32a97d33854c",
-  "label": "Machine in Standby Mode",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.237"
-}
-```

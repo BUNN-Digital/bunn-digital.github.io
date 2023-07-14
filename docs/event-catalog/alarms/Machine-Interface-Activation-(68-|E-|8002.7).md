@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Machine Interface Activation
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.7
@@ -19,7 +21,24 @@ machine.telemetry
 
 Machine Interface Activation (68\|E\|8002.7)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.7",
+  "description": "Machine Interface Activation",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.7"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Machine Interface Activation (68\|E\|8002.7)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Machine Interface Activation (68\|E\|8002.7)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:46.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.7"
-  },
-  "description": "Machine Interface Activation",
-  "_id": "ac08c44e-2d5c-4b57-a0b1-3224e86dbc10",
-  "label": "Machine Interface Activation",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.7"
-}
-```

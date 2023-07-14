@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Date/Time Change - Auto
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.53
@@ -19,7 +21,24 @@ machine.telemetry
 
 Date/Time Change - Auto (68\|E\|8002.53)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.53",
+  "description": "Date/Time Change - Auto",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.53"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Date/Time Change - Auto (68\|E\|8002.53)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Date/Time Change - Auto (68\|E\|8002.53)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:34.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.53"
-  },
-  "description": "Date/Time Change - Auto",
-  "_id": "80e8c7ac-6826-48aa-bb8c-2b71e951ed68",
-  "label": "Date/Time Change - Auto",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.53"
-}
-```

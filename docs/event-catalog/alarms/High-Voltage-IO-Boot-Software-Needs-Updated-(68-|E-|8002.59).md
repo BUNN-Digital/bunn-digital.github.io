@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # High Voltage IO Boot Software Needs Updated
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.59
@@ -19,7 +21,24 @@ machine.telemetry
 
 High Voltage IO Boot Software Needs Updated (68\|E\|8002.59)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.59",
+  "description": "High Voltage IO Boot Software Needs Updated",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.59"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ High Voltage IO Boot Software Needs Updated (68\|E\|8002.59)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ High Voltage IO Boot Software Needs Updated (68\|E\|8002.59)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:39.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.59"
-  },
-  "description": "High Voltage IO Boot Software Needs Updated",
-  "_id": "647bef7d-c86a-4803-b92a-904a6ee2f8b1",
-  "label": "High Voltage IO Boot Software Needs Updated",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.59"
-}
-```

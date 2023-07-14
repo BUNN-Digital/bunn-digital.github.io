@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Subsystem/Motor 5 Error
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.10070
@@ -19,7 +21,24 @@ machine.telemetry
 
 Subsystem/Motor 5 Error (68\|E\|8000.10070)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.10070",
+  "description": "Subsystem/Motor 5 Error",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.10070"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Subsystem/Motor 5 Error (68\|E\|8000.10070)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Subsystem/Motor 5 Error (68\|E\|8000.10070)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:51.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.10070"
-  },
-  "description": "Subsystem/Motor 5 Error",
-  "_id": "2eed2ba8-da49-4571-bcdf-f6a7a70dde18",
-  "label": "Subsystem/Motor 5 Error",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.10070"
-}
-```

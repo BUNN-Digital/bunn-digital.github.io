@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Preheat Tank Over Temp
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11075
@@ -19,7 +21,24 @@ machine.telemetry
 
 Preheat Tank Over Temp (68\|E\|8000.11075)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11075",
+  "description": "Preheat Tank Over Temp",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11075"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Preheat Tank Over Temp (68\|E\|8000.11075)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Preheat Tank Over Temp (68\|E\|8000.11075)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:13.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11075"
-  },
-  "description": "Preheat Tank Over Temp",
-  "_id": "b00c2a7a-e6ed-4bd2-97cc-b8d650cd7ace",
-  "label": "Preheat Tank Over Temp",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11075"
-}
-```

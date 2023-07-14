@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Date/Time Change - User
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.52
@@ -19,7 +21,24 @@ machine.telemetry
 
 Date/Time Change - User (68\|E\|8002.52)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.52",
+  "description": "Date/Time Change - User",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.52"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Date/Time Change - User (68\|E\|8002.52)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Date/Time Change - User (68\|E\|8002.52)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:34.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.52"
-  },
-  "description": "Date/Time Change - User",
-  "_id": "7fe09f88-07db-40d5-8279-e27b2f705ade",
-  "label": "Date/Time Change - User",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.52"
-}
-```

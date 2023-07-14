@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Serial Port 2 Missing
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11274
@@ -19,7 +21,24 @@ machine.telemetry
 
 Serial Port 2 Missing (68\|E\|8000.11274)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11274",
+  "description": "Serial Port 2 Missing",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11274"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Serial Port 2 Missing (68\|E\|8000.11274)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Serial Port 2 Missing (68\|E\|8000.11274)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:51.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11274"
-  },
-  "description": "Serial Port 2 Missing",
-  "_id": "a336632d-2305-471d-84ba-51d392917312",
-  "label": "Serial Port 2 Missing",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11274"
-}
-```

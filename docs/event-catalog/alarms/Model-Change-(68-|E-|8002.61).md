@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Model Change
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.61
@@ -19,7 +21,24 @@ machine.telemetry
 
 Model Change (68\|E\|8002.61)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.61",
+  "description": "Model Change",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.61"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Model Change (68\|E\|8002.61)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Model Change (68\|E\|8002.61)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:40.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.61"
-  },
-  "description": "Model Change",
-  "_id": "67ec1a44-9483-4698-847f-5272c257abfd",
-  "label": "Model Change",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.61"
-}
-```

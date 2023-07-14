@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Water Filter Service Due
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11185
@@ -19,7 +21,24 @@ machine.telemetry
 
 Water Filter Service Due (68\|E\|8000.11185)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11185",
+  "description": "Water Filter Service Due",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11185"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Water Filter Service Due (68\|E\|8000.11185)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Water Filter Service Due (68\|E\|8000.11185)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:45.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11185"
-  },
-  "description": "Water Filter Service Due",
-  "_id": "e8b0e337-e53b-4e5f-a529-8ea593573a36",
-  "label": "Water Filter Service Due",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11185"
-}
-```

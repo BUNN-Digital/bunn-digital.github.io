@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Access Door Open
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.231
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Access Door Open (68\|E\|8002.231)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.231",
+  "description": "Reservoir Access Door Open",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.231"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Access Door Open (68\|E\|8002.231)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Access Door Open (68\|E\|8002.231)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:06.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.231"
-  },
-  "description": "Reservoir Access Door Open",
-  "_id": "d9076998-0518-44f7-a449-ba0e81a828e6",
-  "label": "Reservoir Access Door Open",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.231"
-}
-```

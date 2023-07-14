@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Swing Arm Up
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.235
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Swing Arm Up (68\|E\|8002.235)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.235",
+  "description": "Reservoir Swing Arm Up",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.235"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Swing Arm Up (68\|E\|8002.235)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Swing Arm Up (68\|E\|8002.235)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:10.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.235"
-  },
-  "description": "Reservoir Swing Arm Up",
-  "_id": "56b2a340-f325-497a-9829-8159ccee5a83",
-  "label": "Reservoir Swing Arm Up",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.235"
-}
-```

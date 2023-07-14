@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Clean Complete
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.253
@@ -19,7 +21,24 @@ machine.telemetry
 
 Clean Complete (68\|E\|8002.253)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.253",
+  "description": "Clean Complete",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.253"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Clean Complete (68\|E\|8002.253)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Clean Complete (68\|E\|8002.253)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:23.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.253"
-  },
-  "description": "Clean Complete",
-  "_id": "8fb80674-9796-4b1d-b253-ed0da376758d",
-  "label": "Clean Complete",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.253"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Waste Bin Installed
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.65
@@ -19,7 +21,24 @@ machine.telemetry
 
 Waste Bin Installed (68\|E\|8002.65)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.65",
+  "description": "Waste Bin Installed",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.65"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Waste Bin Installed (68\|E\|8002.65)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Waste Bin Installed (68\|E\|8002.65)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:42.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.65"
-  },
-  "description": "Waste Bin Installed",
-  "_id": "d0899a8b-8ff3-4713-8c5c-c4cd04eae3b9",
-  "label": "Waste Bin Installed",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.65"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir 2 Schedule Update Failure - Hold Volume Error
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.246
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir 2 Schedule Update Failure - Hold Volume Error (68\|E\|8002.246)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.246",
+  "description": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.246"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir 2 Schedule Update Failure - Hold Volume Error (68\|E\|8002.246)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir 2 Schedule Update Failure - Hold Volume Error (68\|E\|8002.246)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:17.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.246"
-  },
-  "description": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
-  "_id": "13d893dd-6502-4527-bc9e-f996c66efe4c",
-  "label": "Reservoir 2 Schedule Update Failure - Hold Volume Error",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.246"
-}
-```

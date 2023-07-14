@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Stall Down Outside
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11099
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Stall Down Outside (68\|E\|8000.11099)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11099",
+  "description": "Piston Error Stall Down Outside",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11099"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Stall Down Outside (68\|E\|8000.11099)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Stall Down Outside (68\|E\|8000.11099)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:31.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11099"
-  },
-  "description": "Piston Error Stall Down Outside",
-  "_id": "51515b14-a4e4-4d15-8fa3-1582c376910d",
-  "label": "Piston Error Stall Down Outside",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11099"
-}
-```

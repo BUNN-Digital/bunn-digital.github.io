@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Machine Scheduler - Machine Turned ON
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.31
@@ -19,7 +21,24 @@ machine.telemetry
 
 Machine Scheduler - Machine Turned ON (68\|E\|8002.31)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.31",
+  "description": "Machine Scheduler - Machine Turned ON",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.31"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Machine Scheduler - Machine Turned ON (68\|E\|8002.31)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Machine Scheduler - Machine Turned ON (68\|E\|8002.31)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:29.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.31"
-  },
-  "description": "Machine Scheduler - Machine Turned ON",
-  "_id": "c0dbaa86-8991-40ef-a849-77caf66da9fc",
-  "label": "Machine Scheduler - Machine Turned ON",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.31"
-}
-```

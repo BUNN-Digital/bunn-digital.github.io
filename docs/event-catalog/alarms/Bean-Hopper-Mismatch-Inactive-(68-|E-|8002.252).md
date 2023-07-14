@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Bean Hopper Mismatch Inactive
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.252
@@ -19,7 +21,24 @@ machine.telemetry
 
 Bean Hopper Mismatch Inactive (68\|E\|8002.252)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.252",
+  "description": "Bean Hopper Mismatch Inactive",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.252"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Bean Hopper Mismatch Inactive (68\|E\|8002.252)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Bean Hopper Mismatch Inactive (68\|E\|8002.252)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:22.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.252"
-  },
-  "description": "Bean Hopper Mismatch Inactive",
-  "_id": "f187bcef-7395-4d6e-9cab-b378fb8772e4",
-  "label": "Bean Hopper Mismatch Inactive",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.252"
-}
-```

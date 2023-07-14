@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Settings Event - Any Recipe Change Complete
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8003.4
@@ -19,7 +21,24 @@ machine.telemetry
 
 Settings Event - Any Recipe Change Complete (68\|E\|8003.4)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8003.4",
+  "description": "Settings Event - Any Recipe Change Complete",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8003.4"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Settings Event - Any Recipe Change Complete (68\|E\|8003.4)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Settings Event - Any Recipe Change Complete (68\|E\|8003.4)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:09:05.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8003.4"
-  },
-  "description": "Settings Event - Any Recipe Change Complete",
-  "_id": "9099833e-6548-420c-ae7b-7e5790132737",
-  "label": "Settings Event - Any Recipe Change Complete",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8003.4"
-}
-```

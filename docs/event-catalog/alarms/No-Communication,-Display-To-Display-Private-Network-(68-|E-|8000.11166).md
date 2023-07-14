@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # No Communication, Display-To-Display Private Network
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11166
@@ -19,7 +21,24 @@ machine.telemetry
 
 No Communication, Display-To-Display Private Network (68\|E\|8000.11166)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11166",
+  "description": "No Communication, Display-To-Display Private Network",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11166"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ No Communication, Display-To-Display Private Network (68\|E\|8000.11166)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ No Communication, Display-To-Display Private Network (68\|E\|8000.11166)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:44.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11166"
-  },
-  "description": "No Communication, Display-To-Display Private Network",
-  "_id": "e16c0c25-c006-4855-aff4-0e6155b20f86",
-  "label": "No Communication, Display-To-Display Private Network",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11166"
-}
-```

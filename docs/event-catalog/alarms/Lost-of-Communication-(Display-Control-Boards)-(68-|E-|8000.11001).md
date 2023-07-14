@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Lost of Communication (Display - Control Boards)
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11001
@@ -19,7 +21,24 @@ machine.telemetry
 
 Lost of Communication (Display - Control Boards) (68\|E\|8000.11001)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11001",
+  "description": "Lost of Communication (Display - Control Boards)",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11001"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Lost of Communication (Display - Control Boards) (68\|E\|8000.11001)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Lost of Communication (Display - Control Boards) (68\|E\|8000.11001)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:54.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11001"
-  },
-  "description": "Lost of Communication (Display - Control Boards)",
-  "_id": "c9760d99-a643-4165-92c7-cd02ce195a78",
-  "label": "Lost of Communication (Display - Control Boards)",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11001"
-}
-```

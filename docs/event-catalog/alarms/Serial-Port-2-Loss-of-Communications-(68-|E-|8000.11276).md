@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Serial Port 2 Loss of Communications
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11276
@@ -19,7 +21,24 @@ machine.telemetry
 
 Serial Port 2 Loss of Communications (68\|E\|8000.11276)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11276",
+  "description": "Serial Port 2 Loss of Communications",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11276"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Serial Port 2 Loss of Communications (68\|E\|8000.11276)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Serial Port 2 Loss of Communications (68\|E\|8000.11276)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:52.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11276"
-  },
-  "description": "Serial Port 2 Loss of Communications",
-  "_id": "19c80569-b6da-4f70-8fd3-320eb7acecc1",
-  "label": "Serial Port 2 Loss of Communications",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11276"
-}
-```

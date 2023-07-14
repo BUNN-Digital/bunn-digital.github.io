@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Stall Up Not Home
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11094
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Stall Up Not Home (68\|E\|8000.11094)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11094",
+  "description": "Piston Error Stall Up Not Home",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11094"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Stall Up Not Home (68\|E\|8000.11094)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Stall Up Not Home (68\|E\|8000.11094)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:26.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11094"
-  },
-  "description": "Piston Error Stall Up Not Home",
-  "_id": "71a3acfc-9250-4b76-95f9-3b9801caf1f1",
-  "label": "Piston Error Stall Up Not Home",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11094"
-}
-```

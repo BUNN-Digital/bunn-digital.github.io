@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Finish Tank Heat Test Fail
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11077
@@ -19,7 +21,24 @@ machine.telemetry
 
 Finish Tank Heat Test Fail (68\|E\|8000.11077)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11077",
+  "description": "Finish Tank Heat Test Fail",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11077"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Finish Tank Heat Test Fail (68\|E\|8000.11077)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Finish Tank Heat Test Fail (68\|E\|8000.11077)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:15.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11077"
-  },
-  "description": "Finish Tank Heat Test Fail",
-  "_id": "cfe6179e-2772-46b3-bc4f-9233f18aa88f",
-  "label": "Finish Tank Heat Test Fail",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11077"
-}
-```

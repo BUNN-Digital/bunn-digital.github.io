@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Timeout Locating
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11097
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Timeout Locating (68\|E\|8000.11097)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11097",
+  "description": "Piston Error Timeout Locating",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11097"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Timeout Locating (68\|E\|8000.11097)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Timeout Locating (68\|E\|8000.11097)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:29.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11097"
-  },
-  "description": "Piston Error Timeout Locating",
-  "_id": "64fb5b9c-2dce-428c-83af-6e65571d6e90",
-  "label": "Piston Error Timeout Locating",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11097"
-}
-```

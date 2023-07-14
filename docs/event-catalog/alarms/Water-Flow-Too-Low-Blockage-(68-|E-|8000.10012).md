@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Water Flow Too Low Blockage
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.10012
@@ -19,7 +21,24 @@ machine.telemetry
 
 Water Flow Too Low Blockage (68\|E\|8000.10012)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.10012",
+  "description": "Water Flow Too Low Blockage",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.10012"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Water Flow Too Low Blockage (68\|E\|8000.10012)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Water Flow Too Low Blockage (68\|E\|8000.10012)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:39.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.10012"
-  },
-  "description": "Water Flow Too Low Blockage",
-  "_id": "143fa65e-641c-455a-a089-7ed6daf1904e",
-  "label": "Water Flow Too Low Blockage",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.10012"
-}
-```

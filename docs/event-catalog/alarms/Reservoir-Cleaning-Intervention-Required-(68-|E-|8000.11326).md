@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Cleaning Intervention Required
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11326
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Cleaning Intervention Required (68\|E\|8000.11326)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11326",
+  "description": "Reservoir Cleaning Intervention Required",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11326"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Cleaning Intervention Required (68\|E\|8000.11326)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Cleaning Intervention Required (68\|E\|8000.11326)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:03.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11326"
-  },
-  "description": "Reservoir Cleaning Intervention Required",
-  "_id": "bc9f936b-9eac-4930-a7c6-db1bf056e30f",
-  "label": "Reservoir Cleaning Intervention Required",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11326"
-}
-```

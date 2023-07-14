@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # System API Event
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8008
@@ -19,7 +21,24 @@ machine.telemetry
 
 System API Event (68\|E\|8008)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8008",
+  "description": "System API Event",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "decimal": "75",
+    "datapointId": "68|E|8008"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -28,7 +47,7 @@ System API Event (68\|E\|8008)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -39,23 +58,3 @@ System API Event (68\|E\|8008)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:09:06.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "decimal": "75",
-    "datapointId": "68|E|8008"
-  },
-  "description": "System API Event",
-  "_id": "281b80c3-c750-4191-9a16-b631cb0ef73c",
-  "label": "System API Event",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8008"
-}
-```

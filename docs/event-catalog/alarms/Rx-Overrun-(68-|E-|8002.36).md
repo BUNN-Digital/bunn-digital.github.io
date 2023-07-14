@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Rx Overrun
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.36
@@ -19,7 +21,24 @@ machine.telemetry
 
 Rx Overrun (68\|E\|8002.36)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.36",
+  "description": "Rx Overrun",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.36"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Rx Overrun (68\|E\|8002.36)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Rx Overrun (68\|E\|8002.36)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:31.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.36"
-  },
-  "description": "Rx Overrun",
-  "_id": "6a402b53-302e-49c3-9d54-507071dd159e",
-  "label": "Rx Overrun",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.36"
-}
-```

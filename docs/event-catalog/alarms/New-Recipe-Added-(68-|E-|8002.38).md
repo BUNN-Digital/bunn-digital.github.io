@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # New Recipe Added
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.38
@@ -19,7 +21,24 @@ machine.telemetry
 
 New Recipe Added (68\|E\|8002.38)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.38",
+  "description": "New Recipe Added",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.38"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ New Recipe Added (68\|E\|8002.38)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ New Recipe Added (68\|E\|8002.38)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:31.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.38"
-  },
-  "description": "New Recipe Added",
-  "_id": "01adf2a6-6a6e-4139-83f6-8525ff8fd58b",
-  "label": "New Recipe Added",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.38"
-}
-```

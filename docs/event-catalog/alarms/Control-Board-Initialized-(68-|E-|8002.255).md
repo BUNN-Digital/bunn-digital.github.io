@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Control Board Initialized
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.255
@@ -19,7 +21,24 @@ machine.telemetry
 
 Control Board Initialized (68\|E\|8002.255)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.255",
+  "description": "Control Board Initialized",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.255"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Control Board Initialized (68\|E\|8002.255)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Control Board Initialized (68\|E\|8002.255)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:24.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.255"
-  },
-  "description": "Control Board Initialized",
-  "_id": "c0312655-a519-4bb0-babb-d3fe8e5e815c",
-  "label": "Control Board Initialized",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.255"
-}
-```

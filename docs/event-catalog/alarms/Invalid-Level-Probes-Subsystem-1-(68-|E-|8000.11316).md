@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Invalid Level Probes - Subsystem 1
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11316
@@ -19,7 +21,24 @@ machine.telemetry
 
 Invalid Level Probes - Subsystem 1 (68\|E\|8000.11316)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11316",
+  "description": "Invalid Level Probes - Subsystem 1",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11316"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Invalid Level Probes - Subsystem 1 (68\|E\|8000.11316)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Invalid Level Probes - Subsystem 1 (68\|E\|8000.11316)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:54.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11316"
-  },
-  "description": "Invalid Level Probes - Subsystem 1",
-  "_id": "1bf91da1-180d-4e97-8498-692c9b6f1576",
-  "label": "Invalid Level Probes - Subsystem 1",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11316"
-}
-```

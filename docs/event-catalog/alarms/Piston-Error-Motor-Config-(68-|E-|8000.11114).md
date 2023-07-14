@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Motor Config
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11114
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Motor Config (68\|E\|8000.11114)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11114",
+  "description": "Piston Error Motor Config",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11114"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Motor Config (68\|E\|8000.11114)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Motor Config (68\|E\|8000.11114)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:41.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11114"
-  },
-  "description": "Piston Error Motor Config",
-  "_id": "33baf557-a924-486c-8be9-b3de1d4fe2f0",
-  "label": "Piston Error Motor Config",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11114"
-}
-```

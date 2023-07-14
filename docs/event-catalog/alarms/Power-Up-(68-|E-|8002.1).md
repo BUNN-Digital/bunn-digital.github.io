@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Power Up
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.1
@@ -19,7 +21,24 @@ machine.telemetry
 
 Power Up (68\|E\|8002.1)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.1",
+  "description": "Power Up",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.1"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Power Up (68\|E\|8002.1)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Power Up (68\|E\|8002.1)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:06.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.1"
-  },
-  "description": "Power Up",
-  "_id": "9aec1510-2f71-4e3a-9e2a-32efefb32c3e",
-  "label": "Power Up",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.1"
-}
-```

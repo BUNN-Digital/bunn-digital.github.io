@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Swing Arm Down
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.236
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Swing Arm Down (68\|E\|8002.236)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.236",
+  "description": "Reservoir Swing Arm Down",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.236"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Swing Arm Down (68\|E\|8002.236)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Swing Arm Down (68\|E\|8002.236)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:11.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.236"
-  },
-  "description": "Reservoir Swing Arm Down",
-  "_id": "71a7fc5e-c29b-4b98-a19c-a595900d7184",
-  "label": "Reservoir Swing Arm Down",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.236"
-}
-```

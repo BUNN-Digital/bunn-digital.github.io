@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Right Hopper Missing
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.66
@@ -19,7 +21,24 @@ machine.telemetry
 
 Right Hopper Missing (68\|E\|8002.66)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.66",
+  "description": "Right Hopper Missing",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.66"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Right Hopper Missing (68\|E\|8002.66)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Right Hopper Missing (68\|E\|8002.66)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:43.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.66"
-  },
-  "description": "Right Hopper Missing",
-  "_id": "ad574997-a223-4114-b409-c272019097c1",
-  "label": "Right Hopper Missing",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.66"
-}
-```

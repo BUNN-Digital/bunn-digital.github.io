@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Dispense Fail
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.256
@@ -19,7 +21,24 @@ machine.telemetry
 
 Dispense Fail (68\|E\|8002.256)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.256",
+  "description": "Dispense Fail",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.256"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Dispense Fail (68\|E\|8002.256)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Dispense Fail (68\|E\|8002.256)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:25.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.256"
-  },
-  "description": "Dispense Fail",
-  "_id": "96615616-a860-4ab4-935c-fd474bce7c6d",
-  "label": "Dispense Fail",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.256"
-}
-```

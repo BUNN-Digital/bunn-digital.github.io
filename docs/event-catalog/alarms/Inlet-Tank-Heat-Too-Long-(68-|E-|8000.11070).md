@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Inlet Tank Heat Too Long
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11070
@@ -19,7 +21,24 @@ machine.telemetry
 
 Inlet Tank Heat Too Long (68\|E\|8000.11070)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11070",
+  "description": "Inlet Tank Heat Too Long",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11070"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Inlet Tank Heat Too Long (68\|E\|8000.11070)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Inlet Tank Heat Too Long (68\|E\|8000.11070)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:12.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11070"
-  },
-  "description": "Inlet Tank Heat Too Long",
-  "_id": "0d7c723b-b5df-4c0d-a59f-e15b8b5b0551",
-  "label": "Inlet Tank Heat Too Long",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11070"
-}
-```

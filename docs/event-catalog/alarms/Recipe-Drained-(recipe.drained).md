@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Recipe Drained
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 recipe.drained
@@ -19,7 +21,31 @@ machine.telemetry
 
 Recipe Drained (recipe.drained)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "recipe.drained",
+  "description": "Recipe Drained",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "recipeAgeAtTimeOfDrainMinutes": "91",
+    "serialNumber": "SN1234",
+    "drainDurationMilliseconds": "38248",
+    "recipeNameInfo": "Test 816 Transform",
+    "drainReason": "Invalid",
+    "recipeTemperatureCelcius": "84",
+    "volumeDrainedMilliliters": "828",
+    "datapointId": "68|D|816",
+    "timestamp": "2023-04-12T19:48:15",
+    "reservoirId": "3"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -28,7 +54,7 @@ Recipe Drained (recipe.drained)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -39,30 +65,3 @@ Recipe Drained (recipe.drained)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:22.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "recipeAgeAtTimeOfDrainMinutes": "91",
-    "serialNumber": "TEST000001",
-    "drainDurationMilliseconds": "38248",
-    "recipeNameInfo": "Test 816 Transform",
-    "drainReason": "Invalid",
-    "recipeTemperatureCelcius": "84",
-    "volumeDrainedMilliliters": "828",
-    "datapointId": "68|D|816",
-    "timestamp": "2023-04-12T19:48:15",
-    "reservoirId": "3"
-  },
-  "description": "Recipe Drained",
-  "_id": "a74d5ff2-64da-44c1-839f-2f9c14643131",
-  "label": "Recipe Drained",
-  "category": "machine.telemetry",
-  "type": "recipe.drained"
-}
-```

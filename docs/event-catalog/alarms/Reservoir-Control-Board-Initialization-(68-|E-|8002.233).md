@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Control Board Initialization
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.233
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Control Board Initialization (68\|E\|8002.233)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.233",
+  "description": "Reservoir Control Board Initialization",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.233"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Control Board Initialization (68\|E\|8002.233)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Control Board Initialization (68\|E\|8002.233)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:09.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.233"
-  },
-  "description": "Reservoir Control Board Initialization",
-  "_id": "43eef3d8-e661-47c5-8989-611a37eb611e",
-  "label": "Reservoir Control Board Initialization",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.233"
-}
-```

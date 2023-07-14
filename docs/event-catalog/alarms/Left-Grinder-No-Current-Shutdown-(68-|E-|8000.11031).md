@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Left Grinder No Current Shutdown
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11031
@@ -19,7 +21,24 @@ machine.telemetry
 
 Left Grinder No Current Shutdown (68\|E\|8000.11031)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11031",
+  "description": "Left Grinder No Current Shutdown",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11031"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Left Grinder No Current Shutdown (68\|E\|8000.11031)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Left Grinder No Current Shutdown (68\|E\|8000.11031)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:56.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11031"
-  },
-  "description": "Left Grinder No Current Shutdown",
-  "_id": "e7b869e6-f5c9-45d1-9013-85da1832f41e",
-  "label": "Left Grinder No Current Shutdown",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11031"
-}
-```

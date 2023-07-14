@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Software Update - High Voltage Control Board Boot
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.51
@@ -19,7 +21,24 @@ machine.telemetry
 
 Software Update - High Voltage Control Board Boot (68\|E\|8002.51)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.51",
+  "description": "Software Update - High Voltage Control Board Boot",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.51"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Software Update - High Voltage Control Board Boot (68\|E\|8002.51)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Software Update - High Voltage Control Board Boot (68\|E\|8002.51)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:33.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.51"
-  },
-  "description": "Software Update - High Voltage Control Board Boot",
-  "_id": "0b88ee85-1bb3-49f3-b789-d0f4d6be0626",
-  "label": "Software Update - High Voltage Control Board Boot",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.51"
-}
-```

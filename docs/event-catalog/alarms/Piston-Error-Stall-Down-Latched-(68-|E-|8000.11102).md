@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Stall Down Latched
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11102
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Stall Down Latched (68\|E\|8000.11102)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11102",
+  "description": "Piston Error Stall Down Latched",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11102"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Stall Down Latched (68\|E\|8000.11102)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Stall Down Latched (68\|E\|8000.11102)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:33.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11102"
-  },
-  "description": "Piston Error Stall Down Latched",
-  "_id": "18e03a77-27d8-4490-bbca-5c46d379f132",
-  "label": "Piston Error Stall Down Latched",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11102"
-}
-```

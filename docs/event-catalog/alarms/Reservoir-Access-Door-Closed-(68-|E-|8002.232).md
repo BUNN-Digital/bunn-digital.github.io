@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir Access Door Closed
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.232
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir Access Door Closed (68\|E\|8002.232)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.232",
+  "description": "Reservoir Access Door Closed",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.232"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir Access Door Closed (68\|E\|8002.232)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir Access Door Closed (68\|E\|8002.232)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:09.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.232"
-  },
-  "description": "Reservoir Access Door Closed",
-  "_id": "23a77fa7-c31f-49f0-a704-93269db3776c",
-  "label": "Reservoir Access Door Closed",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.232"
-}
-```

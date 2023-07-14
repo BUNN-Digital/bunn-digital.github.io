@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Recipe Dispensed - Non Portion Controlled
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 recipe.dispensed
@@ -19,7 +21,32 @@ machine.telemetry
 
 Recipe Dispensed - Non Portion Controlled (recipe.dispensed)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "recipe.dispensed",
+  "description": "Recipe Dispensed - Non Portion Controlled",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "volumeDispensedMilliliters": "0",
+    "serialNumber": "SN1234",
+    "recipeNameInfo": "Test 815 Transform",
+    "recipeTemperatureCelcius": "84",
+    "recipeAgeAtTimeOfDispenseMinutes": "65535",
+    "datapointId": "68|D|815",
+    "tapAvailability": "Available",
+    "tapId": "1",
+    "tapActiveDurationMilliseconds": "2218",
+    "timestamp": "2023-01-25T14:12:45",
+    "reservoirId": "1"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -28,7 +55,7 @@ Recipe Dispensed - Non Portion Controlled (recipe.dispensed)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -39,31 +66,3 @@ Recipe Dispensed - Non Portion Controlled (recipe.dispensed)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:15.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "volumeDispensedMilliliters": "0",
-    "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 815 Transform",
-    "recipeTemperatureCelcius": "84",
-    "recipeAgeAtTimeOfDispenseMinutes": "65535",
-    "datapointId": "68|D|815",
-    "tapAvailability": "Available",
-    "tapId": "1",
-    "tapActiveDurationMilliseconds": "2218",
-    "timestamp": "2023-01-25T14:12:45",
-    "reservoirId": "1"
-  },
-  "description": "Recipe Dispensed - Non Portion Controlled",
-  "_id": "7024bb9a-0b4b-4455-8c7e-165fdc5ad1fb",
-  "label": "Recipe Dispensed - Non Portion Controlled",
-  "category": "machine.telemetry",
-  "type": "recipe.dispensed"
-}
-```

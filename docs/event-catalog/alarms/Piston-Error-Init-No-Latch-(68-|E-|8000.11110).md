@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Piston Error Init No Latch
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11110
@@ -19,7 +21,24 @@ machine.telemetry
 
 Piston Error Init No Latch (68\|E\|8000.11110)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11110",
+  "description": "Piston Error Init No Latch",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11110"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Piston Error Init No Latch (68\|E\|8000.11110)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Piston Error Init No Latch (68\|E\|8000.11110)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:39.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11110"
-  },
-  "description": "Piston Error Init No Latch",
-  "_id": "3b2c251b-7fa0-422f-ac38-9eee627c929f",
-  "label": "Piston Error Init No Latch",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11110"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Cleaning Interrupted Subsystem - Hot Coffee
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11156
@@ -19,7 +21,24 @@ machine.telemetry
 
 Cleaning Interrupted Subsystem - Hot Coffee (68\|E\|8000.11156)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11156",
+  "description": "Cleaning Interrupted Subsystem - Hot Coffee",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11156"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Cleaning Interrupted Subsystem - Hot Coffee (68\|E\|8000.11156)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Cleaning Interrupted Subsystem - Hot Coffee (68\|E\|8000.11156)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:43.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11156"
-  },
-  "description": "Cleaning Interrupted Subsystem - Hot Coffee",
-  "_id": "a07e159e-41ba-4106-8f4b-18c90aeb57f3",
-  "label": "Cleaning Interrupted Subsystem - Hot Coffee",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11156"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Grounds Swiper Did Not Return
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11061
@@ -19,7 +21,24 @@ machine.telemetry
 
 Grounds Swiper Did Not Return (68\|E\|8000.11061)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11061",
+  "description": "Grounds Swiper Did Not Return",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11061"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Grounds Swiper Did Not Return (68\|E\|8000.11061)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Grounds Swiper Did Not Return (68\|E\|8000.11061)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:05.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11061"
-  },
-  "description": "Grounds Swiper Did Not Return",
-  "_id": "14a90e77-a39f-46f4-b62f-223c9a25b65b",
-  "label": "Grounds Swiper Did Not Return",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11061"
-}
-```

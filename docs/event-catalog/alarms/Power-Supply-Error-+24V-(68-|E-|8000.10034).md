@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Power Supply Error +24V
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.10034
@@ -19,7 +21,24 @@ machine.telemetry
 
 Power Supply Error +24V (68\|E\|8000.10034)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.10034",
+  "description": "Power Supply Error +24V",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.10034"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Power Supply Error +24V (68\|E\|8000.10034)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Power Supply Error +24V (68\|E\|8000.10034)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:40.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.10034"
-  },
-  "description": "Power Supply Error +24V",
-  "_id": "5d7bdd31-4419-414a-9a1f-cf6d9a927ba5",
-  "label": "Power Supply Error +24V",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.10034"
-}
-```

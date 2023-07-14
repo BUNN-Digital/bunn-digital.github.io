@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Brew Error No Swipe
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11089
@@ -19,7 +21,24 @@ machine.telemetry
 
 Brew Error No Swipe (68\|E\|8000.11089)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11089",
+  "description": "Brew Error No Swipe",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11089"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Brew Error No Swipe (68\|E\|8000.11089)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Brew Error No Swipe (68\|E\|8000.11089)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:23.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11089"
-  },
-  "description": "Brew Error No Swipe",
-  "_id": "b8a722ff-c0c3-4eca-a522-08a059fb10d3",
-  "label": "Brew Error No Swipe",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11089"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Tap Display Interface Missing - Subsystem 3
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11321
@@ -19,7 +21,24 @@ machine.telemetry
 
 Tap Display Interface Missing - Subsystem 3 (68\|E\|8000.11321)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11321",
+  "description": "Tap Display Interface Missing - Subsystem 3",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11321"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Tap Display Interface Missing - Subsystem 3 (68\|E\|8000.11321)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Tap Display Interface Missing - Subsystem 3 (68\|E\|8000.11321)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:59.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11321"
-  },
-  "description": "Tap Display Interface Missing - Subsystem 3",
-  "_id": "37f3a229-3cbb-4193-804d-3e16893421cd",
-  "label": "Tap Display Interface Missing - Subsystem 3",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11321"
-}
-```

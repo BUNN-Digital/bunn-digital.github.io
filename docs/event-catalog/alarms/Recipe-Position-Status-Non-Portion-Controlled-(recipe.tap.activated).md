@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Recipe Position Status - Non Portion Controlled
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 recipe.tap.activated
@@ -19,7 +21,29 @@ machine.telemetry
 
 Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "recipe.tap.activated",
+  "description": "Recipe Position Status - Non Portion Controlled",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "recipeNameInfo": "Test 817 Transform",
+    "datapointId": "68|D|817",
+    "tapAvailability": "Not Available",
+    "tapId": "2",
+    "timestamp": "2023-04-12T18:26:16",
+    "reservoirId": "2",
+    "tapAvailabilityReason": "Unknown"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -28,7 +52,7 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -39,28 +63,3 @@ Recipe Position Status - Non Portion Controlled (recipe.tap.activated)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:06:35.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "recipeNameInfo": "Test 817 Transform",
-    "datapointId": "68|D|817",
-    "tapAvailability": "Not Available",
-    "tapId": "2",
-    "timestamp": "2023-04-12T18:26:16",
-    "reservoirId": "2",
-    "tapAvailabilityReason": "Unknown"
-  },
-  "description": "Recipe Position Status - Non Portion Controlled",
-  "_id": "ce563a75-183b-4544-8fe6-76d0d96a22be",
-  "label": "Recipe Position Status - Non Portion Controlled",
-  "category": "machine.telemetry",
-  "type": "recipe.tap.activated"
-}
-```

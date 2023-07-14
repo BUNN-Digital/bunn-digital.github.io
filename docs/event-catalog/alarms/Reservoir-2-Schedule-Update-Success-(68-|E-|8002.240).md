@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Reservoir 2 Schedule Update Success
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.240
@@ -19,7 +21,24 @@ machine.telemetry
 
 Reservoir 2 Schedule Update Success (68\|E\|8002.240)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.240",
+  "description": "Reservoir 2 Schedule Update Success",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8002.240"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Reservoir 2 Schedule Update Success (68\|E\|8002.240)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Reservoir 2 Schedule Update Success (68\|E\|8002.240)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:13.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8002.240"
-  },
-  "description": "Reservoir 2 Schedule Update Success",
-  "_id": "11283603-b149-46d1-a679-8c7357e32035",
-  "label": "Reservoir 2 Schedule Update Success",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.240"
-}
-```

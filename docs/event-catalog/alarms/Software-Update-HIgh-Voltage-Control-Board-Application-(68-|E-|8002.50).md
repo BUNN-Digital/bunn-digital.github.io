@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Software Update - HIgh Voltage Control Board Application
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.50
@@ -19,7 +21,24 @@ machine.telemetry
 
 Software Update - HIgh Voltage Control Board Application (68\|E\|8002.50)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.50",
+  "description": "Software Update - HIgh Voltage Control Board Application",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.50"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Software Update - HIgh Voltage Control Board Application (68\|E\|8002.50)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Software Update - HIgh Voltage Control Board Application (68\|E\|8002.50)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:33.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.50"
-  },
-  "description": "Software Update - HIgh Voltage Control Board Application",
-  "_id": "b1e19dd4-1474-474d-a8a8-dfc29a8823bf",
-  "label": "Software Update - HIgh Voltage Control Board Application",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.50"
-}
-```

@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Center Hopper Not Empty
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8002.77
@@ -19,7 +21,24 @@ machine.telemetry
 
 Center Hopper Not Empty (68\|E\|8002.77)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8002.77",
+  "description": "Center Hopper Not Empty",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "serialNumber": "SN1234",
+    "text": "false",
+    "datapointId": "68|E|8002.77"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -27,7 +46,7 @@ Center Hopper Not Empty (68\|E\|8002.77)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "text",
@@ -44,23 +63,3 @@ Center Hopper Not Empty (68\|E\|8002.77)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:08:53.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "serialNumber": "TEST000001",
-    "text": "false",
-    "datapointId": "68|E|8002.77"
-  },
-  "description": "Center Hopper Not Empty",
-  "_id": "8f86cc38-4ea1-493b-a00a-46efb340330c",
-  "label": "Center Hopper Not Empty",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8002.77"
-}
-```

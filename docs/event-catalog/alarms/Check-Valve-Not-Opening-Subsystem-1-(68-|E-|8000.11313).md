@@ -7,6 +7,8 @@ grand_parent: "Event Catalog"
 
 # Check Valve Not Opening - Subsystem 1
 
+See [Standard Format](/event-subscriptions/event-format) for a description of the standard fields.
+
 ## Type:
 
 68\|E\|8000.11313
@@ -19,7 +21,24 @@ machine.telemetry
 
 Check Valve Not Opening - Subsystem 1 (68\|E\|8000.11313)
 
-## Payload:
+## Example:
+
+```
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "type": "68|E|8000.11313",
+  "description": "Check Valve Not Opening - Subsystem 1",
+  "receivedTimestampUtc": "1970-01-01T00:00:00.000000000Z",
+  "category": "machine.telemetry",
+  "payload": {
+    "boolean": "false",
+    "serialNumber": "SN1234",
+    "datapointId": "68|E|8000.11313"
+  }
+}
+```
+
+## Payload Description
 
 ```
 [
@@ -33,7 +52,7 @@ Check Valve Not Opening - Subsystem 1 (68\|E\|8000.11313)
     "fieldName": "serialNumber",
     "type": "text",
     "descrtiption": "The unique identifier for the machine that generated the event",
-    "example": "TEST000001"
+    "example": "SN1234"
   },
   {
     "fieldName": "datapointId",
@@ -44,23 +63,3 @@ Check Valve Not Opening - Subsystem 1 (68\|E\|8000.11313)
 ]
 ```
 
-## Example:
-
-```
-{
-  "receivedTimestampUtc": {
-    "dateTime": "2023-07-10T21:07:53.000Z",
-    "zone": "UTC"
-  },
-  "payload": {
-    "boolean": "false",
-    "serialNumber": "TEST000001",
-    "datapointId": "68|E|8000.11313"
-  },
-  "description": "Check Valve Not Opening - Subsystem 1",
-  "_id": "8ee909ba-1692-46be-8b44-4205700415ef",
-  "label": "Check Valve Not Opening - Subsystem 1",
-  "category": "machine.telemetry",
-  "type": "68\\|E\\|8000.11313"
-}
-```
