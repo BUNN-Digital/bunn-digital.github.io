@@ -25,26 +25,26 @@ This document describes the required format for submitting Recipe Assignments to
   "externalId": "user-defined-id", // User-defined ID used for querying and tracking
   "stores": [  // optional store array
     {
-      "storeNumber": 8083,  // optional store tag - unused by machine
+      "storeNumber": "0000",  // optional store tag - unused by machine
       "assignments": [  // required assignments array
         {
-          "serialNumber": "BTB0000001",  // optional Serial Number to specify machine (string)
+          "serialNumber": "SN1234",  // optional Serial Number to specify machine
           // General Rules:  Can not duplicate Reservoir position
           //                 Up to 3 reservoir positions
           //                 Duplicate Reservoir Recipe assignments are valid
           "reservoirs": [  // optional reservoir assignments (ARRAY)
             {
-              "identifier": 1,  // identifier that matches the reservoir alias list (string or int)
-              "recipeName": "REGULAR",  // Recipe Name that must be present on machine (string), blank is disabled/unassigned
-              "scheduleLabel": "PRIMARY"  // Schedule label that must be on machine for that recipe (string) - optional blank if omitted
+              "identifier": "1",  // identifier that matches the reservoir alias list
+              "recipeName": "REGULAR",  // Recipe Name that must be present on machine, blank is disabled/unassigned
+              "scheduleLabel": "PRIMARY"  // Schedule label that must be on machine for that recipe - optional blank if omitted
             },
             {
-              "identifier": 2,
+              "identifier": "2",
               "recipeName": "CUBAN",
               "scheduleLabel": "PRIMARY"
             },
             {
-              "identifier": 3,
+              "identifier": "3",
               "recipeName": "DARK ROAST",
               "scheduleLabel": "PRIMARY"
             }
@@ -54,15 +54,15 @@ This document describes the required format for submitting Recipe Assignments to
           //                 Duplicate product assignments are valid
           "hoppers": [  // optional hopper assignments (ARRAY)
             {
-              "identifier": 1,  // identifier that matches the hopper alias list (string or int)
-              "productName": "REGULAR"  // Product Name that must be present on machine  (string)
+              "identifier": "1",  // identifier that matches the hopper alias list
+              "productName": "REGULAR"  // Product Name that must be present on machine
             },
             {
-              "identifier": 2,
+              "identifier": "2",
               "productName": "CUBAN"
             },
             {
-              "identifier": 3,
+              "identifier": "3",
               "productName": "DARK ROAST"
             }
           ],
@@ -70,8 +70,8 @@ This document describes the required format for submitting Recipe Assignments to
           //                 Duplicate recipe assignments are valid
           "associateDispense": [  // optional Associate Dispence assignments (ARRAY)
             {
-                "identifier": "1",  // identifier that conveys the sort order of the recipes (string or int)
-                "recipeName": "CUBAN"  // recipe name that must be present on machine and be unique within this assignment (string)
+                "identifier": "1",  // identifier that conveys the sort order of the recipes
+                "recipeName": "CUBAN"  // recipe name that must be present on machine and be unique within this assignment
             },
             {
                 "identifier": "2",
