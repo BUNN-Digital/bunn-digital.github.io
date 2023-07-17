@@ -1,10 +1,10 @@
 ---
-title: "Format: Brew Schedule"
+title: "Format"
 layout: default
-parent: "BUNN Asset Management API"
-grand_parent: "BUNN APIs"
+parent: "Brew Schedule"
+grand_parent: "BUNN Asset Management API"
 has_children: false
-nav_order: 4
+nav_order: 2
 ---
 
 # Brew Schedule Request Format

@@ -1,12 +1,11 @@
 ---
-title: Responses and Error Codes
+title: API Responses and Error Codes
 layout: home
-parent: BUNN APIs
 has_children: false
-nav_order: 3
+nav_order: 4
 ---
 
-# Standard Responses and Error Codes
+# Standard API Responses and Error Codes
 
 This section describes standard responses and error codes as currently returned by the BUNN Digital APIs.
 

@@ -2,9 +2,8 @@
 title: "Monitoring File Transfers"
 layout: default
 parent: "BUNN Asset Management API"
-grand_parent: "BUNN APIs"
 has_children: false
-nav_order: 7
+nav_order: 4
 ---
 
 # Monitoring File Transfers
