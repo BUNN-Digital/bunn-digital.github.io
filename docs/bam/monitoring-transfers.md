@@ -15,7 +15,7 @@ In the future, file transfers will be available via the BUNN Event APIs. But, fo
 ## Viewing the File Transfer in BUNNlink Portal
 
 1. Navigate to [BUNNlink Portal](https://bunnlink.bunn.com/)
-2. Log in using your user credentials. If you do not have credentials, please contact our Support Team to [request access](registration)
+2. Log in using your user credentials. If you do not have credentials, please contact our Support Team to [request access](/registration)
 3. From the Dashboard, locate the left sidebar, and select 'Machines' -> 'List All'
 
     ![List All option under Machines menu](/assets/images/content/bam-api/bunnlink-machines-list-all.png)

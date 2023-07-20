@@ -3,7 +3,7 @@ title: Event Tags
 layout: default
 parent: "Event Subscriptions"
 has_children: false
-nav_order: 2
+nav_order: 4
 ---
 
 # Event Tags

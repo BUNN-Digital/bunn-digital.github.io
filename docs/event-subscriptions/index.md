@@ -5,7 +5,6 @@ has_children: true
 nav_order: 5
 ---
 
-# Subscribing to Events
+# Subscribing to BUNN Real-Time Events
 
-This section describes events as currently published by the BUNN Digital Event APIs.
-
+This section details how to get started with BUNN Real-Time Events.

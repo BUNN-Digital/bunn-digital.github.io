@@ -22,22 +22,22 @@ This document describes the required format for submitting Brew Schedules to mac
 ```
 [ // JSON Schedule document must have top array
   {
-    "serialNumbers": [                            // optional serial Number
+    "serialNumbers": [  // optional serial Number
       ""
     ],
-    "schedules": [                                // required schedule (array)
+    "schedules": [  // required schedule (array)
       {
-        "applicableRecipeNames": [            // require recipe or list (array, string)
+        "applicableRecipeNames": [  // require recipe or list (array, string)
           "CINNAMON BUN"
         ],
-        "scheduleLabel": "Average Volume",    // optional label, "" if omitted
-        "holdVolumeOz": 0,                    // optional override
-        "resetAgeAfterTopOff": false,         // optional override
-        "segmentGroups": [                    // day segment definition (array)
+        "scheduleLabel": "Average Volume",  // optional label, "" if omitted
+        "holdVolumeOz": 0,  // optional override
+        "resetAgeAfterTopOff": false,  // optional override
+        "segmentGroups": [  // day segment definition (array)
           {
-            "holdVolumeOz": 0,            // optional override
-            "resetAgeAfterTopOff": false, // optional override
-            "daysOfWeek": [               // Day of week (array) - all days of week must be present in the segmentGroups array
+            "holdVolumeOz": 0,  // optional override
+            "resetAgeAfterTopOff": false,  // optional override
+            "daysOfWeek": [  // Day of week (array) - all days of week must be present in the segmentGroups array
               "Sunday",
               "Monday",
               "Tuesday",
@@ -46,12 +46,12 @@ This document describes the required format for submitting Brew Schedules to mac
               "Friday",
               "Saturday"
             ],
-            "segments": [ // must include every hour of day, or a higher level holdVolume and reset Age After TopOff 
+            "segments": [  // must include every hour of day, or a higher level holdVolume and reset Age After TopOff 
               {
-                "startTimeLocal24": "00:00"     // inclusive
-                "endTimeLocal24": "24:00",      // exclusive
-                "holdVolumeOz": 0,              // can be replaced with higher level overrides
-                "resetAgeAfterTopOff": false,   // can be replaced with higher level overrides
+                "startTimeLocal24": "00:00"  // inclusive
+                "endTimeLocal24": "24:00", .// exclusive
+                "holdVolumeOz": 0,  // can be replaced with higher level overrides
+                "resetAgeAfterTopOff": false, .// can be replaced with higher level overrides
               }
             ]
           }
@@ -73,7 +73,7 @@ The request contains all the information required to set Brewing Schedules for a
 |Field|Type|Example|Description|
 |:--|:--|:--|:--|
 | serialNumbers | String Array | ["SN1", "SN2"] | The set of Serial Numbers on which to create/update the schedules. |
-| schedules | Schedule Array | [ {schedule-1}, {schedule-2} ] | The set of schedules to create/update on the specified machines. See Schedule section below. |
+| schedules | Schedule Array | [ {schedule-1}, {schedule-2} ] | The set of schedules to create/update on the specified machines. See [Schedule](#schedule) section below. |
 | externalId | String | "customer-defined-id" | Optional. Customer-defined ID which allows searching the BUNN APIs for this request by your own ID. (Pending feature) |
 
 ### Schedule
@@ -95,7 +95,7 @@ An example of a schedule in plain English would be:
 | applicableRecipeNames | String Array | ["Regular", "Decaf"] | The set of Recipes to which this schedule may be applied |
 | holdVolumeOz | Integer | 128 | Optional. Sets the default amount of coffee to maintain in the reservoir across the whole schedule. Will be applied to all segments in the schedule. |
 | resetAgeAfterTopOff | Boolean | true | Optional. Sets the resetAgeAfterTopOff indicator across the whole schedule. Will be applied to all segments in the schedule. <br><br>This indicator determines if new coffee brewed and funneled into a non-empty reservoir will reset the freshness timer. 'true' will reset the timer, 'false' will maintain the timer since the first brew still in the reservoir. |
-| segmentGroups | Segment Group Array | [ {segment-group-1}, {segment-group-2} ] | The set of Segment Groups in the schedule. Segment Groups contain one or more Segments along with applicable days of the week and default settings. See Segment Group section below. |
+| segmentGroups | Segment Group Array | [ {segment-group-1}, {segment-group-2} ] | The set of Segment Groups in the schedule. Segment Groups contain one or more Segments along with applicable days of the week and default settings. See [Segment Group](#segment-group) section below. |
 
 ### Segment Group
 
@@ -119,7 +119,7 @@ An example of a Segment Group in plain english would be:
 | holdVolumeOz | Integer | 128 | Optional. Sets the default amount of coffee to maintain in the reservoir across all Segments in this Segment Group. |
 | resetAgeAfterTopOff | Boolean | true | Optional. Sets the resetAgeAfterTopOff indicator across all Segments in the Segment Group. <br><br>This indicator determines if new coffee brewed and funneled into a non-empty reservoir will reset the freshness timer. 'true' will reset the timer, 'false' will maintain the timer since the first brew still in the reservoir. |
 | daysOfWeek | String Array | [ "Sunday", "Saturday" ] | The days of the week to which to apply the "Daily Schedule" as represented by the collection of Segments. |
-| segments | Segment Array | [ {segment-1}, {segment-2} ] | This collection represents a "Daily Schedule" containing brew settings (such as hold volume) for time ranges throughout a day. |
+| segments | Segment Array | [ {segment-1}, {segment-2} ] | This collection represents a "Daily Schedule" containing brew settings (such as hold volume) for time ranges throughout a day. See [Segment](#segment) section below. |
 
 ### Segment
 
@@ -168,7 +168,7 @@ An example of a Segment in plain english would be:
     ],
     "schedules": [
       {
-        "scheduleLabel": "All Day, Every Day!",
+        "scheduleLabel": "All Day Every Day",
         "applicableRecipeNames": [
           "Regular",
           "Decaf"
