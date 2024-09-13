@@ -33,10 +33,10 @@ This section describes standard responses and error codes as currently returned 
 | 405 Method Not Allowed       |                                 |                                                     |
 | 406 Not Acceptable           |                                 |                                                     |
 | 408 Request Timeout          |                                 |                                                     |
-| 409 Conflict                 |                                 |                                                     |
+| 409 Conflict                 | request.parameter.exists        |                                                     |
 | 420 Enhance Your Calm        | request.rate-exceeds-threshold  | Request exceeds rate limits                         |
-| 422 Unprocessable Entity     | request.parameter.required      |                                                     |
-|                              | request.parameter.invalid       |                                                     |
+| 422 Unprocessable Entity     | request.parameter.required      | A required input was not provided for a request     |
+|                              | request.parameter.invalid       | Validation errors or invalid input on a request     |
 | 423 Locked                   |                                 |                                                     |
 | 429 Too Many Requests        | request.rate-exceeds-threshold  | Request exceeds rate limits                         |
 | 500 Internal Server Error    | error.internal                  | Internal Error                                      |
