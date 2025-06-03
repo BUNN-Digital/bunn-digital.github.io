@@ -11,4 +11,4 @@ The BUNN Asset Management API provides customer access to remote configuration a
 
 ## Technical Documentation
 
-Please view our [Swagger](https://api.bunn.com/bunn-asset-management/swagger-ui/) API Documentation.
+Please view our [Swagger](https://api.bunn.com/bunn-asset-management/swagger-ui/index.html) API Documentation.
