@@ -8,7 +8,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main","fix-build"]
+    branches: ["main","fix-build-1"]
     paths:
       - "docs/**"
       - "pages.yml"
