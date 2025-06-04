@@ -7,9 +7,10 @@ nav_order: 3
 
 # BUNN VirtualTOUCH API (Retired)
 
-## This API has been retired due to low usage. 
-
-### Please contact [BUNN support](https://bunn-digital.github.io/registration.html) with any questions.
+{: .important }
+>This API has been retired.
+>
+>Please contact [BUNN support](https://bunn-digital.github.io/registration.html) with any questions.
 
 ---
 

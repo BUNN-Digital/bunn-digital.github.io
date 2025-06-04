@@ -20,11 +20,14 @@ color_scheme: bunn
 
 callouts:
   warning:
-    title: Warning
+    title: ⚠️ Warning
     color: red
   note:
-    title: Note
+    title: 🗒️ Note
     color: blue
+  important:
+    title: ⚠️ Important
+    color: yellow
 
 # Enable or disable the site search
 # Supports true (default) or false
